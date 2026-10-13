@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Project material placeholder</title>
+  <desc id="desc">A neutral editorial placeholder for public project materials that will be added later.</desc>
+  <rect width="1600" height="1000" fill="#d8d5cd"/>
+  <path d="M0 0h1600M0 1000h1600M0 0l1600 1000M1600 0 0 1000" stroke="#151817" stroke-opacity=".18"/>
+  <rect x="64" y="64" width="1472" height="872" fill="none" stroke="#151817" stroke-opacity=".28"/>
+  <circle cx="800" cy="500" r="118" fill="none" stroke="#151817" stroke-opacity=".24"/>
+  <circle cx="800" cy="500" r="6" fill="#c75f45"/>
+  <text x="96" y="126" fill="#151817" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="5">PUBLIC MATERIAL</text>
+  <text x="96" y="172" fill="#151817" font-family="Georgia, serif" font-size="34" font-style="italic">pending</text>
+  <text x="1504" y="892" text-anchor="end" fill="#151817" fill-opacity=".62" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="4">PLACEHOLDER / REPLACE IN PROJECTS.JS</text>
+</svg>
