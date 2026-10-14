@@ -1,347 +1,5 @@
 (() => {
-  // ../../../../Temp/aigc-portfolio-offline-NXGqZi/data/site.js
-  var profile = {
-    name: "[\u59D3\u540D\u5F85\u8865\u5145]",
-    englishName: "[ENGLISH NAME]",
-    title: "AI Visual Creator",
-    titleCN: "AI\u89C6\u89C9\u521B\u4F5C\u8005",
-    disciplines: "AI Filmmaking \xB7 Commercial Visuals \xB7 Narrative Content",
-    disciplinesCN: "AI\u5F71\u50CF\u5236\u4F5C \xB7 \u5546\u4E1A\u89C6\u89C9 \xB7 \u53D9\u4E8B\u5185\u5BB9",
-    introEn: "Focused on AI filmmaking, commercial visuals and narrative content.",
-    introZh: "AI\u5F71\u50CF\u3001\u5546\u4E1A\u89C6\u89C9\u4E0E\u53D9\u4E8B\u5185\u5BB9\u521B\u4F5C\u3002",
-    positioning: "AI Visual Creator focusing on commercial filmmaking, AI-generated visual production, narrative content and visual storytelling.",
-    positioningCN: "\u4E13\u6CE8\u4E8E\u5546\u4E1A\u5F71\u50CF\u3001AI\u751F\u6210\u89C6\u89C9\u3001\u53D9\u4E8B\u5185\u5BB9\u4E0E\u89C6\u89C9\u8868\u8FBE\u3002",
-    email: null,
-    phone: null,
-    wechat: null,
-    portfolioUrl: null,
-    resumeUrl: null,
-    portfolioPdf: "./assets/aigc-portfolio.pdf"
-  };
-  var hero = {
-    image: null,
-    alt: "\u4E2A\u4EBA\u4F5C\u54C1\u96C6\u9996\u9875\u89C6\u89C9",
-    caption: "",
-    fit: "cover",
-    position: "center"
-  };
-  var about = {
-    experience: [
-      "AI\u5F71\u50CF\u76F8\u5173\u5B9E\u4E60\u7ECF\u5386",
-      "AI\u54C1\u724C\u77ED\u7247\u5236\u4F5C\u7ECF\u5386",
-      "AI\u771F\u4EBA\u77ED\u5267\u5236\u4F5C\u7ECF\u5386",
-      "\u6D77\u5916AI\u771F\u4EBA\u5267\u9879\u76EE\u7ECF\u5386",
-      "\u72EC\u7ACBAI\u5546\u4E1A\u5F71\u50CF\u5B9E\u9A8C"
-    ],
-    selectedProjects: [
-      "\u7EA2\u65D7\u5929\u5DE5\u300A\u5927\u660E\u5929\u5DE5\u5408\u4F19\u4EBA\u300B",
-      "\u300A\u65E5\u5BC2\u300B",
-      "AVELOR SALTWOOD",
-      "After Switching Husbands...",
-      "Selected AI Live-action Series",
-      "\u300A\u5FAA\u5F71\u300B"
-    ],
-    workflow: [
-      "Visual Concept & Style Development / \u89C6\u89C9\u6982\u5FF5\u4E0E\u98CE\u683C\u5F00\u53D1",
-      "AI Image / Video Generation / AI\u56FE\u50CF\u4E0E\u89C6\u9891\u751F\u6210",
-      "Shot Design & Iteration / \u955C\u5934\u8BBE\u8BA1\u4E0E\u8FED\u4EE3",
-      "Editing & Post-production / \u526A\u8F91\u4E0E\u540E\u671F",
-      "\u5177\u4F53\u8F6F\u4EF6\u540D\u79F0\u5F85\u8865\u5145"
-    ]
-  };
-
-  // ../../../../Temp/aigc-portfolio-offline-NXGqZi/data/experiences.js
-  var experiences = [
-    {
-      id: "iqiyi-ai-account-operations",
-      company: "iQIYI",
-      companyCN: "\u7231\u5947\u827A",
-      location: "Shanghai",
-      locationCN: "\u4E0A\u6D77",
-      role: "AI Account Operations Intern",
-      roleCN: "AI\u8D26\u53F7\u8FD0\u8425\u5B9E\u4E60\u751F",
-      period: "3+ Months",
-      type: "INTERNSHIP EXPERIENCE",
-      summary: "\u53C2\u4E0E\u7231\u5947\u827AAI\u8D26\u53F7\u7684\u77ED\u89C6\u9891\u5185\u5BB9\u751F\u4EA7\u4E0E\u8FD0\u8425\uFF0C\u56F4\u7ED5\u5F71\u89C6\u5185\u5BB9\u5F00\u5C55AI\u8F85\u52A9\u4E8C\u521B\uFF0C\u63A5\u89E6\u6296\u97F3\u3001\u89C6\u9891\u53F7\u3001\u5C0F\u7EA2\u4E66\u7B49\u5E73\u53F0\u7684\u5185\u5BB9\u7B56\u5212\u3001\u7D20\u6750\u5236\u4F5C\u3001\u7248\u672C\u8FED\u4EE3\u4E0E\u53D1\u5E03\u6D41\u7A0B\u3002\u5728\u5B9E\u9645\u4E1A\u52A1\u4E2D\u4F7F\u7528AI\u5DE5\u5177\u63D0\u5347\u5185\u5BB9\u751F\u4EA7\u6548\u7387\uFF0C\u5E76\u7ED3\u5408\u5E73\u53F0\u8D8B\u52BF\u3001\u70ED\u70B9\u4E0E\u5185\u5BB9\u53CD\u9988\u6301\u7EED\u4F18\u5316\u5185\u5BB9\u5448\u73B0\u3002",
-      responsibilities: [
-        "\u53C2\u4E0E\u6296\u97F3\u3001\u89C6\u9891\u53F7\u3001\u5C0F\u7EA2\u4E66\u7B49\u5E73\u53F0\u7684AI\u77ED\u89C6\u9891\u5185\u5BB9\u751F\u4EA7\u4E0E\u8D26\u53F7\u8FD0\u8425\uFF0C\u56F4\u7ED5\u5F71\u89C6\u5185\u5BB9\u5B8C\u6210\u9009\u9898\u3001\u4E8C\u521B\u3001\u7D20\u6750\u51C6\u5907\u4E0E\u53D1\u5E03\u3002",
-        "\u7ED3\u5408\u516C\u53F8\u81EA\u7814AI\u5DE5\u5177\u53CA\u5176\u4ED6\u751F\u6210\u5F0FAI\u5DE5\u5177\uFF0C\u53C2\u4E0E\u56FE\u50CF\u3001\u89C6\u9891\u7D20\u6750\u7684\u751F\u6210\u3001\u7B5B\u9009\u3001\u8C03\u6574\u4E0E\u7248\u672C\u8FED\u4EE3\uFF0C\u63D0\u5347\u77ED\u89C6\u9891\u5185\u5BB9\u5236\u4F5C\u6548\u7387\u3002",
-        "\u53C2\u4E0E\u8D26\u53F7\u5185\u5BB9\u89C4\u5212\u4E0E\u53D1\u5E03\u6D41\u7A0B\uFF0C\u6839\u636E\u4E0D\u540C\u5E73\u53F0\u7684\u5185\u5BB9\u7279\u5F81\u8FDB\u884C\u7D20\u6750\u5305\u88C5\u3001\u7248\u672C\u8C03\u6574\u4E0E\u5185\u5BB9\u9002\u914D\u3002",
-        "\u5173\u6CE8\u5E73\u53F0\u8D8B\u52BF\u3001\u70ED\u95E8\u8BDD\u9898\u53CA\u5185\u5BB9\u53CD\u9988\uFF0C\u914D\u5408\u56E2\u961F\u6301\u7EED\u8C03\u6574\u9009\u9898\u4E0E\u5185\u5BB9\u5448\u73B0\uFF0C\u53C2\u4E0E\u4F18\u5316\u8D26\u53F7\u5185\u5BB9\u8868\u73B0\u3002"
-      ],
-      confidentialityNote: "\u56E0\u4E1A\u52A1\u53CA\u9879\u76EE\u4FDD\u5BC6\u8981\u6C42\uFF0C\u5177\u4F53\u8D26\u53F7\u3001\u5185\u90E8\u9879\u76EE\u7EC6\u8282\u4E0E\u76F8\u5173\u4E1A\u52A1\u6570\u636E\u6682\u4E0D\u516C\u5F00\u3002",
-      featured: true
-    }
-  ];
-
-  // ../../../../Temp/aigc-portfolio-offline-NXGqZi/data/collections.js
-  var releasedSeriesCollection = {
-    id: "released-ai-series",
-    title: "Selected AI Live-action Series",
-    category: "Released AI Series",
-    status: "RELEASED SERIES OVERVIEW",
-    homepageOrder: 5,
-    // 下方项目会在首页第 05 个 Case 中依次展开，不需要进入子页面。
-    projectSlugs: ["hougongmou", "quzhong-ren-weihuan"]
-  };
-
-  // ../../../../Temp/aigc-portfolio-offline-NXGqZi/data/projects.js
-  var projects = [
-    {
-      id: "project-01",
-      slug: "hongqi-tianggong-partners",
-      title: "\u7EA2\u65D7\u5929\u5DE5\u300A\u5927\u660E\u5929\u5DE5\u5408\u4F19\u4EBA\u300B",
-      subtitle: "AI Brand Short Film",
-      year: "2026",
-      category: "AI Brand Short Film",
-      client: "\u7EA2\u65D7\u5929\u5DE5",
-      platform: null,
-      projectType: "COMMERCIAL PROJECT",
-      status: "PUBLIC MATERIAL PENDING",
-      role: ["AI Visual Production", "AI Image Generation", "Shot-level Visual Execution", "Asset Iteration"],
-      responsibilities: ["\u53C2\u4E0E\u7B2C1\u96C6\u3001\u7B2C5\u96C6AI\u5F71\u50CF\u5236\u4F5C\u3002", "\u5177\u4F53\u955C\u5934\u8303\u56F4\u4E0E\u804C\u8D23\u7EC6\u8282\u5F85\u8865\u5145\u3002"],
-      description: "\u771F\u5B9E\u54C1\u724C\u5546\u4E1A\u9879\u76EE\u3002\u53C2\u4E0E\u6B63\u5F0FAI\u5F71\u50CF\u751F\u4EA7\u6D41\u7A0B\u4E2D\u7684\u955C\u5934\u7EA7\u89C6\u89C9\u6267\u884C\u4E0E\u7D20\u6750\u8FED\u4EE3\uFF1B\u7F51\u7AD9\u4EC5\u5C55\u793A\u5141\u8BB8\u516C\u5F00\u7684\u6210\u7247\u3001\u516C\u5F00\u9875\u9762\u548C\u516C\u5F00\u9879\u76EE\u753B\u9762\u3002",
-      tools: [],
-      coverImage: "./assets/placeholder-project.svg",
-      coverAlt: "\u7EA2\u65D7\u5929\u5DE5\u9879\u76EE\u516C\u5F00\u5C01\u9762\u5F85\u8865\u5145",
-      coverFit: "cover",
-      coverVideo: null,
-      videoUrl: null,
-      externalLink: null,
-      publicReleaseNote: null,
-      stills: [],
-      productionFrames: [],
-      visualTests: [],
-      credits: [],
-      featured: true,
-      order: 1,
-      relatedProjects: [],
-      archive: false,
-      workInProgress: false,
-      materialStatus: "placeholder",
-      publish: true
-    },
-    {
-      id: "project-02",
-      slug: "riji",
-      title: "\u65E5\u5BC2",
-      subtitle: "AI Sci-Fi Visual Film",
-      year: "\u5E74\u4EFD\u5F85\u8865\u5145",
-      category: "AI Sci-Fi Visual Film",
-      client: null,
-      platform: null,
-      projectType: "PROJECT TYPE PENDING",
-      status: "NANTIANMEN PROJECT RELATED WORK",
-      role: ["Sci-Fi Visual Development", "World-building", "Large-scale Environment", "AI Visual Production", "Cinematic Composition", "Lighting", "Scale", "Technology Aesthetic", "Style Development"],
-      responsibilities: ["\u5177\u4F53\u9879\u76EE\u7F72\u540D\u3001\u53C2\u4E0E\u8303\u56F4\u4E0E\u516C\u5F00\u6388\u6743\u5173\u7CFB\u5F85\u786E\u8BA4\u3002"],
-      description: "\u4E0E\u201C\u5357\u5929\u95E8\u8BA1\u5212\u201D\u76F8\u5173\u7684\u79D1\u5E7B / \u822A\u7A7A\u79D1\u6280\u89C6\u89C9\u65B9\u5411\u4F5C\u54C1\u3002\u5F53\u524D\u4F7F\u7528\u8C28\u614E\u8868\u8FF0\uFF0C\u91CD\u70B9\u5448\u73B0\u5927\u4E16\u754C\u89C2\u3001\u79D1\u6280\u5BA1\u7F8E\u3001\u5F71\u89C6\u7EA7\u753B\u9762\u4E0EStyle Development\u80FD\u529B\u3002",
-      tools: [],
-      coverImage: "./assets/placeholder-project.svg",
-      coverAlt: "\u300A\u65E5\u5BC2\u300B\u516C\u5F00\u89C6\u89C9\u7D20\u6750\u5F85\u8865\u5145",
-      coverFit: "cover",
-      coverVideo: null,
-      videoUrl: null,
-      externalLink: null,
-      publicReleaseNote: null,
-      stills: [],
-      productionFrames: [],
-      visualTests: [],
-      credits: [],
-      featured: true,
-      order: 2,
-      relatedProjects: [],
-      archive: false,
-      workInProgress: false,
-      materialStatus: "placeholder",
-      publish: true
-    },
-    {
-      id: "project-03",
-      slug: "avelor-saltwood",
-      title: "AVELOR SALTWOOD",
-      subtitle: "AI Fragrance TVC",
-      year: "2026",
-      category: "AI Fragrance TVC",
-      client: null,
-      platform: null,
-      projectType: "PERSONAL PROJECT",
-      status: "20-SECOND FILM",
-      role: ["Visual Concept", "Style Development", "AI Image Generation", "AI Video Generation", "Shot Design", "Editing", "Post-production"],
-      responsibilities: ["\u5EFA\u7ACB\u6D77\u76D0\u3001\u6D77\u98CE\u3001\u6E7F\u6DA6\u76AE\u80A4\u3001\u77FF\u7269\u4E0E\u6728\u8D28\u611F\u7684\u6574\u4F53\u89C6\u89C9\u8BED\u8A00\u3002", "\u7EDF\u4E00\u4EBA\u7269\u3001\u4EA7\u54C1\u3001\u670D\u88C5\u4E0E\u6D77\u5CB8\u73AF\u5883\u7684\u89C6\u89C9\u8BBE\u5B9A\u3002", "\u5B8C\u6210\u955C\u5934\u8BBE\u8BA1\u3001\u52A8\u6001\u751F\u6210\u3001\u526A\u8F91\u4E0E\u540E\u671F\u3002"],
-      description: "\u4E00\u652F\u7EA620\u79D2\u7684\u72EC\u7ACBAI\u9999\u6C34\u5546\u4E1A\u5E7F\u544A\u3002\u56F4\u7ED5\u6D77\u76D0\u3001\u6D77\u98CE\u3001\u6E7F\u6DA6\u76AE\u80A4\u3001\u77FF\u7269\u548C\u6728\u8D28\u611F\u5EFA\u7ACB\u89C6\u89C9\u8BED\u8A00\uFF0C\u63A2\u7D22AI\u751F\u6210\u5F71\u50CF\u5728\u9AD8\u7AEF\u9999\u6C1B\u5546\u4E1A\u5E7F\u544A\u4E2D\u7684\u5E94\u7528\u3002",
-      tools: ["AI Image Tools", "AI Video Tools", "Editing Software\uFF08\u5F85\u8865\u5145\uFF09"],
-      coverImage: "./assets/fragrance-environment.jpg",
-      coverAlt: "AVELOR SALTWOOD \u6D77\u5CB8\u73AF\u5883\u89C6\u89C9",
-      coverFit: "cover",
-      coverVideo: "./assets/fragrance-tvc.mp4",
-      videoUrl: "./assets/fragrance-tvc.mp4",
-      externalLink: null,
-      publicReleaseNote: null,
-      stills: [
-        { src: "./assets/fragrance-product.jpg", alt: "AVELOR SALTWOOD \u9999\u6C34\u4EA7\u54C1 Hero Shot", layout: "portrait", label: "Product Hero Shot" },
-        { src: "./assets/fragrance-model-01.jpg", alt: "\u6D77\u5CB8\u4EBA\u7269\u5173\u952E\u5E27", layout: "square", label: "Character Keyframe" },
-        { src: "./assets/fragrance-environment.jpg", alt: "\u590F\u65E5\u6D77\u5CB8\u73AF\u5883\u8BBE\u5B9A", layout: "wide", label: "Coastal Environment" },
-        { src: "./assets/fragrance-model-02.jpg", alt: "\u4EBA\u7269\u89C6\u89C9\u6D4B\u8BD5\u4E8C", layout: "half", label: "Character Study 02" },
-        { src: "./assets/fragrance-model-03.jpg", alt: "\u4EBA\u7269\u89C6\u89C9\u6D4B\u8BD5\u4E09", layout: "half", label: "Character Study 03" },
-        { src: "./assets/fragrance-product-clean.jpg", alt: "\u9999\u6C34\u4EA7\u54C1\u89C6\u89C9\u6D4B\u8BD5", layout: "wide", label: "Product Development" }
-      ],
-      productionFrames: [{ src: "./assets/fragrance-wardrobe.jpg", alt: "\u4EBA\u7269\u4E0E\u670D\u88C5\u89C6\u89C9\u8BBE\u5B9A", layout: "portrait", label: "Wardrobe Direction" }],
-      visualTests: [],
-      credits: [],
-      featured: true,
-      order: 3,
-      relatedProjects: [],
-      archive: false,
-      workInProgress: false,
-      materialStatus: "ready",
-      publish: true
-    },
-    {
-      id: "project-04",
-      slug: "junkyard-billionaires-wife",
-      title: "After Switching Husbands, I Become A Junkyard Billionaire's Wife",
-      subtitle: "AI Live-action Drama",
-      year: "\u5E74\u4EFD\u5F85\u8865\u5145",
-      category: "AI Live-action Drama",
-      client: null,
-      platform: "iDrama",
-      projectType: "PLATFORM PROJECT",
-      status: "RELEASED",
-      role: ["AI Visual Production", "AI Image Generation", "Character Consistency", "Scene Consistency", "Shot Iteration"],
-      responsibilities: ["\u5177\u4F53\u804C\u8D23\u4E0E\u53C2\u4E0E\u955C\u5934\u8303\u56F4\u5F85\u786E\u8BA4\u3002"],
-      description: "\u6B63\u5F0F\u4E0A\u7EBF\u8FC7\u7684\u6D77\u5916AI\u771F\u4EBA\u5267\u9879\u76EE\uFF0C\u4F53\u73B0\u8FDE\u7EED\u53D9\u4E8B\u4E2D\u7684\u4EBA\u7269\u4E0E\u573A\u666F\u4E00\u81F4\u6027\u3001\u5927\u91CF\u955C\u5934\u751F\u4EA7\u53CA\u4FEE\u6539\u8FED\u4EE3\u7ECF\u9A8C\u3002",
-      tools: [],
-      coverImage: "./assets/placeholder-project.svg",
-      coverAlt: "iDrama\u5267\u96C6\u516C\u5F00\u5C01\u9762\u5F85\u8865\u5145",
-      coverFit: "cover",
-      coverVideo: null,
-      videoUrl: null,
-      externalLink: null,
-      publicReleaseNote: "Released on iDrama",
-      stills: [],
-      productionFrames: [],
-      visualTests: [],
-      credits: [],
-      featured: true,
-      order: 4,
-      relatedProjects: [],
-      archive: false,
-      workInProgress: false,
-      materialStatus: "placeholder",
-      publish: true
-    },
-    {
-      id: "series-01",
-      slug: "hougongmou",
-      title: "\u540E\u5BAB\u8C0B",
-      subtitle: "AI Live-action Series",
-      year: "\u5E74\u4EFD\u5F85\u8865\u5145",
-      category: "AI Live-action Series",
-      client: null,
-      platform: "\u7EA2\u679C",
-      projectType: "PLATFORM PROJECT",
-      status: "PREVIOUSLY RELEASED \xB7 CURRENTLY UNAVAILABLE",
-      role: ["\u5177\u4F53\u5206\u5DE5\u5F85\u8865\u5145"],
-      responsibilities: ["\u672C\u4EBA\u53C2\u4E0E\u73AF\u8282\u4E0E\u5177\u4F53\u5236\u4F5C\u5185\u5BB9\u5F85\u8865\u5145\u3002"],
-      description: "\u771F\u5B9E\u4E0A\u7EBF\u9879\u76EE\u3002\u66FE\u6B63\u5F0F\u4E0A\u7EBF\u7EA2\u679C\u5E73\u53F0\uFF0C\u76EE\u524D\u5DF2\u4E0B\u67B6\uFF1B\u5982\u65E0\u66F4\u591A\u6210\u7247\u753B\u9762\uFF0C\u672C\u9875\u5C06\u4F5C\u4E3AArchive Case\u4FDD\u7559\u4E0A\u7EBF\u8BB0\u5F55\u3002",
-      tools: [],
-      coverImage: "./assets/placeholder-project.svg",
-      coverAlt: "\u300A\u540E\u5BAB\u8C0B\u300B\u9879\u76EE\u6D77\u62A5\u5F85\u8865\u5145",
-      coverFit: "cover",
-      coverVideo: null,
-      videoUrl: null,
-      externalLink: null,
-      publicReleaseNote: "Previously released on RedFruit. Historical platform page showed 15.23M heat. The title is currently unavailable on the platform.",
-      stills: [],
-      productionFrames: [],
-      visualTests: [],
-      credits: [],
-      featured: false,
-      order: null,
-      relatedProjects: ["quzhong-ren-weihuan"],
-      archive: true,
-      workInProgress: false,
-      materialStatus: "placeholder",
-      publish: true
-    },
-    {
-      id: "series-03",
-      slug: "quzhong-ren-weihuan",
-      title: "\u66F2\u7EC8\u4EBA\u672A\u8FD8",
-      subtitle: "AI Live-action Series",
-      year: "\u5E74\u4EFD\u5F85\u8865\u5145",
-      category: "AI Live-action Series",
-      client: null,
-      platform: "\u817E\u8BAF\u89C6\u9891\uFF08\u516C\u5F00\u4E0A\u7EBF\u4FE1\u606F\uFF09",
-      projectType: "PLATFORM PROJECT",
-      status: "RELEASED",
-      role: ["\u5177\u4F53\u5206\u5DE5\u5F85\u8865\u5145"],
-      responsibilities: ["\u672C\u4EBA\u53C2\u4E0E\u73AF\u8282\u3001\u955C\u5934\u8303\u56F4\u4E0E\u5177\u4F53\u5236\u4F5C\u5185\u5BB9\u5F85\u8865\u5145\u3002"],
-      description: "\u5DF2\u6B63\u5F0F\u4E0A\u7EBF\u7684AI\u53E4\u88C5\u771F\u4EBA\u5185\u5BB9\u9879\u76EE\u3002\u5F53\u524D\u5C55\u793A\u516C\u5F00\u4E0A\u7EBF\u4FE1\u606F\u753B\u9762\uFF0C\u540E\u7EED\u53EF\u7EE7\u7EED\u8865\u5145\u5267\u96C6\u5C01\u9762\u3001\u5173\u952E\u5E27\u4E0E\u7A33\u5B9A\u7684\u516C\u5F00\u94FE\u63A5\u3002",
-      tools: [],
-      coverImage: "./assets/projects/quzhong-ren-weihuan/public-reference.png",
-      coverAlt: "\u300A\u66F2\u7EC8\u4EBA\u672A\u8FD8\u300B\u516C\u5F00\u4E0A\u7EBF\u4FE1\u606F\u753B\u9762",
-      coverFit: "contain",
-      coverVideo: null,
-      videoUrl: null,
-      externalLink: null,
-      publicReleaseNote: "Released \xB7 \u5F53\u524D\u5C55\u793A\u516C\u5F00\u4E0A\u7EBF\u4FE1\u606F",
-      stills: [{ src: "./assets/projects/quzhong-ren-weihuan/public-reference.png", alt: "\u300A\u66F2\u7EC8\u4EBA\u672A\u8FD8\u300B\u516C\u5F00\u4E0A\u7EBF\u4FE1\u606F\u53CA\u89D2\u8272\u53C2\u8003\u753B\u9762", layout: "wide", label: "Public Release Reference", fit: "contain" }],
-      productionFrames: [],
-      visualTests: [],
-      credits: [],
-      featured: false,
-      order: null,
-      relatedProjects: ["hougongmou"],
-      archive: true,
-      workInProgress: false,
-      materialStatus: "partial",
-      publish: true
-    },
-    {
-      id: "project-06",
-      slug: "xunying",
-      title: "\u5FAA\u5F71",
-      subtitle: "AI Experimental Film / Visual Development",
-      year: "\u5E74\u4EFD\u5F85\u8865\u5145",
-      category: "AI Experimental Film",
-      client: null,
-      platform: null,
-      projectType: "GRADUATION PROJECT",
-      status: "VISUAL DEVELOPMENT \xB7 WORK IN PROGRESS",
-      role: ["Visual Development", "AI Image Generation", "Narrative Visual Design", "Character / Scene / Prop Consistency", "Surveillance Image Design"],
-      responsibilities: ["\u63A2\u7D22\u771F\u5B9E\u5F55\u50CF\u4E0EAI\u751F\u6210\u5F02\u5E38\u5F71\u50CF\u4E4B\u95F4\u7684\u53D9\u4E8B\u5173\u7CFB\u3002", "\u8FDB\u884C\u89D2\u8272\u3001\u573A\u666F\u3001\u9053\u5177\u53CA\u76D1\u63A7\u754C\u9762\u7684\u89C6\u89C9\u5F00\u53D1\u3002", "\u4EE5\u4FE1\u606F / \u8BC1\u636E\u7ED3\u6784\u63A8\u8FDB\u5FC3\u7406\u6050\u6016\u4E0E\u6E38\u620F\u5316\u53D9\u4E8B\u89C6\u89C9\u3002"],
-      description: "\u6BD5\u4E1A\u8BBE\u8BA1\u7684Visual Development\u9636\u6BB5\u3002\u56F4\u7ED5\u76D1\u63A7\u89C6\u89D2\u3001\u5F02\u5E38\u5F71\u50CF\u3001\u4FE1\u606F / \u8BC1\u636E\u89C6\u89C9\u53D9\u4E8B\uFF0C\u4EE5\u53CA\u89D2\u8272\u3001\u573A\u666F\u4E0E\u9053\u5177\u4E00\u81F4\u6027\u5C55\u5F00\uFF1B\u5F53\u524D\u4E0D\u5305\u88C5\u4E3A\u5DF2\u5B8C\u6210\u7684\u5B8C\u6574\u6210\u7247\u3002",
-      tools: ["AI Image Tools", "\u5177\u4F53\u8F6F\u4EF6\u4E0E\u6D41\u7A0B\u5F85\u8865\u5145"],
-      coverImage: "./assets/projects/xunying/cover-monitor-room.jpg",
-      coverAlt: "\u300A\u5FAA\u5F71\u300B\u4E8C\u5C42\u76D1\u63A7\u503C\u73ED\u5BA4\u89C6\u89C9\u5F00\u53D1",
-      coverFit: "cover",
-      coverVideo: null,
-      videoUrl: null,
-      externalLink: null,
-      publicReleaseNote: null,
-      stills: [
-        { src: "./assets/projects/xunying/scene-lobby.png", alt: "\u300A\u5FAA\u5F71\u300B\u4E00\u5C42\u5927\u5802\u4E0E\u6B63\u95E8\u573A\u666F", layout: "wide", label: "Environment \xB7 Lobby" },
-        { src: "./assets/projects/xunying/character-linwan.png", alt: "\u300A\u5FAA\u5F71\u300B\u6797\u665A\u89D2\u8272\u89C6\u89C9", layout: "portrait", label: "Character \xB7 Lin Wan" },
-        { src: "./assets/projects/xunying/scene-corridor.jpg", alt: "\u300A\u5FAA\u5F71\u300B\u4E09\u5C42\u8BBE\u8BA1\u90E8\u8D70\u5ECA", layout: "square", label: "Environment \xB7 Corridor" }
-      ],
-      productionFrames: [
-        { src: "./assets/projects/xunying/prop-log.png", alt: "\u300A\u5FAA\u5F71\u300B\u65E7\u503C\u73ED\u65E5\u5FD7\u9053\u5177\u89C6\u89C9", layout: "half", label: "Prop \xB7 Shift Log" },
-        { src: "./assets/projects/xunying/story-tree.png", alt: "\u300A\u5FAA\u5F71\u300B\u53D9\u4E8B\u7ED3\u6784\u89C6\u89C9", layout: "half", label: "Narrative Structure" }
-      ],
-      visualTests: [],
-      credits: [],
-      featured: true,
-      order: 6,
-      relatedProjects: [],
-      archive: false,
-      workInProgress: true,
-      materialStatus: "partial",
-      publish: true
-    }
-  ];
-
-  // ../../../../Temp/aigc-portfolio-offline-NXGqZi/data/offline-content.js
+  // ../../../../Temp/aigc-portfolio-offline-oySPln/data/offline-content.js
   var offlineContent = {
     "projects": {
       "hongqi-tianggong-partners": {
@@ -805,12 +463,340 @@
     "updatedAt": "2026-10-13T13:28:28.697Z"
   };
 
-  // ../../../../Temp/aigc-portfolio-offline-NXGqZi/js/components.js
+  // ../../../../Temp/aigc-portfolio-offline-oySPln/data/site.js
+  var profile = {
+    name: "[\u59D3\u540D\u5F85\u8865\u5145]",
+    englishName: "[ENGLISH NAME]",
+    title: "AI Visual Creator",
+    titleCN: "AI\u89C6\u89C9\u521B\u4F5C\u8005",
+    disciplines: "AI Filmmaking \xB7 Commercial Visuals \xB7 Narrative Content",
+    disciplinesCN: "AI\u5F71\u50CF\u5236\u4F5C \xB7 \u5546\u4E1A\u89C6\u89C9 \xB7 \u53D9\u4E8B\u5185\u5BB9",
+    introEn: "Focused on AI filmmaking, commercial visuals and narrative content.",
+    introZh: "AI\u5F71\u50CF\u3001\u5546\u4E1A\u89C6\u89C9\u4E0E\u53D9\u4E8B\u5185\u5BB9\u521B\u4F5C\u3002",
+    email: null,
+    phone: null,
+    wechat: null,
+    portfolioUrl: null,
+    resumeUrl: null
+  };
+  var hero = {
+    image: null,
+    alt: "\u4E2A\u4EBA\u4F5C\u54C1\u96C6\u9996\u9875\u89C6\u89C9",
+    caption: "",
+    fit: "cover",
+    position: "center"
+  };
+
+  // ../../../../Temp/aigc-portfolio-offline-oySPln/data/experiences.js
+  var experiences = [
+    {
+      id: "iqiyi-ai-account-operations",
+      company: "iQIYI",
+      companyCN: "\u7231\u5947\u827A",
+      location: "Shanghai",
+      locationCN: "\u4E0A\u6D77",
+      role: "AI Account Operations Intern",
+      roleCN: "AI\u8D26\u53F7\u8FD0\u8425\u5B9E\u4E60\u751F",
+      period: "3+ Months",
+      type: "INTERNSHIP EXPERIENCE",
+      summary: "\u53C2\u4E0E\u7231\u5947\u827AAI\u8D26\u53F7\u7684\u77ED\u89C6\u9891\u5185\u5BB9\u751F\u4EA7\u4E0E\u8FD0\u8425\uFF0C\u56F4\u7ED5\u5F71\u89C6\u5185\u5BB9\u5F00\u5C55AI\u8F85\u52A9\u4E8C\u521B\uFF0C\u63A5\u89E6\u6296\u97F3\u3001\u89C6\u9891\u53F7\u3001\u5C0F\u7EA2\u4E66\u7B49\u5E73\u53F0\u7684\u5185\u5BB9\u7B56\u5212\u3001\u7D20\u6750\u5236\u4F5C\u3001\u7248\u672C\u8FED\u4EE3\u4E0E\u53D1\u5E03\u6D41\u7A0B\u3002\u5728\u5B9E\u9645\u4E1A\u52A1\u4E2D\u4F7F\u7528AI\u5DE5\u5177\u63D0\u5347\u5185\u5BB9\u751F\u4EA7\u6548\u7387\uFF0C\u5E76\u7ED3\u5408\u5E73\u53F0\u8D8B\u52BF\u3001\u70ED\u70B9\u4E0E\u5185\u5BB9\u53CD\u9988\u6301\u7EED\u4F18\u5316\u5185\u5BB9\u5448\u73B0\u3002",
+      responsibilities: [
+        "\u53C2\u4E0E\u6296\u97F3\u3001\u89C6\u9891\u53F7\u3001\u5C0F\u7EA2\u4E66\u7B49\u5E73\u53F0\u7684AI\u77ED\u89C6\u9891\u5185\u5BB9\u751F\u4EA7\u4E0E\u8D26\u53F7\u8FD0\u8425\uFF0C\u56F4\u7ED5\u5F71\u89C6\u5185\u5BB9\u5B8C\u6210\u9009\u9898\u3001\u4E8C\u521B\u3001\u7D20\u6750\u51C6\u5907\u4E0E\u53D1\u5E03\u3002",
+        "\u7ED3\u5408\u516C\u53F8\u81EA\u7814AI\u5DE5\u5177\u53CA\u5176\u4ED6\u751F\u6210\u5F0FAI\u5DE5\u5177\uFF0C\u53C2\u4E0E\u56FE\u50CF\u3001\u89C6\u9891\u7D20\u6750\u7684\u751F\u6210\u3001\u7B5B\u9009\u3001\u8C03\u6574\u4E0E\u7248\u672C\u8FED\u4EE3\uFF0C\u63D0\u5347\u77ED\u89C6\u9891\u5185\u5BB9\u5236\u4F5C\u6548\u7387\u3002",
+        "\u53C2\u4E0E\u8D26\u53F7\u5185\u5BB9\u89C4\u5212\u4E0E\u53D1\u5E03\u6D41\u7A0B\uFF0C\u6839\u636E\u4E0D\u540C\u5E73\u53F0\u7684\u5185\u5BB9\u7279\u5F81\u8FDB\u884C\u7D20\u6750\u5305\u88C5\u3001\u7248\u672C\u8C03\u6574\u4E0E\u5185\u5BB9\u9002\u914D\u3002",
+        "\u5173\u6CE8\u5E73\u53F0\u8D8B\u52BF\u3001\u70ED\u95E8\u8BDD\u9898\u53CA\u5185\u5BB9\u53CD\u9988\uFF0C\u914D\u5408\u56E2\u961F\u6301\u7EED\u8C03\u6574\u9009\u9898\u4E0E\u5185\u5BB9\u5448\u73B0\uFF0C\u53C2\u4E0E\u4F18\u5316\u8D26\u53F7\u5185\u5BB9\u8868\u73B0\u3002"
+      ],
+      confidentialityNote: "\u56E0\u4E1A\u52A1\u53CA\u9879\u76EE\u4FDD\u5BC6\u8981\u6C42\uFF0C\u5177\u4F53\u8D26\u53F7\u3001\u5185\u90E8\u9879\u76EE\u7EC6\u8282\u4E0E\u76F8\u5173\u4E1A\u52A1\u6570\u636E\u6682\u4E0D\u516C\u5F00\u3002",
+      featured: true
+    }
+  ];
+
+  // ../../../../Temp/aigc-portfolio-offline-oySPln/data/collections.js
+  var releasedSeriesCollection = {
+    id: "released-ai-series",
+    homepageOrder: 5,
+    // 下方项目会在首页第 05 个 Case 中依次展开，不需要进入子页面。
+    projectSlugs: ["hougongmou", "quzhong-ren-weihuan"]
+  };
+
+  // ../../../../Temp/aigc-portfolio-offline-oySPln/data/projects.js
+  var projects = [
+    {
+      id: "project-01",
+      slug: "hongqi-tianggong-partners",
+      title: "\u7EA2\u65D7\u5929\u5DE5\u300A\u5927\u660E\u5929\u5DE5\u5408\u4F19\u4EBA\u300B",
+      subtitle: "AI Brand Short Film",
+      year: "2026",
+      category: "AI Brand Short Film",
+      client: "\u7EA2\u65D7\u5929\u5DE5",
+      platform: null,
+      projectType: "COMMERCIAL PROJECT",
+      status: "PUBLIC MATERIAL PENDING",
+      role: ["AI Visual Production", "AI Image Generation", "Shot-level Visual Execution", "Asset Iteration"],
+      responsibilities: ["\u53C2\u4E0E\u7B2C1\u96C6\u3001\u7B2C5\u96C6AI\u5F71\u50CF\u5236\u4F5C\u3002", "\u5177\u4F53\u955C\u5934\u8303\u56F4\u4E0E\u804C\u8D23\u7EC6\u8282\u5F85\u8865\u5145\u3002"],
+      description: "\u771F\u5B9E\u54C1\u724C\u5546\u4E1A\u9879\u76EE\u3002\u53C2\u4E0E\u6B63\u5F0FAI\u5F71\u50CF\u751F\u4EA7\u6D41\u7A0B\u4E2D\u7684\u955C\u5934\u7EA7\u89C6\u89C9\u6267\u884C\u4E0E\u7D20\u6750\u8FED\u4EE3\uFF1B\u7F51\u7AD9\u4EC5\u5C55\u793A\u5141\u8BB8\u516C\u5F00\u7684\u6210\u7247\u3001\u516C\u5F00\u9875\u9762\u548C\u516C\u5F00\u9879\u76EE\u753B\u9762\u3002",
+      tools: [],
+      coverImage: "./assets/placeholder-project.svg",
+      coverAlt: "\u7EA2\u65D7\u5929\u5DE5\u9879\u76EE\u516C\u5F00\u5C01\u9762\u5F85\u8865\u5145",
+      coverFit: "cover",
+      coverVideo: null,
+      videoUrl: null,
+      externalLink: null,
+      publicReleaseNote: null,
+      stills: [],
+      productionFrames: [],
+      visualTests: [],
+      credits: [],
+      featured: true,
+      order: 1,
+      relatedProjects: [],
+      archive: false,
+      workInProgress: false,
+      materialStatus: "placeholder",
+      publish: true
+    },
+    {
+      id: "project-02",
+      slug: "riji",
+      title: "\u65E5\u5BC2",
+      subtitle: "AI Sci-Fi Visual Film",
+      year: "\u5E74\u4EFD\u5F85\u8865\u5145",
+      category: "AI Sci-Fi Visual Film",
+      client: null,
+      platform: null,
+      projectType: "PROJECT TYPE PENDING",
+      status: "NANTIANMEN PROJECT RELATED WORK",
+      role: ["Sci-Fi Visual Development", "World-building", "Large-scale Environment", "AI Visual Production", "Cinematic Composition", "Lighting", "Scale", "Technology Aesthetic", "Style Development"],
+      responsibilities: ["\u5177\u4F53\u9879\u76EE\u7F72\u540D\u3001\u53C2\u4E0E\u8303\u56F4\u4E0E\u516C\u5F00\u6388\u6743\u5173\u7CFB\u5F85\u786E\u8BA4\u3002"],
+      description: "\u4E0E\u201C\u5357\u5929\u95E8\u8BA1\u5212\u201D\u76F8\u5173\u7684\u79D1\u5E7B / \u822A\u7A7A\u79D1\u6280\u89C6\u89C9\u65B9\u5411\u4F5C\u54C1\u3002\u5F53\u524D\u4F7F\u7528\u8C28\u614E\u8868\u8FF0\uFF0C\u91CD\u70B9\u5448\u73B0\u5927\u4E16\u754C\u89C2\u3001\u79D1\u6280\u5BA1\u7F8E\u3001\u5F71\u89C6\u7EA7\u753B\u9762\u4E0EStyle Development\u80FD\u529B\u3002",
+      tools: [],
+      coverImage: "./assets/placeholder-project.svg",
+      coverAlt: "\u300A\u65E5\u5BC2\u300B\u516C\u5F00\u89C6\u89C9\u7D20\u6750\u5F85\u8865\u5145",
+      coverFit: "cover",
+      coverVideo: null,
+      videoUrl: null,
+      externalLink: null,
+      publicReleaseNote: null,
+      stills: [],
+      productionFrames: [],
+      visualTests: [],
+      credits: [],
+      featured: true,
+      order: 2,
+      relatedProjects: [],
+      archive: false,
+      workInProgress: false,
+      materialStatus: "placeholder",
+      publish: true
+    },
+    {
+      id: "project-03",
+      slug: "avelor-saltwood",
+      title: "AVELOR SALTWOOD",
+      subtitle: "AI Fragrance TVC",
+      year: "2026",
+      category: "AI Fragrance TVC",
+      client: null,
+      platform: null,
+      projectType: "PERSONAL PROJECT",
+      status: "20-SECOND FILM",
+      role: ["Visual Concept", "Style Development", "AI Image Generation", "AI Video Generation", "Shot Design", "Editing", "Post-production"],
+      responsibilities: ["\u5EFA\u7ACB\u6D77\u76D0\u3001\u6D77\u98CE\u3001\u6E7F\u6DA6\u76AE\u80A4\u3001\u77FF\u7269\u4E0E\u6728\u8D28\u611F\u7684\u6574\u4F53\u89C6\u89C9\u8BED\u8A00\u3002", "\u7EDF\u4E00\u4EBA\u7269\u3001\u4EA7\u54C1\u3001\u670D\u88C5\u4E0E\u6D77\u5CB8\u73AF\u5883\u7684\u89C6\u89C9\u8BBE\u5B9A\u3002", "\u5B8C\u6210\u955C\u5934\u8BBE\u8BA1\u3001\u52A8\u6001\u751F\u6210\u3001\u526A\u8F91\u4E0E\u540E\u671F\u3002"],
+      description: "\u4E00\u652F\u7EA620\u79D2\u7684\u72EC\u7ACBAI\u9999\u6C34\u5546\u4E1A\u5E7F\u544A\u3002\u56F4\u7ED5\u6D77\u76D0\u3001\u6D77\u98CE\u3001\u6E7F\u6DA6\u76AE\u80A4\u3001\u77FF\u7269\u548C\u6728\u8D28\u611F\u5EFA\u7ACB\u89C6\u89C9\u8BED\u8A00\uFF0C\u63A2\u7D22AI\u751F\u6210\u5F71\u50CF\u5728\u9AD8\u7AEF\u9999\u6C1B\u5546\u4E1A\u5E7F\u544A\u4E2D\u7684\u5E94\u7528\u3002",
+      tools: ["AI Image Tools", "AI Video Tools", "Editing Software\uFF08\u5F85\u8865\u5145\uFF09"],
+      coverImage: "./assets/fragrance-environment.jpg",
+      coverAlt: "AVELOR SALTWOOD \u6D77\u5CB8\u73AF\u5883\u89C6\u89C9",
+      coverFit: "cover",
+      coverVideo: "./assets/fragrance-tvc.mp4",
+      videoUrl: "./assets/fragrance-tvc.mp4",
+      externalLink: null,
+      publicReleaseNote: null,
+      stills: [
+        { src: "./assets/fragrance-product.jpg", alt: "AVELOR SALTWOOD \u9999\u6C34\u4EA7\u54C1 Hero Shot", layout: "portrait", label: "Product Hero Shot" },
+        { src: "./assets/fragrance-model-01.jpg", alt: "\u6D77\u5CB8\u4EBA\u7269\u5173\u952E\u5E27", layout: "square", label: "Character Keyframe" },
+        { src: "./assets/fragrance-environment.jpg", alt: "\u590F\u65E5\u6D77\u5CB8\u73AF\u5883\u8BBE\u5B9A", layout: "wide", label: "Coastal Environment" },
+        { src: "./assets/fragrance-model-02.jpg", alt: "\u4EBA\u7269\u89C6\u89C9\u6D4B\u8BD5\u4E8C", layout: "half", label: "Character Study 02" },
+        { src: "./assets/fragrance-model-03.jpg", alt: "\u4EBA\u7269\u89C6\u89C9\u6D4B\u8BD5\u4E09", layout: "half", label: "Character Study 03" },
+        { src: "./assets/fragrance-product-clean.jpg", alt: "\u9999\u6C34\u4EA7\u54C1\u89C6\u89C9\u6D4B\u8BD5", layout: "wide", label: "Product Development" }
+      ],
+      productionFrames: [{ src: "./assets/fragrance-wardrobe.jpg", alt: "\u4EBA\u7269\u4E0E\u670D\u88C5\u89C6\u89C9\u8BBE\u5B9A", layout: "portrait", label: "Wardrobe Direction" }],
+      visualTests: [],
+      credits: [],
+      featured: true,
+      order: 3,
+      relatedProjects: [],
+      archive: false,
+      workInProgress: false,
+      materialStatus: "ready",
+      publish: true
+    },
+    {
+      id: "project-04",
+      slug: "junkyard-billionaires-wife",
+      title: "After Switching Husbands, I Become A Junkyard Billionaire's Wife",
+      subtitle: "AI Live-action Drama",
+      year: "\u5E74\u4EFD\u5F85\u8865\u5145",
+      category: "AI Live-action Drama",
+      client: null,
+      platform: "iDrama",
+      projectType: "PLATFORM PROJECT",
+      status: "RELEASED",
+      role: ["AI Visual Production", "AI Image Generation", "Character Consistency", "Scene Consistency", "Shot Iteration"],
+      responsibilities: ["\u5177\u4F53\u804C\u8D23\u4E0E\u53C2\u4E0E\u955C\u5934\u8303\u56F4\u5F85\u786E\u8BA4\u3002"],
+      description: "\u6B63\u5F0F\u4E0A\u7EBF\u8FC7\u7684\u6D77\u5916AI\u771F\u4EBA\u5267\u9879\u76EE\uFF0C\u4F53\u73B0\u8FDE\u7EED\u53D9\u4E8B\u4E2D\u7684\u4EBA\u7269\u4E0E\u573A\u666F\u4E00\u81F4\u6027\u3001\u5927\u91CF\u955C\u5934\u751F\u4EA7\u53CA\u4FEE\u6539\u8FED\u4EE3\u7ECF\u9A8C\u3002",
+      tools: [],
+      coverImage: "./assets/placeholder-project.svg",
+      coverAlt: "iDrama\u5267\u96C6\u516C\u5F00\u5C01\u9762\u5F85\u8865\u5145",
+      coverFit: "cover",
+      sourceNote: "\u56FE\u7247\u6765\u6E90\u4E8EYouTube\uFF0C\u4EC5\u7528\u4E8E\u4E2A\u4EBA\u9879\u76EE\u7ECF\u5386\u5C55\u793A\u3002",
+      coverVideo: null,
+      videoUrl: null,
+      externalLink: null,
+      publicReleaseNote: "Released on iDrama",
+      stills: [],
+      productionFrames: [],
+      visualTests: [],
+      credits: [],
+      featured: true,
+      order: 4,
+      relatedProjects: [],
+      archive: false,
+      workInProgress: false,
+      materialStatus: "placeholder",
+      publish: true
+    },
+    {
+      id: "series-01",
+      slug: "hougongmou",
+      title: "\u540E\u5BAB\u8C0B",
+      subtitle: "AI Live-action Series",
+      year: "\u5E74\u4EFD\u5F85\u8865\u5145",
+      category: "AI Live-action Series",
+      client: null,
+      platform: "\u7EA2\u679C",
+      projectType: "PLATFORM PROJECT",
+      status: "PREVIOUSLY RELEASED \xB7 CURRENTLY UNAVAILABLE",
+      role: ["\u5177\u4F53\u5206\u5DE5\u5F85\u8865\u5145"],
+      responsibilities: ["\u672C\u4EBA\u53C2\u4E0E\u73AF\u8282\u4E0E\u5177\u4F53\u5236\u4F5C\u5185\u5BB9\u5F85\u8865\u5145\u3002"],
+      description: "\u771F\u5B9E\u4E0A\u7EBF\u9879\u76EE\u3002\u66FE\u6B63\u5F0F\u4E0A\u7EBF\u7EA2\u679C\u5E73\u53F0\uFF0C\u76EE\u524D\u5DF2\u4E0B\u67B6\uFF1B\u5982\u65E0\u66F4\u591A\u6210\u7247\u753B\u9762\uFF0C\u672C\u9875\u5C06\u4F5C\u4E3AArchive Case\u4FDD\u7559\u4E0A\u7EBF\u8BB0\u5F55\u3002",
+      tools: [],
+      coverImage: "./assets/placeholder-project.svg",
+      coverAlt: "\u300A\u540E\u5BAB\u8C0B\u300B\u9879\u76EE\u6D77\u62A5\u5F85\u8865\u5145",
+      coverFit: "cover",
+      coverVideo: null,
+      videoUrl: null,
+      externalLink: null,
+      publicReleaseNote: "Previously released on RedFruit. Historical platform page showed 15.23M heat. The title is currently unavailable on the platform.",
+      stills: [],
+      productionFrames: [],
+      visualTests: [],
+      credits: [],
+      featured: false,
+      order: null,
+      relatedProjects: ["quzhong-ren-weihuan"],
+      archive: true,
+      workInProgress: false,
+      materialStatus: "placeholder",
+      publish: true
+    },
+    {
+      id: "series-03",
+      slug: "quzhong-ren-weihuan",
+      title: "\u66F2\u7EC8\u4EBA\u672A\u8FD8",
+      subtitle: "AI Live-action Series",
+      year: "\u5E74\u4EFD\u5F85\u8865\u5145",
+      category: "AI Live-action Series",
+      client: null,
+      platform: "\u817E\u8BAF\u89C6\u9891\uFF08\u516C\u5F00\u4E0A\u7EBF\u4FE1\u606F\uFF09",
+      projectType: "PLATFORM PROJECT",
+      status: "RELEASED",
+      role: ["\u5177\u4F53\u5206\u5DE5\u5F85\u8865\u5145"],
+      responsibilities: ["\u672C\u4EBA\u53C2\u4E0E\u73AF\u8282\u3001\u955C\u5934\u8303\u56F4\u4E0E\u5177\u4F53\u5236\u4F5C\u5185\u5BB9\u5F85\u8865\u5145\u3002"],
+      description: "\u5DF2\u6B63\u5F0F\u4E0A\u7EBF\u7684AI\u53E4\u88C5\u771F\u4EBA\u5185\u5BB9\u9879\u76EE\u3002\u5F53\u524D\u5C55\u793A\u516C\u5F00\u4E0A\u7EBF\u4FE1\u606F\u753B\u9762\uFF0C\u540E\u7EED\u53EF\u7EE7\u7EED\u8865\u5145\u5267\u96C6\u5C01\u9762\u3001\u5173\u952E\u5E27\u4E0E\u7A33\u5B9A\u7684\u516C\u5F00\u94FE\u63A5\u3002",
+      tools: [],
+      coverImage: "./assets/projects/quzhong-ren-weihuan/public-reference.png",
+      coverAlt: "\u300A\u66F2\u7EC8\u4EBA\u672A\u8FD8\u300B\u516C\u5F00\u4E0A\u7EBF\u4FE1\u606F\u753B\u9762",
+      coverFit: "contain",
+      coverVideo: null,
+      videoUrl: null,
+      externalLink: null,
+      publicReleaseNote: "Released \xB7 \u5F53\u524D\u5C55\u793A\u516C\u5F00\u4E0A\u7EBF\u4FE1\u606F",
+      stills: [{ src: "./assets/projects/quzhong-ren-weihuan/public-reference.png", alt: "\u300A\u66F2\u7EC8\u4EBA\u672A\u8FD8\u300B\u516C\u5F00\u4E0A\u7EBF\u4FE1\u606F\u53CA\u89D2\u8272\u53C2\u8003\u753B\u9762", layout: "wide", label: "Public Release Reference", fit: "contain" }],
+      productionFrames: [],
+      visualTests: [],
+      credits: [],
+      featured: false,
+      order: null,
+      relatedProjects: ["hougongmou"],
+      archive: true,
+      workInProgress: false,
+      materialStatus: "partial",
+      publish: true
+    },
+    {
+      id: "project-06",
+      slug: "xunying",
+      title: "\u5FAA\u5F71",
+      subtitle: "AI Interactive Film",
+      year: "\u5E74\u4EFD\u5F85\u8865\u5145",
+      category: "AI Interactive Film",
+      client: null,
+      platform: null,
+      projectType: "GRADUATION PROJECT",
+      status: "VISUAL DEVELOPMENT \xB7 WORK IN PROGRESS",
+      role: ["Visual Development", "AI Image Generation", "Narrative Visual Design", "Character / Scene / Prop Consistency", "Surveillance Image Design"],
+      responsibilities: ["\u63A2\u7D22\u771F\u5B9E\u5F55\u50CF\u4E0EAI\u751F\u6210\u5F02\u5E38\u5F71\u50CF\u4E4B\u95F4\u7684\u53D9\u4E8B\u5173\u7CFB\u3002", "\u8FDB\u884C\u89D2\u8272\u3001\u573A\u666F\u3001\u9053\u5177\u53CA\u76D1\u63A7\u754C\u9762\u7684\u89C6\u89C9\u5F00\u53D1\u3002", "\u4EE5\u4FE1\u606F / \u8BC1\u636E\u7ED3\u6784\u63A8\u8FDB\u5FC3\u7406\u6050\u6016\u4E0E\u6E38\u620F\u5316\u53D9\u4E8B\u89C6\u89C9\u3002"],
+      description: "\u6BD5\u4E1A\u8BBE\u8BA1\u7684Visual Development\u9636\u6BB5\u3002\u56F4\u7ED5\u76D1\u63A7\u89C6\u89D2\u3001\u5F02\u5E38\u5F71\u50CF\u3001\u4FE1\u606F / \u8BC1\u636E\u89C6\u89C9\u53D9\u4E8B\uFF0C\u4EE5\u53CA\u89D2\u8272\u3001\u573A\u666F\u4E0E\u9053\u5177\u4E00\u81F4\u6027\u5C55\u5F00\uFF1B\u5F53\u524D\u4E0D\u5305\u88C5\u4E3A\u5DF2\u5B8C\u6210\u7684\u5B8C\u6574\u6210\u7247\u3002",
+      tools: ["AI Image Tools", "\u5177\u4F53\u8F6F\u4EF6\u4E0E\u6D41\u7A0B\u5F85\u8865\u5145"],
+      coverImage: "./assets/projects/xunying/cover-monitor-room.jpg",
+      coverAlt: "\u300A\u5FAA\u5F71\u300B\u4E8C\u5C42\u76D1\u63A7\u503C\u73ED\u5BA4\u89C6\u89C9\u5F00\u53D1",
+      coverFit: "cover",
+      coverVideo: null,
+      videoUrl: null,
+      externalLink: null,
+      publicReleaseNote: null,
+      stills: [
+        { src: "./assets/projects/xunying/scene-lobby.png", alt: "\u300A\u5FAA\u5F71\u300B\u4E00\u5C42\u5927\u5802\u4E0E\u6B63\u95E8\u573A\u666F", layout: "wide", label: "Environment \xB7 Lobby" },
+        { src: "./assets/projects/xunying/character-linwan.png", alt: "\u300A\u5FAA\u5F71\u300B\u6797\u665A\u89D2\u8272\u89C6\u89C9", layout: "portrait", label: "Character \xB7 Lin Wan" },
+        { src: "./assets/projects/xunying/scene-corridor.jpg", alt: "\u300A\u5FAA\u5F71\u300B\u4E09\u5C42\u8BBE\u8BA1\u90E8\u8D70\u5ECA", layout: "square", label: "Environment \xB7 Corridor" }
+      ],
+      productionFrames: [
+        { src: "./assets/projects/xunying/prop-log.png", alt: "\u300A\u5FAA\u5F71\u300B\u65E7\u503C\u73ED\u65E5\u5FD7\u9053\u5177\u89C6\u89C9", layout: "half", label: "Prop \xB7 Shift Log" },
+        { src: "./assets/projects/xunying/story-tree.png", alt: "\u300A\u5FAA\u5F71\u300B\u53D9\u4E8B\u7ED3\u6784\u89C6\u89C9", layout: "half", label: "Narrative Structure" }
+      ],
+      visualTests: [],
+      credits: [],
+      featured: true,
+      order: 6,
+      relatedProjects: [],
+      archive: false,
+      workInProgress: true,
+      materialStatus: "partial",
+      publish: true
+    }
+  ];
+  function normalizeProject(project) {
+    if ((project == null ? void 0 : project.slug) === "xunying" && project.category === "AI Experimental Film") {
+      return { ...project, category: "AI Interactive Film" };
+    }
+    return project;
+  }
+
+  // ../../../../Temp/aigc-portfolio-offline-oySPln/js/components.js
   function escapeHtml(value = "") {
     return String(value).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#039;");
   }
   function formatMultiline(value = "") {
     return escapeHtml(value).replace(/\r?\n/g, "<br>");
+  }
+  function isHongqiCombinedTitle(project) {
+    return project.slug === "hongqi-tianggong-partners" && /^红旗天工\s*《大明天工合伙人》$/.test(String(project.title ?? "").trim());
+  }
+  function formatProjectTitle(project) {
+    if (isHongqiCombinedTitle(project)) {
+      return '<span class="hongqi-title__brand">\u7EA2\u65D7\u5929\u5DE5</span><span class="hongqi-title__film">\u300A\u5927\u660E\u5929\u5DE5\u5408\u4F19\u4EBA\u300B</span>';
+    }
+    return formatMultiline(project.title);
   }
   var aspectRatios = {
     "16:9": "16 / 9",
@@ -819,7 +805,8 @@
     "1:1": "1 / 1",
     "3:4": "3 / 4",
     "4:5": "4 / 5",
-    "9:16": "9 / 16"
+    "9:16": "9 / 16",
+    "27:43": "27 / 43"
   };
   var bilingualTerms = /* @__PURE__ */ new Map([
     ["AI Brand Short Film", "AI\u54C1\u724C\u77ED\u7247"],
@@ -828,11 +815,13 @@
     ["AI Live-action Drama", "AI\u771F\u4EBA\u77ED\u5267"],
     ["AI Live-action Series", "AI\u771F\u4EBA\u7CFB\u5217"],
     ["AI Experimental Film", "AI\u5B9E\u9A8C\u5F71\u50CF"],
+    ["AI Interactive Film", "AI\u4EA4\u4E92\u5F71\u50CF"],
     ["Released AI Series", "\u5DF2\u4E0A\u7EBFAI\u7CFB\u5217"],
     ["COMMERCIAL PROJECT", "\u5546\u4E1A\u9879\u76EE"],
     ["PLATFORM PROJECT", "\u5E73\u53F0\u9879\u76EE"],
     ["PERSONAL PROJECT", "\u4E2A\u4EBA\u9879\u76EE"],
     ["GRADUATION PROJECT", "\u6BD5\u4E1A\u8BBE\u8BA1"],
+    ["IP PROJECT", "IP\u9879\u76EE"],
     ["AI Visual Production", "AI\u89C6\u89C9\u5236\u4F5C"],
     ["AI Image Generation", "AI\u56FE\u50CF\u751F\u6210"],
     ["AI Video Generation", "AI\u89C6\u9891\u751F\u6210"],
@@ -869,8 +858,8 @@
     return `--media-aspect:${aspectRatios[aspect] ?? aspectRatios["16:9"]}`;
   }
   function getExternalLinks(project) {
-    var _a4, _b2;
-    if ((_a4 = project.externalLinks) == null ? void 0 : _a4.length) return project.externalLinks.filter((link) => link == null ? void 0 : link.url);
+    var _a5, _b2;
+    if ((_a5 = project.externalLinks) == null ? void 0 : _a5.length) return project.externalLinks.filter((link) => link == null ? void 0 : link.url);
     return ((_b2 = project.externalLink) == null ? void 0 : _b2.url) ? [project.externalLink] : [];
   }
   function hasValue(value) {
@@ -885,20 +874,17 @@
   function visibleItems(items = []) {
     return items.filter((item) => hasValue(item) && !isPendingValue(item));
   }
-  function renderHeader(active = "", siteProfile = profile) {
+  function renderHeader(active = "") {
     const links = [
       ["experience", "#experience", "Experience", "\u7ECF\u5386"],
       ["work", "#selected-work", "Work", "\u4F5C\u54C1"],
-      ["about", "#about", "About", "\u5173\u4E8E"],
       ["resume", "#resume", "Resume", "\u7B80\u5386"],
       ["contact", "#contact", "Contact", "\u8054\u7CFB"]
     ];
-    const siteName = isPendingValue(siteProfile.englishName) ? siteProfile.title : siteProfile.englishName;
     return `
     <header class="site-header" data-header>
       <a class="site-mark" href="#top" aria-label="\u8FD4\u56DE\u9996\u9875">
         <span class="site-mark__dot" aria-hidden="true"></span>
-        <span>${escapeHtml(siteName)}</span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
         <span>Menu</span><i></i><i></i>
@@ -912,10 +898,6 @@
     const footerName = isPendingValue(siteProfile.englishName) ? siteProfile.title : siteProfile.englishName;
     return `
     <footer class="site-footer">
-      <a class="site-footer__statement" href="#selected-work">
-        <span>AI FILMMAKING / AI\u5F71\u50CF\u5236\u4F5C</span>
-        <em>Commercial visuals &amp;<br>narrative content.<small>\u5546\u4E1A\u89C6\u89C9\u4E0E\u53D9\u4E8B\u5185\u5BB9</small></em>
-      </a>
       <div class="site-footer__meta">
         <span>${escapeHtml(footerName)} \xB7 PORTFOLIO</span>
         <span>\xA9 <span data-year></span></span>
@@ -925,8 +907,9 @@
   }
   function renderProjectShowcase(project, index, total) {
     const number = String(index + 1).padStart(2, "0");
+    const isHongqiShowcase = project.slug === "hongqi-tianggong-partners";
     const distinctStills = (project.stills ?? []).filter((item) => isRealMedia(item == null ? void 0 : item.src) && item.src !== project.coverImage);
-    const frames = distinctStills.slice(0, 2);
+    const frames = distinctStills.slice(0, isHongqiShowcase ? 4 : 2);
     const hasVideo = isRealMedia(project.videoUrl);
     const hasCover = isRealMedia(project.coverImage);
     const primaryMedia = hasVideo ? `<video controls playsinline preload="metadata"${hasCover ? ` poster="${escapeHtml(project.coverImage)}"` : ""}>
@@ -938,7 +921,10 @@
     const externalLinks = getExternalLinks(project);
     const externalButtons = externalLinks.map((link) => `<a class="work-case__watch" href="${escapeHtml(link.url)}" target="_blank" rel="noreferrer">${escapeHtml(link.label ?? "View Public Release / \u67E5\u770B\u516C\u5F00\u9875\u9762")} <span>\u2197</span></a>`).join("");
     const release = hasValue(project.publicReleaseNote) && !isPendingValue(project.publicReleaseNote) ? `<span class="work-case__release">${escapeHtml(project.publicReleaseNote)}</span>` : "";
-    const actions = externalButtons || release ? `<div class="work-case__actions">${release}${externalButtons}</div>` : "";
+    const imageButtons = isHongqiShowcase ? "" : externalButtons;
+    const actions = imageButtons || release ? `<div class="work-case__actions">${release}${imageButtons}</div>` : "";
+    const resourceLinks = isHongqiShowcase && externalButtons ? `<div class="work-case__resource-links">${externalButtons}</div>` : "";
+    const sourceNote = hasCover && !hasVideo ? hasValue(project.sourceNote) ? project.sourceNote : isHongqiShowcase ? "\u56FE\u7247\u6765\u6E90\u4E8E\u7EA2\u65D7\u5929\u5DE5\u5B98\u65B9\u516C\u5F00\u53D1\u5E03\u7269\u6599\uFF0C\u4EC5\u7528\u4E8E\u4E2A\u4EBA\u9879\u76EE\u7ECF\u5386\u5C55\u793A\u3002" : "" : "";
     const projectMeta = [project.client, project.platform, project.projectType].filter((item) => hasValue(item) && !isPendingValue(item)).map(formatBilingual);
     const roles = visibleItems(project.role).map(formatBilingual);
     const responsibilities = visibleItems(project.responsibilities);
@@ -948,7 +934,7 @@
       projectFact,
       roles.length ? `<section><p class="work-case__label">Role / \u804C\u8D23</p><ul>${roles.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul></section>` : "",
       responsibilities.length ? `<section class="work-case__contribution"><p class="work-case__label">My Contribution / \u6211\u7684\u5DE5\u4F5C</p><ol>${responsibilities.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ol></section>` : "",
-      tools.length ? `<section><p class="work-case__label">Tools / \u5DE5\u5177</p><p>${tools.map(escapeHtml).join(" / ")}</p></section>` : ""
+      tools.length || resourceLinks ? `<section class="work-case__tools"><p class="work-case__label">Tools / \u5DE5\u5177</p>${tools.length ? `<p>${tools.map(escapeHtml).join(" / ")}</p>` : ""}${resourceLinks}</section>` : ""
     ].filter(Boolean).join("");
     const headingMeta = [project.year, project.status].filter((item) => hasValue(item) && !isPendingValue(item));
     const eyebrow = [formatBilingual(project.category), headingMeta.join(" \xB7 ")].filter(hasValue).map((item) => `<span>${escapeHtml(item)}</span>`).join("");
@@ -956,59 +942,68 @@
     const summary = hasValue(project.description) || availability ? `<div class="work-case__summary">${hasValue(project.description) ? `<p>${escapeHtml(project.description)}</p>` : ""}${availability ? `<span>${availability}</span>` : ""}</div>` : "";
     const frameMarkup = frames.length ? `<aside class="work-case__frames" aria-label="${escapeHtml(project.title)} \u5173\u952E\u5E27">${frames.map((frame, frameIndex) => renderShowcaseFrame(frame, frameIndex)).join("")}</aside>` : "";
     const stage = primaryMedia ? `<div class="work-case__stage${frames.length ? "" : " is-media-only"} reveal">
+        ${sourceNote ? '<div class="work-case__primary-column">' : ""}
         <div class="work-case__primary${project.coverFit === "contain" ? " is-contain" : ""}" style="${mediaStyle(project.coverAspect)}">
           ${primaryMedia}
           <span class="work-case__media-label">${hasVideo ? "Final Film / \u6210\u7247" : "Project Image / \u9879\u76EE\u753B\u9762"}</span>
           ${actions}
         </div>
+        ${sourceNote ? `<p class="work-case__source-note">${escapeHtml(sourceNote)}</p></div>` : ""}
         ${frameMarkup}
       </div>` : frames.length ? `<div class="work-case__stage is-frames-only reveal">${frameMarkup}</div>` : actions ? `<div class="work-case__standalone-actions reveal">${actions}</div>` : "";
+    const factsMarkup = facts ? `<div class="work-case__facts reveal">${facts}</div>` : "";
     return `<article class="work-case" id="${escapeHtml(project.slug)}" aria-labelledby="work-title-${index}">
     <header class="work-case__heading reveal">
       <div class="work-case__index"><span>${number}</span><i>/</i><span>${String(total).padStart(2, "0")}</span></div>
       <div class="work-case__heading-main">
         ${eyebrow ? `<p class="work-case__eyebrow">${eyebrow}</p>` : ""}
-        <h3 id="work-title-${index}">${formatMultiline(project.title)}</h3>
+        <h3 id="work-title-${index}" class="${isHongqiCombinedTitle(project) ? "hongqi-title" : ""}">${formatProjectTitle(project)}</h3>
         ${summary}
       </div>
     </header>
-    ${stage}
-    ${facts ? `<div class="work-case__facts reveal">${facts}</div>` : ""}
+    ${isHongqiShowcase && stage && factsMarkup ? `<div class="work-case__visual-details">${stage}${factsMarkup}</div>` : `${stage}${factsMarkup}`}
   </article>`;
   }
   function renderSeriesShowcase(collection, series, index, total) {
     const seriesCards = series.map((item, itemIndex) => {
+      var _a5, _b2;
+      const isHougongmou = item.slug === "hougongmou";
       const hasCover = isRealMedia(item.coverImage);
       const roles = visibleItems(item.role).map(formatBilingual);
+      const stills = (item.stills ?? []).filter((frame) => isRealMedia(frame == null ? void 0 : frame.src) && frame.src !== item.coverImage).slice(0, 6);
+      const hasFrames = stills.length > 0;
+      const externalLinks = (((_a5 = item.externalLinks) == null ? void 0 : _a5.length) ? item.externalLinks : ((_b2 = item.externalLink) == null ? void 0 : _b2.url) ? [item.externalLink] : []).filter((link) => hasValue(link == null ? void 0 : link.url));
       const status = isPendingValue(item.status) ? "" : item.status;
       const platform = isPendingValue(item.platform) ? "" : item.platform;
       const release = isPendingValue(item.publicReleaseNote) ? "" : item.publicReleaseNote;
       const meta = [platform, status].filter(hasValue).join(" \xB7 ");
-      return `<section class="series-project-card">
-      ${hasCover ? `<div class="series-project-card__visual${item.coverFit === "contain" ? " is-contain" : ""}" style="${mediaStyle(item.coverAspect)}">
+      const actions = externalLinks.map((link, linkIndex) => `<a class="series-project-card__action" href="${escapeHtml(link.url)}" target="_blank" rel="noreferrer">
+      <span>${escapeHtml(link.label ?? "View Public Release / \u67E5\u770B\u516C\u5F00\u9875\u9762")}${externalLinks.length > 1 ? ` ${String(linkIndex + 1).padStart(2, "0")}` : ""}</span><b>\u2197</b>
+    </a>`).join("");
+      const frames = stills.map((frame, frameIndex) => `<button class="series-project-card__frame${frame.fit === "contain" ? " is-contain" : ""}" type="button" data-lightbox-item data-lightbox-src="${escapeHtml(frame.src)}" data-lightbox-caption="${escapeHtml(frame.label ?? `${item.title} Keyframe ${frameIndex + 1}`)}" aria-label="\u5168\u5C4F\u67E5\u770B\uFF1A${escapeHtml(frame.alt ?? `${item.title}\u5173\u952E\u5E27`)}">
+      <img src="${escapeHtml(frame.src)}" alt="${escapeHtml(frame.alt ?? `${item.title}\u5173\u952E\u5E27`)}" width="720" height="1280" loading="lazy" decoding="async">
+      <span>${String(frameIndex + 1).padStart(2, "0")}${hasValue(frame.label) ? ` / ${escapeHtml(frame.label)}` : ""}</span>
+    </button>`).join("");
+      return `<section class="series-project-card${hasFrames ? " has-frames" : ""}">
+      ${hasCover ? `<div class="series-project-card__visual is-contain" style="${mediaStyle(hasFrames ? "1:1" : "27:43")}">
         <button type="button" data-lightbox-item data-lightbox-src="${escapeHtml(item.coverImage)}" data-lightbox-caption="${escapeHtml(item.title)}" aria-label="\u5168\u5C4F\u67E5\u770B\uFF1A${escapeHtml(item.coverAlt)}">
           <img src="${escapeHtml(item.coverImage)}" alt="${escapeHtml(item.coverAlt)}" width="1000" height="1400" loading="lazy" decoding="async">
         </button>
       </div>` : ""}
+      ${frames ? `<div class="series-project-card__frames"><div>${frames}</div></div>` : ""}
       <div class="series-project-card__copy">
-        <p>0${itemIndex + 1}${status ? ` / ${escapeHtml(status)}` : ""}</p>
-        <h4>${escapeHtml(item.title)}</h4>
-        ${meta ? `<span>${escapeHtml(meta)}</span>` : ""}
+        <p>0${itemIndex + 1}${status && !isHougongmou ? ` / ${escapeHtml(status)}` : ""}</p>
+        <h3>${escapeHtml(item.title)}</h3>
+        ${meta ? `<span${isHougongmou ? ' class="is-accent"' : ""}>${escapeHtml(meta)}</span>` : ""}
         ${hasValue(item.description) ? `<small>${escapeHtml(item.description)}</small>` : ""}
         ${release ? `<small class="series-project-card__release">${escapeHtml(release)}</small>` : ""}
         ${roles.length ? `<strong>${roles.map(escapeHtml).join(" / ")}</strong>` : ""}
+        ${actions ? `<div class="series-project-card__actions">${actions}</div>` : ""}
       </div>
     </section>`;
     }).join("");
-    return `<article class="work-case work-case--series" id="${escapeHtml(collection.id)}" aria-labelledby="series-title">
-    <header class="work-case__heading reveal">
-      <div class="work-case__index"><span>${String(index + 1).padStart(2, "0")}</span><i>/</i><span>${String(total).padStart(2, "0")}</span></div>
-      <div class="work-case__heading-main">
-        <p class="work-case__eyebrow"><span>${escapeHtml(formatBilingual(collection.category))}</span><span>FORMALLY RELEASED WORK / \u6B63\u5F0F\u4E0A\u7EBF\u4F5C\u54C1</span></p>
-        <h3 id="series-title">${escapeHtml(collection.title)}</h3>
-        <div class="work-case__summary"><p>\u591A\u90E8\u5DF2\u6B63\u5F0F\u4E0A\u7EBF\u7684AI\u771F\u4EBA\u5185\u5BB9\u9879\u76EE\uFF0C\u5206\u522B\u5C55\u793A\u6BCF\u4E2A\u9879\u76EE\u7684\u516C\u5F00\u753B\u9762\u3001\u4E0A\u7EBF\u4FE1\u606F\u4E0E\u5DF2\u786E\u8BA4\u5185\u5BB9\u3002</p><span>Released series overview / \u5DF2\u4E0A\u7EBF\u9879\u76EE</span></div>
-      </div>
-    </header>
+    return `<article class="work-case work-case--series" id="${escapeHtml(collection.id)}" aria-label="${escapeHtml(series.map((item) => item.title).join("\u3001"))}">
+    <div class="work-case__index reveal" aria-hidden="true"><span>${String(index + 1).padStart(2, "0")}</span><i>/</i><span>${String(total).padStart(2, "0")}</span></div>
     ${seriesCards ? `<div class="series-project-grid reveal">${seriesCards}</div>` : ""}
   </article>`;
   }
@@ -1063,7 +1058,7 @@
     </div>`;
   }
 
-  // ../../../../Temp/aigc-portfolio-offline-NXGqZi/js/core.js
+  // ../../../../Temp/aigc-portfolio-offline-oySPln/js/core.js
   function initSite() {
     const header = document.querySelector("[data-header]");
     const progress = document.querySelector("[data-scroll-progress]");
@@ -1146,11 +1141,11 @@
     let activeIndex = 0;
     let previousFocus = null;
     const show = (index) => {
-      var _a4;
+      var _a5;
       activeIndex = (index + items.length) % items.length;
       const item = items[activeIndex];
       image.src = item.dataset.lightboxSrc;
-      image.alt = ((_a4 = item.querySelector("img")) == null ? void 0 : _a4.alt) ?? "";
+      image.alt = ((_a5 = item.querySelector("img")) == null ? void 0 : _a5.alt) ?? "";
       caption.textContent = item.dataset.lightboxCaption ?? "";
     };
     const open = (index) => {
@@ -1181,7 +1176,7 @@
     });
   }
 
-  // ../../../../Temp/aigc-portfolio-offline-NXGqZi/js/home.js
+  // ../../../../Temp/aigc-portfolio-offline-oySPln/js/home.js
   var _a, _b;
   var navigationEntry = (_b = (_a = performance.getEntriesByType) == null ? void 0 : _a.call(performance, "navigation")) == null ? void 0 : _b[0];
   var _a2;
@@ -1201,12 +1196,12 @@
   var activeProfile = { ...profile, ...contentOverrides.profile ?? {} };
   var activeHero = { ...hero, ...contentOverrides.hero ?? {} };
   var activeExperiences = experiences.map((item) => {
-    var _a4;
-    return { ...item, ...((_a4 = contentOverrides.experiences) == null ? void 0 : _a4[item.id]) ?? {} };
+    var _a5;
+    return { ...item, ...((_a5 = contentOverrides.experiences) == null ? void 0 : _a5[item.id]) ?? {} };
   });
   document.querySelector("[data-header-slot]").innerHTML = renderHeader("", activeProfile);
   document.querySelector("[data-footer-slot]").innerHTML = renderFooter(activeProfile);
-  var activeProjects = projects.map((project) => ({ ...project, ...projectOverrides[project.slug] ?? {} }));
+  var activeProjects = projects.map((project) => normalizeProject({ ...project, ...projectOverrides[project.slug] ?? {} }));
   var getActiveProjectBySlug = (slug) => activeProjects.find((project) => project.slug === slug);
   var totalShowcases = 6;
   var featured = activeProjects.filter((project) => project.featured).sort((a, b) => a.order - b.order);
@@ -1214,35 +1209,43 @@
   var seriesProjects = releasedSeriesCollection.projectSlugs.map(getActiveProjectBySlug).filter(Boolean);
   workMarkup.splice(4, 0, renderSeriesShowcase(releasedSeriesCollection, seriesProjects, 4, totalShowcases));
   document.querySelector("[data-project-list]").innerHTML = workMarkup.join("");
+  var environmentAspects = {
+    "16:9": "16 / 9",
+    "3:2": "3 / 2",
+    "4:3": "4 / 3",
+    "1:1": "1 / 1",
+    "3:4": "3 / 4",
+    "4:5": "4 / 5",
+    "9:16": "9 / 16"
+  };
+  var _a3;
+  var environmentGroups = (_a3 = contentOverrides.environmentGallery) == null ? void 0 : _a3.groups;
+  document.querySelector("[data-environment-groups]").innerHTML = [0, 1].map((groupIndex) => {
+    const images = Array.isArray(environmentGroups == null ? void 0 : environmentGroups[groupIndex]) ? environmentGroups[groupIndex].filter((image) => image == null ? void 0 : image.src) : [];
+    if (!images.length) return "";
+    return `<div class="environment-gallery__group">
+    <div class="environment-gallery__group-label"><span>GROUP ${String(groupIndex + 1).padStart(2, "0")}</span><small>${groupIndex === 0 ? "01\u201304" : "05\u201308"}</small></div>
+    <div class="environment-gallery__grid">${images.map((image) => {
+      const caption = String(image.caption ?? "").trim();
+      const alt = String(image.alt || caption || "UE5 \xD7 AIGC \u73AF\u5883\u89C6\u89C9\u4F5C\u54C1");
+      const aspect = environmentAspects[image.aspect] ?? environmentAspects["16:9"];
+      return `<figure class="environment-gallery__item">
+        <button class="environment-gallery__media${image.fit === "contain" ? " is-contain" : ""}" type="button" style="--media-aspect:${aspect}" data-lightbox-item data-lightbox-src="${escapeHtml(image.src)}" data-lightbox-caption="${escapeHtml(caption)}" aria-label="\u653E\u5927\u67E5\u770B\uFF1A${escapeHtml(alt)}">
+          <img src="${escapeHtml(image.src)}" alt="${escapeHtml(alt)}" loading="lazy" decoding="async">
+        </button>
+        ${caption ? `<figcaption>${escapeHtml(caption)}</figcaption>` : ""}
+      </figure>`;
+    }).join("")}</div>
+  </div>`;
+  }).join("");
   document.querySelector("[data-lightbox-slot]").innerHTML = renderLightbox();
-  var primaryExperience = activeExperiences.find((item) => item.featured) ?? activeExperiences[0];
-  document.querySelector("[data-experience-highlight]").innerHTML = `
-  <a class="experience-highlight__link" href="#experience" aria-label="\u67E5\u770BiQIYI\u5B8C\u6574\u804C\u4E1A\u7ECF\u5386">
-    <div class="experience-highlight__label reveal"><p>Experience / \u7ECF\u5386</p><span>Real platform experience</span></div>
-    <div class="experience-highlight__main reveal"><p>${escapeHtml(primaryExperience.company)}</p><h2 id="experience-highlight-title">${escapeHtml(primaryExperience.role)}</h2></div>
-    <div class="experience-highlight__meta reveal"><p>${escapeHtml(primaryExperience.location)}</p><span>View Experience / \u67E5\u770B\u7ECF\u5386 \u2193</span></div>
-  </a>`;
   document.querySelector("[data-experience-list]").innerHTML = activeExperiences.map((item) => renderExperience(item)).join("");
   var collectionSlugs = new Set(releasedSeriesCollection.projectSlugs);
   var archiveProjects = activeProjects.filter((project) => project.archive && !collectionSlugs.has(project.slug));
   var archiveList = document.querySelector("[data-archive-list]");
   archiveList.innerHTML = archiveProjects.map(renderArchiveItem).join("");
   archiveList.closest(".archive-strip").hidden = archiveProjects.length === 0;
-  var aboutSections = [
-    ["Experience / \u7ECF\u5386", about.experience],
-    ["Selected Projects / \u7CBE\u9009\u9879\u76EE", about.selectedProjects],
-    ["Tools / Workflow / \u5DE5\u5177\u4E0E\u6D41\u7A0B", about.workflow]
-  ];
   var isPlaceholder = (value) => !value || /(待补充|pending|placeholder)/i.test(String(value));
-  document.querySelector("[data-about-grid]").innerHTML = aboutSections.map(([label, items]) => {
-    const visibleItems2 = items.filter((item) => !isPlaceholder(item));
-    if (!visibleItems2.length) return "";
-    return `
-  <section class="profile-column reveal">
-    <p class="profile-column__label">${escapeHtml(label)}</p>
-    <ul>${visibleItems2.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
-  </section>`;
-  }).join("");
   var profileIdentity = document.querySelector(".intro-hero__identity");
   var hasProfileName = !isPlaceholder(activeProfile.name);
   var hasEnglishName = !isPlaceholder(activeProfile.englishName);
@@ -1271,10 +1274,8 @@
   setTextOrHide("[data-disciplines-cn]", activeProfile.disciplinesCN);
   setTextOrHide("[data-intro-en]", activeProfile.introEn);
   setTextOrHide("[data-intro-zh]", activeProfile.introZh);
-  setTextOrHide("[data-positioning]", activeProfile.positioning);
-  setTextOrHide("[data-positioning-cn]", activeProfile.positioningCN);
   var heroVisual = document.querySelector("[data-hero-visual]");
-  var _a3;
+  var _a4;
   if (activeHero.image && !isPlaceholder(activeHero.image)) {
     const image = heroVisual.querySelector("[data-hero-image]");
     const caption = heroVisual.querySelector("[data-hero-caption]");
@@ -1285,7 +1286,7 @@
     caption.textContent = activeHero.caption || "";
     caption.hidden = !activeHero.caption;
     heroVisual.hidden = false;
-    (_a3 = heroVisual.closest(".intro-hero")) == null ? void 0 : _a3.classList.add("has-hero-visual");
+    (_a4 = heroVisual.closest(".intro-hero")) == null ? void 0 : _a4.classList.add("has-hero-visual");
   }
   var setContactPlaceholder = (name, hasValue2) => {
     document.querySelectorAll(`[data-${name}-placeholder]`).forEach((item) => {
@@ -1318,10 +1319,6 @@
     wechat.hidden = !hasWechat;
     setContactPlaceholder("wechat", hasWechat);
   });
-  document.querySelectorAll("[data-portfolio-pdf]").forEach((link) => {
-    link.href = activeProfile.portfolioPdf;
-    link.hidden = !activeProfile.portfolioPdf;
-  });
   document.querySelectorAll("[data-portfolio-url]").forEach((link) => {
     if (activeProfile.portfolioUrl) {
       link.href = activeProfile.portfolioUrl;
@@ -1348,8 +1345,8 @@
   initLightbox();
   if (window.location.hash && !isPageReload) {
     window.requestAnimationFrame(() => {
-      var _a4;
-      return (_a4 = document.querySelector(window.location.hash)) == null ? void 0 : _a4.scrollIntoView();
+      var _a5;
+      return (_a5 = document.querySelector(window.location.hash)) == null ? void 0 : _a5.scrollIntoView();
     });
   } else if (isPageReload) {
     window.requestAnimationFrame(resetReloadPosition);
