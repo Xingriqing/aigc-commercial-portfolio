@@ -54,9 +54,9 @@
         "platform": "",
         "projectType": "IP PROJECT",
         "description": "\u79D1\u5E7B\u4E16\u754CAI\u5F71\u50CF\u9879\u76EE\u3002\u56F4\u7ED5 \u201C\u672A\u6765\u822A\u7A7A\u79D1\u6280\u201D \u5EFA\u7ACB\u6574\u4F53\u89C6\u89C9\u98CE\u683C\u3002",
-        "coverImage": "./assets/placeholder-project.svg",
-        "coverVideo": "./media/uploads/riji/film-1791468548077-68c328f8.mp4",
-        "videoUrl": "./media/uploads/riji/film-1791468548077-68c328f8.mp4",
+        "coverImage": "./media/uploads/riji/film-1791468548077-68c328f8-poster.jpg",
+        "coverVideo": "./media/uploads/riji/film-1791468548077-68c328f8-web.mp4",
+        "videoUrl": "./media/uploads/riji/film-1791468548077-68c328f8-web.mp4",
         "coverAlt": "\u65E5\u5BC2 project cover",
         "coverAspect": "16:9",
         "coverFit": "cover",
@@ -78,7 +78,7 @@
         ],
         "stills": [
           {
-            "src": "./media/uploads/riji/frame-1-1791468594876-54a87937.png",
+            "src": "./media/uploads/riji/frame-1-1791468594876-54a87937.webp",
             "alt": "\u65E5\u5BC2 project frame",
             "label": "\u573A\u666F\u7D20\u6750",
             "layout": "wide",
@@ -86,7 +86,7 @@
             "fit": "cover"
           },
           {
-            "src": "./media/uploads/riji/frame-3-1791468741534-3f6849fa.png",
+            "src": "./media/uploads/riji/frame-3-1791468741534-3f6849fa.webp",
             "alt": "\u65E5\u5BC2 project frame",
             "label": "\u4EBA\u7269\u7D20\u6750",
             "layout": "wide",
@@ -105,9 +105,9 @@
         "platform": "",
         "projectType": "PERSONAL PROJECT",
         "description": "\u4E00\u652F\u7EA620\u79D2\u7684AI\u9999\u6C34TVC\u3002\u4EE5\u590F\u65E5\u6D77\u5CB8\u3001\u6D77\u76D0\u3001\u6C34\u6C7D\u4E0E\u6728\u8D28\u611F\u4E3A\u6838\u5FC3\uFF0C\u63A2\u7D22AIGC\u5728\u9AD8\u7AEF\u9999\u6C1B\u5E7F\u544A\u4E2D\u7684\u5546\u4E1A\u5316\u5E94\u7528\u3002",
-        "coverImage": "",
-        "coverVideo": "./assets/fragrance-tvc.mp4",
-        "videoUrl": "./assets/fragrance-tvc.mp4",
+        "coverImage": "./assets/fragrance-tvc-poster.jpg",
+        "coverVideo": "./assets/fragrance-tvc-web.mp4",
+        "videoUrl": "./assets/fragrance-tvc-web.mp4",
         "coverAlt": "AVELOR SALTWOOD project cover",
         "coverAspect": "16:9",
         "coverFit": "cover",
@@ -132,7 +132,7 @@
         ],
         "stills": [
           {
-            "src": "./media/uploads/avelor-saltwood/frame-1-1791469762395-c54c3024.png",
+            "src": "./media/uploads/avelor-saltwood/frame-1-1791469762395-c54c3024.webp",
             "alt": "AVELOR SALTWOOD project frame",
             "label": "\u4EBA\u7269\u7279\u5199\u7D20\u6750",
             "layout": "wide",
@@ -140,7 +140,7 @@
             "fit": "cover"
           },
           {
-            "src": "./media/uploads/avelor-saltwood/frame-1-1791469763300-34c63f04.png",
+            "src": "./media/uploads/avelor-saltwood/frame-1-1791469763300-34c63f04.webp",
             "alt": "AVELOR SALTWOOD project frame",
             "label": "\u4EBA\u7269\u573A\u666F\u7D20\u6750",
             "layout": "wide",
@@ -159,7 +159,7 @@
         "platform": "iDrama",
         "projectType": "PLATFORM PROJECT",
         "description": "\u6B63\u5F0F\u4E0A\u7EBF iDrama \u7684\u6D77\u5916 AI \u771F\u4EBA\u77ED\u5267\u9879\u76EE\u3002\n\uFF08\u8BE5\u9879\u76EE\u6B63\u5F0F\u4E0A\u7EBF iDrama\u3002\u56E0\u5730\u533A\u53CA\u5E73\u53F0\u8BBF\u95EE\u9650\u5236\uFF0C\u76EE\u524D\u65E0\u6CD5\u83B7\u53D6\u539F\u59CB\u4E0A\u7EBF\u9875\u9762\u53CA\u5B8C\u6574\u6210\u7247\u7D20\u6750\uFF0C\u56E0\u6B64\u672C\u9875\u9762\u4EE5\u73B0\u6709\u516C\u5F00\u4E0A\u7EBF\u8BB0\u5F55\u53CA\u9879\u76EE\u4FE1\u606F\u8FDB\u884C\u5C55\u793A\u3002\uFF09",
-        "coverImage": "./media/uploads/junkyard-billionaires-wife/cover-1791472031888-7c0fdcdf.png",
+        "coverImage": "./media/uploads/junkyard-billionaires-wife/cover-1791472031888-7c0fdcdf.webp",
         "coverVideo": null,
         "videoUrl": "",
         "coverAlt": "After Switching Husbands, I Become A Junkyard Billionaire's Wife project cover",
@@ -232,7 +232,7 @@
         ],
         "stills": [
           {
-            "src": "./media/uploads/xunying/frame-2-1791474125889-0c2cf6b3.png",
+            "src": "./media/uploads/xunying/frame-2-1791474125889-0c2cf6b3.webp",
             "alt": "",
             "label": "Character Setting",
             "layout": "wide",
@@ -259,7 +259,7 @@
         "platform": "\u7EA2\u679C",
         "projectType": "PLATFORM PROJECT",
         "description": "\u6B63\u5F0F\u4E0A\u7EBF\u7EA2\u679C\u5E73\u53F0\u7684AI\u771F\u4EBA\u5267\u9879\u76EE\u3002\n\u5386\u53F2\u5E73\u53F0\u9875\u9762\u663E\u793A1523\u4E07\u70ED\u5EA6\uFF0C\u76EE\u524D\u4F5C\u54C1\u5DF2\u4E0B\u67B6\u3002",
-        "coverImage": "./media/uploads/hougongmou/cover-1791734958866-b8178ed5.png",
+        "coverImage": "./media/uploads/hougongmou/cover-1791734958866-b8178ed5.webp",
         "coverVideo": null,
         "videoUrl": "",
         "coverAlt": "\u540E\u5BAB\u8C0B project cover",
@@ -310,7 +310,7 @@
         ],
         "stills": [
           {
-            "src": "./media/uploads/quzhong-ren-weihuan/frame-1-1791724908460-cf502301.png",
+            "src": "./media/uploads/quzhong-ren-weihuan/frame-1-1791724908460-cf502301.webp",
             "alt": "",
             "label": "EP17",
             "layout": "wide",
@@ -318,7 +318,7 @@
             "fit": "cover"
           },
           {
-            "src": "./media/uploads/quzhong-ren-weihuan/frame-2-1791725359586-977fa0df.png",
+            "src": "./media/uploads/quzhong-ren-weihuan/frame-2-1791725359586-977fa0df.webp",
             "alt": "",
             "label": "EP21",
             "layout": "wide",
@@ -326,7 +326,7 @@
             "fit": "cover"
           },
           {
-            "src": "./media/uploads/quzhong-ren-weihuan/frame-3-1791725446853-3e01d2f1.png",
+            "src": "./media/uploads/quzhong-ren-weihuan/frame-3-1791725446853-3e01d2f1.webp",
             "alt": "",
             "label": "EP25",
             "layout": "wide",
@@ -400,28 +400,28 @@
       "groups": [
         [
           {
-            "src": "./media/uploads/site-environment/environment-group-1-1791856876866-0a8d3c6c.png",
+            "src": "./media/uploads/site-environment/environment-group-1-1791856876866-0a8d3c6c.webp",
             "alt": "5",
             "caption": "",
             "aspect": "16:9",
             "fit": "cover"
           },
           {
-            "src": "./media/uploads/site-environment/environment-group-1-1791856886551-ad399734.png",
+            "src": "./media/uploads/site-environment/environment-group-1-1791856886551-ad399734.webp",
             "alt": "6",
             "caption": "",
             "aspect": "16:9",
             "fit": "cover"
           },
           {
-            "src": "./media/uploads/site-environment/environment-group-1-1791856890928-7b1c13fd.png",
+            "src": "./media/uploads/site-environment/environment-group-1-1791856890928-7b1c13fd.webp",
             "alt": "7",
             "caption": "",
             "aspect": "16:9",
             "fit": "cover"
           },
           {
-            "src": "./media/uploads/site-environment/environment-group-1-1791856893472-b3e67953.png",
+            "src": "./media/uploads/site-environment/environment-group-1-1791856893472-b3e67953.webp",
             "alt": "8",
             "caption": "",
             "aspect": "16:9",
@@ -430,28 +430,28 @@
         ],
         [
           {
-            "src": "./media/uploads/site-environment/environment-group-2-1791856996693-95f9996a.png",
+            "src": "./media/uploads/site-environment/environment-group-2-1791856996693-95f9996a.webp",
             "alt": "1",
             "caption": "",
             "aspect": "16:9",
             "fit": "cover"
           },
           {
-            "src": "./media/uploads/site-environment/environment-group-2-1791857004072-80312e60.png",
+            "src": "./media/uploads/site-environment/environment-group-2-1791857004072-80312e60.webp",
             "alt": "2",
             "caption": "",
             "aspect": "16:9",
             "fit": "cover"
           },
           {
-            "src": "./media/uploads/site-environment/environment-group-2-1791857008224-fb13100a.png",
+            "src": "./media/uploads/site-environment/environment-group-2-1791857008224-fb13100a.webp",
             "alt": "3",
             "caption": "",
             "aspect": "16:9",
             "fit": "cover"
           },
           {
-            "src": "./media/uploads/site-environment/environment-group-2-1791857011628-7d81dda3.png",
+            "src": "./media/uploads/site-environment/environment-group-2-1791857011628-7d81dda3.webp",
             "alt": "4",
             "caption": "",
             "aspect": "16:9",
@@ -604,11 +604,11 @@
       responsibilities: ["\u5EFA\u7ACB\u6D77\u76D0\u3001\u6D77\u98CE\u3001\u6E7F\u6DA6\u76AE\u80A4\u3001\u77FF\u7269\u4E0E\u6728\u8D28\u611F\u7684\u6574\u4F53\u89C6\u89C9\u8BED\u8A00\u3002", "\u7EDF\u4E00\u4EBA\u7269\u3001\u4EA7\u54C1\u3001\u670D\u88C5\u4E0E\u6D77\u5CB8\u73AF\u5883\u7684\u89C6\u89C9\u8BBE\u5B9A\u3002", "\u5B8C\u6210\u955C\u5934\u8BBE\u8BA1\u3001\u52A8\u6001\u751F\u6210\u3001\u526A\u8F91\u4E0E\u540E\u671F\u3002"],
       description: "\u4E00\u652F\u7EA620\u79D2\u7684\u72EC\u7ACBAI\u9999\u6C34\u5546\u4E1A\u5E7F\u544A\u3002\u56F4\u7ED5\u6D77\u76D0\u3001\u6D77\u98CE\u3001\u6E7F\u6DA6\u76AE\u80A4\u3001\u77FF\u7269\u548C\u6728\u8D28\u611F\u5EFA\u7ACB\u89C6\u89C9\u8BED\u8A00\uFF0C\u63A2\u7D22AI\u751F\u6210\u5F71\u50CF\u5728\u9AD8\u7AEF\u9999\u6C1B\u5546\u4E1A\u5E7F\u544A\u4E2D\u7684\u5E94\u7528\u3002",
       tools: ["AI Image Tools", "AI Video Tools", "Editing Software\uFF08\u5F85\u8865\u5145\uFF09"],
-      coverImage: "./assets/fragrance-environment.jpg",
+      coverImage: "./assets/fragrance-tvc-poster.jpg",
       coverAlt: "AVELOR SALTWOOD \u6D77\u5CB8\u73AF\u5883\u89C6\u89C9",
       coverFit: "cover",
-      coverVideo: "./assets/fragrance-tvc.mp4",
-      videoUrl: "./assets/fragrance-tvc.mp4",
+      coverVideo: "./assets/fragrance-tvc-web.mp4",
+      videoUrl: "./assets/fragrance-tvc-web.mp4",
       externalLink: null,
       publicReleaseNote: null,
       stills: [
@@ -756,13 +756,13 @@
       externalLink: null,
       publicReleaseNote: null,
       stills: [
-        { src: "./assets/projects/xunying/scene-lobby.png", alt: "\u300A\u5FAA\u5F71\u300B\u4E00\u5C42\u5927\u5802\u4E0E\u6B63\u95E8\u573A\u666F", layout: "wide", label: "Environment \xB7 Lobby" },
-        { src: "./assets/projects/xunying/character-linwan.png", alt: "\u300A\u5FAA\u5F71\u300B\u6797\u665A\u89D2\u8272\u89C6\u89C9", layout: "portrait", label: "Character \xB7 Lin Wan" },
+        { src: "./assets/projects/xunying/scene-lobby.webp", alt: "\u300A\u5FAA\u5F71\u300B\u4E00\u5C42\u5927\u5802\u4E0E\u6B63\u95E8\u573A\u666F", layout: "wide", label: "Environment \xB7 Lobby" },
+        { src: "./assets/projects/xunying/character-linwan.webp", alt: "\u300A\u5FAA\u5F71\u300B\u6797\u665A\u89D2\u8272\u89C6\u89C9", layout: "portrait", label: "Character \xB7 Lin Wan" },
         { src: "./assets/projects/xunying/scene-corridor.jpg", alt: "\u300A\u5FAA\u5F71\u300B\u4E09\u5C42\u8BBE\u8BA1\u90E8\u8D70\u5ECA", layout: "square", label: "Environment \xB7 Corridor" }
       ],
       productionFrames: [
-        { src: "./assets/projects/xunying/prop-log.png", alt: "\u300A\u5FAA\u5F71\u300B\u65E7\u503C\u73ED\u65E5\u5FD7\u9053\u5177\u89C6\u89C9", layout: "half", label: "Prop \xB7 Shift Log" },
-        { src: "./assets/projects/xunying/story-tree.png", alt: "\u300A\u5FAA\u5F71\u300B\u53D9\u4E8B\u7ED3\u6784\u89C6\u89C9", layout: "half", label: "Narrative Structure" }
+        { src: "./assets/projects/xunying/prop-log.webp", alt: "\u300A\u5FAA\u5F71\u300B\u65E7\u503C\u73ED\u65E5\u5FD7\u9053\u5177\u89C6\u89C9", layout: "half", label: "Prop \xB7 Shift Log" },
+        { src: "./assets/projects/xunying/story-tree.webp", alt: "\u300A\u5FAA\u5F71\u300B\u53D9\u4E8B\u7ED3\u6784\u89C6\u89C9", layout: "half", label: "Narrative Structure" }
       ],
       visualTests: [],
       credits: [],
@@ -912,7 +912,7 @@
     const frames = distinctStills.slice(0, isHongqiShowcase ? 4 : 2);
     const hasVideo = isRealMedia(project.videoUrl);
     const hasCover = isRealMedia(project.coverImage);
-    const primaryMedia = hasVideo ? `<video controls playsinline preload="metadata"${hasCover ? ` poster="${escapeHtml(project.coverImage)}"` : ""}>
+    const primaryMedia = hasVideo ? `<video controls playsinline preload="none"${hasCover ? ` poster="${escapeHtml(project.coverImage)}"` : ""}>
         <source src="${escapeHtml(project.videoUrl)}" type="video/mp4">
         \u4F60\u7684\u6D4F\u89C8\u5668\u6682\u4E0D\u652F\u6301\u89C6\u9891\u64AD\u653E\u3002
       </video>` : hasCover ? `<button type="button" data-lightbox-item data-lightbox-src="${escapeHtml(project.coverImage)}" data-lightbox-caption="${escapeHtml(project.title)}" aria-label="\u5168\u5C4F\u67E5\u770B\uFF1A${escapeHtml(project.coverAlt)}">
