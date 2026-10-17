@@ -79,9 +79,9 @@ window.__PORTFOLIO_CONTENT__ = {
       ],
       "stills": [
         {
-          "src": "./media/uploads/riji/frame-3-1792223303020-5c2c56fc.webp",
+          "src": "./media/uploads/riji/frame-3-1792223363660-d451278d.webp",
           "alt": "日寂 project frame",
-          "label": "Selected Frame 3",
+          "label": "场景素材",
           "aspect": "16:9",
           "fit": "cover"
         },
@@ -463,5 +463,5 @@ window.__PORTFOLIO_CONTENT__ = {
       ]
     ]
   },
-  "updatedAt": "2026-10-17T07:48:30.772Z"
+  "updatedAt": "2026-10-17T07:49:31.570Z"
 };
