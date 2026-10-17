@@ -145,6 +145,12 @@ button { color: inherit; }
 .work-case__primary > video, .work-case__primary > img, .work-case__primary > button, .work-case__primary > button > img { width: 100%; height: 100%; }
 .work-case__primary > video, .work-case__primary > img, .work-case__primary > button > img { object-fit: cover; }
 .work-case__primary > button { display: block; border: 0; padding: 0; background: transparent; cursor: zoom-in; }
+.work-case__primary > .deferred-video-shell { position: relative; color: var(--white); cursor: pointer; }
+.deferred-video-shell::after { position: absolute; inset: 0; content: ""; background: linear-gradient(180deg, transparent 48%, rgba(0,0,0,.32)); transition: background .25s; }
+.deferred-video-shell:hover::after { background: rgba(0,0,0,.16); }
+.deferred-video-shell__prompt { position: absolute; z-index: 2; top: 50%; left: 50%; display: flex; gap: 10px; align-items: center; padding: 12px 15px; color: var(--ink); background: rgba(245,242,234,.94); transform: translate(-50%, -50%); white-space: nowrap; }
+.deferred-video-shell__prompt i { font-style: normal; font-size: 13px; }
+.deferred-video-shell__prompt b { font-size: 8px; font-weight: 600; letter-spacing: .13em; text-transform: uppercase; }
 .work-case__primary.is-contain { background: #eeece7; }
 .work-case__primary.is-contain > video, .work-case__primary.is-contain > img, .work-case__primary.is-contain > button > img { object-fit: contain; }
 .work-case__media-label { position: absolute; z-index: 3; top: 16px; left: 16px; padding: 8px 10px; color: var(--ink); background: rgba(245,242,234,.9); font-size: 8px; letter-spacing: .16em; text-transform: uppercase; pointer-events: none; }

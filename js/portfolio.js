@@ -916,10 +916,10 @@
     const priorityImage = index < 3;
     const imageLoading = priorityImage ? `loading="eager" fetchpriority="${index === 0 ? "high" : "auto"}"` : 'loading="lazy" fetchpriority="low"';
     const coverSource = priorityImage ? `src="${escapeHtml(project.coverImage)}"` : `src="${transparentPixel}" data-src="${escapeHtml(project.coverImage)}"`;
-    const primaryMedia = hasVideo ? `<video controls playsinline preload="none" data-deferred-video${hasCover ? ` poster="${escapeHtml(project.coverImage)}"` : ""}>
-        <source data-src="${escapeHtml(project.videoUrl)}" type="video/mp4">
-        \u4F60\u7684\u6D4F\u89C8\u5668\u6682\u4E0D\u652F\u6301\u89C6\u9891\u64AD\u653E\u3002
-      </video>` : hasCover ? `<button type="button" data-lightbox-item data-lightbox-src="${escapeHtml(project.coverImage)}" data-lightbox-caption="${escapeHtml(project.title)}" aria-label="\u5168\u5C4F\u67E5\u770B\uFF1A${escapeHtml(project.coverAlt)}">
+    const primaryMedia = hasVideo ? `<button class="deferred-video-shell" type="button" data-deferred-video data-video-src="${escapeHtml(project.videoUrl)}"${hasCover ? ` data-video-poster="${escapeHtml(project.coverImage)}"` : ""} aria-label="\u64AD\u653E\u89C6\u9891\uFF1A${escapeHtml(project.title)}">
+        ${hasCover ? `<img ${coverSource} alt="${escapeHtml(project.coverAlt)}" width="1600" height="1000" ${imageLoading} decoding="async">` : ""}
+        <span class="deferred-video-shell__prompt"><i aria-hidden="true">\u25B6</i><b>Play Film / \u64AD\u653E\u89C6\u9891</b></span>
+      </button>` : hasCover ? `<button type="button" data-lightbox-item data-lightbox-src="${escapeHtml(project.coverImage)}" data-lightbox-caption="${escapeHtml(project.title)}" aria-label="\u5168\u5C4F\u67E5\u770B\uFF1A${escapeHtml(project.coverAlt)}">
           <img ${coverSource} alt="${escapeHtml(project.coverAlt)}" width="1600" height="1000" ${imageLoading} decoding="async">
         </button>` : "";
     const externalLinks = getExternalLinks(project);
@@ -1136,18 +1136,25 @@
     });
   }
   function initDeferredVideos() {
-    document.querySelectorAll("[data-deferred-video]").forEach((video) => {
-      const source = video.querySelector("source[data-src]");
-      if (!source) return;
-      const loadVideo = () => {
-        if (source.hasAttribute("src")) return;
-        source.src = source.dataset.src;
-        video.load();
-      };
-      video.addEventListener("pointerdown", loadVideo, { once: true });
-      video.addEventListener("touchstart", loadVideo, { once: true, passive: true });
-      video.addEventListener("keydown", (event) => {
-        if (event.key === "Enter" || event.key === " ") loadVideo();
+    document.querySelectorAll("[data-deferred-video]").forEach((trigger) => {
+      trigger.addEventListener("click", () => {
+        const videoUrl = trigger.dataset.videoSrc;
+        if (!videoUrl) return;
+        const video = document.createElement("video");
+        const source = document.createElement("source");
+        video.controls = true;
+        video.playsInline = true;
+        video.autoplay = true;
+        video.preload = "auto";
+        if (trigger.dataset.videoPoster) video.poster = trigger.dataset.videoPoster;
+        source.src = videoUrl;
+        source.type = "video/mp4";
+        video.append(source);
+        video.append(document.createTextNode("\u4F60\u7684\u6D4F\u89C8\u5668\u6682\u4E0D\u652F\u6301\u89C6\u9891\u64AD\u653E\u3002"));
+        trigger.replaceWith(video);
+        const playback = video.play();
+        if (playback && typeof playback.catch === "function") playback.catch(() => {
+        });
       });
     });
   }
