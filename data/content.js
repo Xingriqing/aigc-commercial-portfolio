@@ -42,7 +42,10 @@ window.__PORTFOLIO_CONTENT__ = {
       "externalLink": {
         "url": "https://v.douyin.com/6p1dBfUaRes/ LwS:/ Y@z.gb 06/11 :1pm",
         "label": "VIEW EP01 ON DOUYIN / 第1集视频"
-      }
+      },
+      "subtitle": "",
+      "status": "",
+      "sourceNote": ""
     },
     "riji": {
       "title": "日寂",
@@ -76,10 +79,9 @@ window.__PORTFOLIO_CONTENT__ = {
       ],
       "stills": [
         {
-          "src": "./media/uploads/riji/frame-1-1791468594876-54a87937.webp",
+          "src": "./media/uploads/riji/frame-3-1792223303020-5c2c56fc.webp",
           "alt": "日寂 project frame",
-          "label": "场景素材",
-          "layout": "wide",
+          "label": "Selected Frame 3",
           "aspect": "16:9",
           "fit": "cover"
         },
@@ -93,7 +95,10 @@ window.__PORTFOLIO_CONTENT__ = {
         }
       ],
       "externalLinks": [],
-      "externalLink": null
+      "externalLink": null,
+      "subtitle": "",
+      "status": "",
+      "sourceNote": ""
     },
     "avelor-saltwood": {
       "title": "AVELOR SALTWOOD",
@@ -458,5 +463,5 @@ window.__PORTFOLIO_CONTENT__ = {
       ]
     ]
   },
-  "updatedAt": "2026-10-13T13:28:28.697Z"
+  "updatedAt": "2026-10-17T07:48:30.772Z"
 };
