@@ -35,7 +35,10 @@
   const environmentLists = [...document.querySelectorAll("[data-environment-list]")];
 
   tokenInput.value = token;
-  rememberDevice.checked = Boolean(savedDeviceToken) || !token;
+  // Trusted-device mode is the default. If an older editor already stored the
+  // token in sessionStorage, the automatic connection below migrates it to
+  // localStorage without asking the user to paste it again.
+  rememberDevice.checked = true;
 
   function input(name) {
     return form.elements.namedItem(name);
