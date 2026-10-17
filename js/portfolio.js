@@ -367,7 +367,7 @@
       "phone": "18221648959",
       "wechat": "yuuu5114_",
       "portfolioUrl": "",
-      "resumeUrl": "./media/uploads/site-resume/resume-1791813734309-362383f1.pdf"
+      "resumeUrl": "./media/uploads/site-resume/resume-1791813734309-362383f1.pdf?v=20261017-aliyun-link-1"
     },
     "hero": {
       "image": "",
