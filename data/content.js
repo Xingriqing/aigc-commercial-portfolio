@@ -447,5 +447,5 @@ window.__PORTFOLIO_CONTENT__ = {
       ]
     ]
   },
-  "updatedAt": "2026-10-17T08:00:15.981Z"
+  "updatedAt": "2026-10-17T08:08:02.366Z"
 };
