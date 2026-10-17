@@ -857,6 +857,7 @@
   function mediaStyle(aspect = "16:9") {
     return `--media-aspect:${aspectRatios[aspect] ?? aspectRatios["16:9"]}`;
   }
+  const transparentPixel = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
   function getExternalLinks(project) {
     var _a5, _b2;
     if ((_a5 = project.externalLinks) == null ? void 0 : _a5.length) return project.externalLinks.filter((link) => link == null ? void 0 : link.url);
@@ -912,11 +913,14 @@
     const frames = distinctStills.slice(0, isHongqiShowcase ? 4 : 2);
     const hasVideo = isRealMedia(project.videoUrl);
     const hasCover = isRealMedia(project.coverImage);
-    const primaryMedia = hasVideo ? `<video controls playsinline preload="none"${hasCover ? ` poster="${escapeHtml(project.coverImage)}"` : ""}>
-        <source src="${escapeHtml(project.videoUrl)}" type="video/mp4">
+    const priorityImage = index < 3;
+    const imageLoading = priorityImage ? `loading="eager" fetchpriority="${index === 0 ? "high" : "auto"}"` : 'loading="lazy" fetchpriority="low"';
+    const coverSource = priorityImage ? `src="${escapeHtml(project.coverImage)}"` : `src="${transparentPixel}" data-src="${escapeHtml(project.coverImage)}"`;
+    const primaryMedia = hasVideo ? `<video controls playsinline preload="none" data-deferred-video${hasCover ? ` poster="${escapeHtml(project.coverImage)}"` : ""}>
+        <source data-src="${escapeHtml(project.videoUrl)}" type="video/mp4">
         \u4F60\u7684\u6D4F\u89C8\u5668\u6682\u4E0D\u652F\u6301\u89C6\u9891\u64AD\u653E\u3002
       </video>` : hasCover ? `<button type="button" data-lightbox-item data-lightbox-src="${escapeHtml(project.coverImage)}" data-lightbox-caption="${escapeHtml(project.title)}" aria-label="\u5168\u5C4F\u67E5\u770B\uFF1A${escapeHtml(project.coverAlt)}">
-          <img src="${escapeHtml(project.coverImage)}" alt="${escapeHtml(project.coverAlt)}" width="1600" height="1000" loading="lazy" decoding="async">
+          <img ${coverSource} alt="${escapeHtml(project.coverAlt)}" width="1600" height="1000" ${imageLoading} decoding="async">
         </button>` : "";
     const externalLinks = getExternalLinks(project);
     const externalButtons = externalLinks.map((link) => `<a class="work-case__watch" href="${escapeHtml(link.url)}" target="_blank" rel="noreferrer">${escapeHtml(link.label ?? "View Public Release / \u67E5\u770B\u516C\u5F00\u9875\u9762")} <span>\u2197</span></a>`).join("");
@@ -981,13 +985,13 @@
       <span>${escapeHtml(link.label ?? "View Public Release / \u67E5\u770B\u516C\u5F00\u9875\u9762")}${externalLinks.length > 1 ? ` ${String(linkIndex + 1).padStart(2, "0")}` : ""}</span><b>\u2197</b>
     </a>`).join("");
       const frames = stills.map((frame, frameIndex) => `<button class="series-project-card__frame${frame.fit === "contain" ? " is-contain" : ""}" type="button" data-lightbox-item data-lightbox-src="${escapeHtml(frame.src)}" data-lightbox-caption="${escapeHtml(frame.label ?? `${item.title} Keyframe ${frameIndex + 1}`)}" aria-label="\u5168\u5C4F\u67E5\u770B\uFF1A${escapeHtml(frame.alt ?? `${item.title}\u5173\u952E\u5E27`)}">
-      <img src="${escapeHtml(frame.src)}" alt="${escapeHtml(frame.alt ?? `${item.title}\u5173\u952E\u5E27`)}" width="720" height="1280" loading="lazy" decoding="async">
+      <img src="${transparentPixel}" data-src="${escapeHtml(frame.src)}" alt="${escapeHtml(frame.alt ?? `${item.title}\u5173\u952E\u5E27`)}" width="720" height="1280" loading="lazy" fetchpriority="low" decoding="async">
       <span>${String(frameIndex + 1).padStart(2, "0")}${hasValue(frame.label) ? ` / ${escapeHtml(frame.label)}` : ""}</span>
     </button>`).join("");
       return `<section class="series-project-card${hasFrames ? " has-frames" : ""}">
       ${hasCover ? `<div class="series-project-card__visual is-contain" style="${mediaStyle(hasFrames ? "1:1" : "27:43")}">
         <button type="button" data-lightbox-item data-lightbox-src="${escapeHtml(item.coverImage)}" data-lightbox-caption="${escapeHtml(item.title)}" aria-label="\u5168\u5C4F\u67E5\u770B\uFF1A${escapeHtml(item.coverAlt)}">
-          <img src="${escapeHtml(item.coverImage)}" alt="${escapeHtml(item.coverAlt)}" width="1000" height="1400" loading="lazy" decoding="async">
+          <img src="${transparentPixel}" data-src="${escapeHtml(item.coverImage)}" alt="${escapeHtml(item.coverAlt)}" width="1000" height="1400" loading="lazy" fetchpriority="low" decoding="async">
         </button>
       </div>` : ""}
       ${frames ? `<div class="series-project-card__frames"><div>${frames}</div></div>` : ""}
@@ -1009,7 +1013,7 @@
   }
   function renderShowcaseFrame(frame, index) {
     return `<button class="work-case__frame${frame.fit === "contain" ? " is-contain" : ""}" style="${mediaStyle(frame.aspect)}" type="button" data-lightbox-item data-lightbox-src="${escapeHtml(frame.src)}" data-lightbox-caption="${escapeHtml(frame.label ?? "Keyframe")}" aria-label="\u5168\u5C4F\u67E5\u770B\uFF1A${escapeHtml(frame.alt)}">
-    <img src="${escapeHtml(frame.src)}" alt="${escapeHtml(frame.alt)}" width="900" height="700" loading="lazy" decoding="async">
+    <img src="${transparentPixel}" data-src="${escapeHtml(frame.src)}" alt="${escapeHtml(frame.alt)}" width="900" height="700" loading="lazy" fetchpriority="low" decoding="async">
     <span>0${index + 1} / ${escapeHtml(frame.label ?? "Keyframe")}</span>
   </button>`;
   }
@@ -1131,6 +1135,80 @@
       item.textContent = (/* @__PURE__ */ new Date()).getFullYear();
     });
   }
+  function initDeferredVideos() {
+    document.querySelectorAll("[data-deferred-video]").forEach((video) => {
+      const source = video.querySelector("source[data-src]");
+      if (!source) return;
+      const loadVideo = () => {
+        if (source.hasAttribute("src")) return;
+        source.src = source.dataset.src;
+        video.load();
+      };
+      video.addEventListener("pointerdown", loadVideo, { once: true });
+      video.addEventListener("touchstart", loadVideo, { once: true, passive: true });
+      video.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") loadVideo();
+      });
+    });
+  }
+  function initPrioritizedImageLoading() {
+    const images = [...document.querySelectorAll("img[data-src]")];
+    if (!images.length) return;
+    const queue = [];
+    const queued = /* @__PURE__ */ new WeakSet();
+    let activeLoads = 0;
+    const maxConcurrentLoads = 3;
+    const pump = () => {
+      while (activeLoads < maxConcurrentLoads && queue.length) {
+        const image = queue.shift();
+        const source = image.dataset.src;
+        if (!source) continue;
+        activeLoads += 1;
+        const complete = () => {
+          activeLoads = Math.max(0, activeLoads - 1);
+          pump();
+        };
+        image.addEventListener("load", complete, { once: true });
+        image.addEventListener("error", complete, { once: true });
+        image.loading = "eager";
+        image.fetchPriority = "auto";
+        image.removeAttribute("data-src");
+        image.src = source;
+      }
+    };
+    const enqueue = (image) => {
+      if (queued.has(image)) return;
+      queued.add(image);
+      queue.push(image);
+      pump();
+    };
+    if (!("IntersectionObserver" in window)) {
+      images.forEach(enqueue);
+      return;
+    }
+    const observer = new IntersectionObserver((entries) => {
+      entries.filter((entry) => entry.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top).forEach((entry) => {
+        observer.unobserve(entry.target);
+        enqueue(entry.target);
+      });
+    }, { rootMargin: "320px 0px", threshold: 0.01 });
+    images.forEach((image) => observer.observe(image));
+  }
+  function initImageRecovery() {
+    document.addEventListener("error", (event) => {
+      const image = event.target;
+      const originalSource = image instanceof HTMLImageElement ? image.getAttribute("src") : "";
+      if (!originalSource || originalSource.startsWith("data:")) return;
+      const attempts = Number(image.dataset.retryCount ?? 0);
+      if (attempts >= 2) return;
+      image.dataset.retryCount = String(attempts + 1);
+      const retryUrl = new URL(image.currentSrc || image.src, window.location.href);
+      retryUrl.searchParams.set("image-retry", `${attempts + 1}-${Date.now()}`);
+      window.setTimeout(() => {
+        image.src = retryUrl.href;
+      }, 600 * (attempts + 1));
+    }, true);
+  }
   function initLightbox() {
     const items = [...document.querySelectorAll("[data-lightbox-item]")];
     const lightbox = document.querySelector("[data-lightbox]");
@@ -1205,6 +1283,15 @@
   var getActiveProjectBySlug = (slug) => activeProjects.find((project) => project.slug === slug);
   var totalShowcases = 6;
   var featured = activeProjects.filter((project) => project.featured).sort((a, b) => a.order - b.order);
+  featured.slice(0, 3).forEach((project, index) => {
+    if (!isRealMedia(project.coverImage)) return;
+    const preload = document.createElement("link");
+    preload.rel = "preload";
+    preload.as = "image";
+    preload.href = project.coverImage;
+    preload.fetchPriority = index === 0 ? "high" : "auto";
+    document.head.append(preload);
+  });
   var workMarkup = featured.map((project, listIndex) => renderProjectShowcase(project, listIndex < 4 ? listIndex : listIndex + 1, totalShowcases));
   var seriesProjects = releasedSeriesCollection.projectSlugs.map(getActiveProjectBySlug).filter(Boolean);
   workMarkup.splice(4, 0, renderSeriesShowcase(releasedSeriesCollection, seriesProjects, 4, totalShowcases));
@@ -1231,7 +1318,7 @@
       const aspect = environmentAspects[image.aspect] ?? environmentAspects["16:9"];
       return `<figure class="environment-gallery__item">
         <button class="environment-gallery__media${image.fit === "contain" ? " is-contain" : ""}" type="button" style="--media-aspect:${aspect}" data-lightbox-item data-lightbox-src="${escapeHtml(image.src)}" data-lightbox-caption="${escapeHtml(caption)}" aria-label="\u653E\u5927\u67E5\u770B\uFF1A${escapeHtml(alt)}">
-          <img src="${escapeHtml(image.src)}" alt="${escapeHtml(alt)}" loading="lazy" decoding="async">
+          <img src="${transparentPixel}" data-src="${escapeHtml(image.src)}" alt="${escapeHtml(alt)}" loading="lazy" fetchpriority="low" decoding="async">
         </button>
         ${caption ? `<figcaption>${escapeHtml(caption)}</figcaption>` : ""}
       </figure>`;
@@ -1280,6 +1367,8 @@
     const image = heroVisual.querySelector("[data-hero-image]");
     const caption = heroVisual.querySelector("[data-hero-caption]");
     image.src = activeHero.image;
+    image.loading = "eager";
+    image.fetchPriority = "high";
     image.alt = activeHero.alt || "\u4E2A\u4EBA\u4F5C\u54C1\u96C6\u9996\u9875\u89C6\u89C9";
     image.style.objectFit = activeHero.fit === "contain" ? "contain" : "cover";
     image.style.objectPosition = activeHero.position || "center";
@@ -1342,6 +1431,9 @@
     resume.querySelector("small").textContent = "\u5F85\u8865\u5145";
   }
   initSite();
+  initPrioritizedImageLoading();
+  initDeferredVideos();
+  initImageRecovery();
   initLightbox();
   if (window.location.hash && !isPageReload) {
     window.requestAnimationFrame(() => {
