@@ -1,6 +1,6 @@
 (() => {
   // ../../../../Temp/aigc-portfolio-offline-oySPln/data/offline-content.js
-  var offlineContent = {
+  var offlineContent = window.__PORTFOLIO_CONTENT__ || {
     "projects": {
       "hongqi-tianggong-partners": {
         "title": "\u7EA2\u65D7\u5929\u5DE5\u300A\u5927\u660E\u5929\u5DE5\u5408\u4F19\u4EBA\u300B",

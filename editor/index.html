@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>费诗雨作品集 · 内容编辑器</title>
+  <link rel="stylesheet" href="./editor.css">
+  <script src="../data/content.js"></script>
+  <script defer src="./editor.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">PRIVATE PORTFOLIO EDITOR</p>
+      <h1>作品集内容编辑器</h1>
+      <p class="subtitle">修改当前 GitHub 作品集的文字、封面、视频、关键帧和 UE5 图片。</p>
+    </div>
+    <div class="topbar__actions">
+      <a class="button button--ghost" href="../" target="_blank" rel="noreferrer">打开作品集 ↗</a>
+      <a class="button button--ghost" href="https://github.com/Xingriqing/aigc-visual-portfolio/commits/main" target="_blank" rel="noreferrer">查看更新记录 ↗</a>
+    </div>
+  </header>
+
+  <section class="access-card" aria-labelledby="access-title">
+    <div class="access-card__copy">
+      <span class="step-number">01</span>
+      <div>
+        <h2 id="access-title">连接 GitHub 后才能保存</h2>
+        <p>编辑页本身不保存密码。请使用仅授权给 <strong>aigc-visual-portfolio</strong> 仓库、仅有 <strong>Contents 读写</strong>权限的 Fine-grained token。</p>
+        <p class="security-note">令牌只保存在当前浏览器标签页的 sessionStorage 中；关闭标签页后会清除，不会写入网站文件。</p>
+      </div>
+    </div>
+    <div class="token-row">
+      <label for="github-token">GitHub Fine-grained token</label>
+      <div class="token-controls">
+        <input id="github-token" type="password" autocomplete="off" placeholder="github_pat_…" spellcheck="false">
+        <button type="button" class="button button--primary" data-connect>连接并验证</button>
+        <button type="button" class="button button--quiet" data-disconnect hidden>清除令牌</button>
+      </div>
+      <div class="token-help">
+        <a href="https://github.com/settings/personal-access-tokens/new?name=AIGC%20Portfolio%20Editor&amp;description=Only%20used%20to%20publish%20the%20AIGC%20portfolio&amp;target_name=Xingriqing&amp;expires_in=90&amp;contents=write" target="_blank" rel="noreferrer">创建90天编辑令牌 ↗</a>
+        <span>创建时请选择“Only select repositories” → “aigc-visual-portfolio”。</span>
+      </div>
+      <p class="connection-status" data-connection-status>尚未连接；可以先编辑，发布前再连接。</p>
+    </div>
+  </section>
+
+  <div class="editor-layout">
+    <aside class="sidebar" aria-label="编辑内容选择">
+      <p class="sidebar__label">正在编辑</p>
+      <button type="button" class="mode-button is-active" data-mode="site"><span>01</span>个人资料与首页</button>
+      <button type="button" class="mode-button" data-mode="experience"><span>02</span>职业经历</button>
+      <button type="button" class="mode-button" data-mode="project"><span>03</span>作品项目</button>
+      <button type="button" class="mode-button" data-mode="environment"><span>04</span>UE5 场景视觉</button>
+      <div class="sidebar__help">
+        <strong>使用顺序</strong>
+        <ol>
+          <li>选择要修改的板块</li>
+          <li>编辑文字或选择素材</li>
+          <li>检查页面底部待发布文件</li>
+          <li>连接 GitHub 并发布</li>
+        </ol>
+      </div>
+    </aside>
+
+    <main class="workspace">
+      <form data-editor-form>
+        <div class="panel" data-panel="site">
+          <div class="panel-heading">
+            <div><span>01</span><h2>个人资料</h2></div>
+            <p>用于首页、联系区域和简历按钮。</p>
+          </div>
+          <div class="form-grid form-grid--two">
+            <label>中文姓名<input name="profile.name"></label>
+            <label>英文名 / 拼音<input name="profile.englishName"></label>
+            <label>英文职业定位<input name="profile.title"></label>
+            <label>中文职业定位<input name="profile.titleCN"></label>
+            <label>英文方向<input name="profile.disciplines"></label>
+            <label>中文方向<input name="profile.disciplinesCN"></label>
+          </div>
+          <div class="form-grid form-grid--two">
+            <label>英文简介<textarea name="profile.introEn" rows="4"></textarea></label>
+            <label>中文简介<textarea name="profile.introZh" rows="4"></textarea></label>
+          </div>
+          <div class="form-grid form-grid--two">
+            <label>邮箱<input name="profile.email" type="email"></label>
+            <label>电话<input name="profile.phone" type="tel"></label>
+            <label>微信<input name="profile.wechat"></label>
+            <label>作品集网址<input name="profile.portfolioUrl" type="url"></label>
+            <label class="span-two">简历地址<input name="profile.resumeUrl"></label>
+          </div>
+          <div class="upload-strip">
+            <div><strong>替换简历 PDF</strong><small>建议文件小于 10MB</small></div>
+            <label class="file-button">选择 PDF<input type="file" accept="application/pdf" data-upload="resume"></label>
+          </div>
+
+          <div class="panel-divider"></div>
+          <div class="panel-heading panel-heading--compact">
+            <div><span>02</span><h2>首页主视觉</h2></div>
+            <p>可替换首页右上方的图片。</p>
+          </div>
+          <div class="media-editor">
+            <div class="media-preview" data-preview="hero"><span>首页图片预览</span></div>
+            <div class="media-fields">
+              <label>图片地址<input name="hero.image"></label>
+              <div class="form-grid form-grid--two">
+                <label>图片说明<input name="hero.alt"></label>
+                <label>角标文字<input name="hero.caption"></label>
+                <label>显示方式<select name="hero.fit"><option value="cover">裁切铺满</option><option value="contain">完整显示</option></select></label>
+                <label>画面重心<select name="hero.position"><option value="center">居中</option><option value="top">顶部</option><option value="bottom">底部</option><option value="left">左侧</option><option value="right">右侧</option></select></label>
+              </div>
+              <label class="file-button file-button--wide">上传 / 替换首页图片<input type="file" accept="image/jpeg,image/png,image/webp" data-upload="hero"></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel" data-panel="experience" hidden>
+          <div class="panel-heading">
+            <div><span>02</span><h2>职业经历</h2></div>
+            <p>修改公司、岗位、时间和工作内容。</p>
+          </div>
+          <label class="selector-label">选择经历<select data-experience-select></select></label>
+          <div class="form-grid form-grid--two">
+            <label>Company<input name="experience.company"></label>
+            <label>公司中文名<input name="experience.companyCN"></label>
+            <label>Location<input name="experience.location"></label>
+            <label>地点中文<input name="experience.locationCN"></label>
+            <label>Position<input name="experience.role"></label>
+            <label>中文职位<input name="experience.roleCN"></label>
+            <label>经历类型<input name="experience.type"></label>
+            <label>时间<input name="experience.period"></label>
+          </div>
+          <label>经历简介<textarea name="experience.summary" rows="6"></textarea></label>
+          <label>工作内容（每行一项）<textarea name="experience.responsibilities" rows="10"></textarea></label>
+          <label>保密说明<textarea name="experience.confidentialityNote" rows="4"></textarea></label>
+        </div>
+
+        <div class="panel" data-panel="project" hidden>
+          <div class="panel-heading">
+            <div><span>03</span><h2>作品项目</h2></div>
+            <p>选择项目后可修改文字、素材和公开链接。</p>
+          </div>
+          <label class="selector-label">选择项目<select data-project-select></select></label>
+
+          <div class="form-grid form-grid--two">
+            <label class="span-two">项目名称<textarea name="project.title" rows="2"></textarea></label>
+            <label>英文副标题<input name="project.subtitle"></label>
+            <label>年份 / 状态<input name="project.year"></label>
+            <label>项目类型<input name="project.category"></label>
+            <label>项目标签<input name="project.projectType"></label>
+            <label>客户 / 品牌<input name="project.client"></label>
+            <label>平台<input name="project.platform"></label>
+          </div>
+          <label>项目介绍<textarea name="project.description" rows="6"></textarea></label>
+          <div class="form-grid form-grid--two">
+            <label>Role（每行一项）<textarea name="project.role" rows="7"></textarea></label>
+            <label>My Contribution（每行一项）<textarea name="project.responsibilities" rows="7"></textarea></label>
+          </div>
+          <label>Tools（每行一项）<textarea name="project.tools" rows="5"></textarea></label>
+
+          <div class="panel-divider"></div>
+          <div class="panel-heading panel-heading--compact">
+            <div><span>04</span><h2>封面与成片</h2></div>
+            <p>上传后会自动写入素材地址。</p>
+          </div>
+          <div class="media-pair">
+            <article class="media-card">
+              <div class="media-preview" data-preview="cover"><span>项目封面预览</span></div>
+              <h3>封面 / Hero Image</h3>
+              <label>素材地址<input name="project.coverImage"></label>
+              <div class="form-grid form-grid--two form-grid--compact">
+                <label>显示比例<select name="project.coverAspect"><option>16:9</option><option>3:2</option><option>4:3</option><option>1:1</option><option>3:4</option><option>4:5</option><option>9:16</option></select></label>
+                <label>显示方式<select name="project.coverFit"><option value="cover">裁切铺满</option><option value="contain">完整显示</option></select></label>
+              </div>
+              <label>图片来源说明<textarea name="project.sourceNote" rows="2"></textarea></label>
+              <label class="file-button file-button--wide">上传 / 替换封面<input type="file" accept="image/jpeg,image/png,image/webp" data-upload="cover"></label>
+            </article>
+            <article class="media-card">
+              <div class="media-preview" data-preview="video"><span>视频预览</span></div>
+              <h3>完整成片 / Film</h3>
+              <label>视频地址<input name="project.videoUrl"></label>
+              <p class="field-note">建议 MP4 / H.264，单文件不超过 20MB。</p>
+              <label class="file-button file-button--wide">上传 / 替换视频<input type="file" accept="video/mp4,video/webm" data-upload="video"></label>
+            </article>
+          </div>
+
+          <div class="repeat-section">
+            <div class="repeat-heading"><div><h3>关键帧</h3><p>可以上传多张，调整文字、比例、顺序或删除。</p></div><label class="file-button">添加图片<input type="file" accept="image/jpeg,image/png,image/webp" multiple data-upload="stills"></label></div>
+            <div class="repeat-list" data-stills-list></div>
+          </div>
+
+          <div class="repeat-section">
+            <div class="repeat-heading"><div><h3>外部链接</h3><p>成片、平台页面或项目链接。</p></div><button type="button" class="button button--quiet" data-add-link>＋ 添加链接</button></div>
+            <div class="repeat-list" data-links-list></div>
+          </div>
+        </div>
+
+        <div class="panel" data-panel="environment" hidden>
+          <div class="panel-heading">
+            <div><span>04</span><h2>UE5 × AIGC 场景视觉</h2></div>
+            <p>每组最多四张。可以调整顺序、图片比例和下方说明。</p>
+          </div>
+          <div class="environment-groups">
+            <section class="environment-group" data-environment-group="0">
+              <div class="repeat-heading"><div><h3>第一组</h3><p>GROUP 01 · 图片 1—4</p></div><label class="file-button">上传图片<input type="file" accept="image/jpeg,image/png,image/webp" multiple data-upload="environment-0"></label></div>
+              <div class="repeat-list" data-environment-list="0"></div>
+            </section>
+            <section class="environment-group" data-environment-group="1">
+              <div class="repeat-heading"><div><h3>第二组</h3><p>GROUP 02 · 图片 5—8</p></div><label class="file-button">上传图片<input type="file" accept="image/jpeg,image/png,image/webp" multiple data-upload="environment-1"></label></div>
+              <div class="repeat-list" data-environment-list="1"></div>
+            </section>
+          </div>
+        </div>
+
+        <footer class="savebar">
+          <div>
+            <p data-editor-status>内容已从当前线上版本载入。</p>
+            <small data-pending-status>没有待上传的新文件。</small>
+          </div>
+          <button type="submit" class="button button--publish">保存并发布到 GitHub</button>
+        </footer>
+      </form>
+    </main>
+  </div>
+</body>
+</html>
