@@ -10,7 +10,7 @@
   <meta http-equiv="Expires" content="0">
   <link rel="stylesheet" href="./editor.css?v=20261017-3">
   <script src="../data/content.js"></script>
-  <script defer src="./editor.js?v=20261017-3"></script>
+  <script defer src="./editor.js?v=20261017-4"></script>
 </head>
 <body>
   <header class="topbar">
@@ -191,7 +191,7 @@
           </div>
 
           <div class="repeat-section">
-            <div class="repeat-heading"><div><h3>关键帧</h3><p>可以上传多张，调整文字、比例、顺序或删除。</p></div><label class="file-button">添加图片<input type="file" accept="image/jpeg,image/png,image/webp" multiple data-upload="stills"></label></div>
+            <div class="repeat-heading"><div><h3>关键帧</h3><p>可以上传多张，调整文字、比例、顺序或全部删除；没有图片也可以直接保存。</p></div><label class="file-button">添加图片<input type="file" accept="image/jpeg,image/png,image/webp" multiple data-upload="stills"></label></div>
             <div class="repeat-list" data-stills-list></div>
           </div>
 
@@ -221,7 +221,7 @@
         <footer class="savebar">
           <div>
             <p data-editor-status>内容已从当前线上版本载入。</p>
-            <small data-pending-status>没有待上传的新文件。</small>
+            <small data-pending-status>没有待上传的新文件；文字修改和删除操作仍可直接保存。</small>
           </div>
           <button type="submit" class="button button--publish">保存并发布到 GitHub</button>
         </footer>

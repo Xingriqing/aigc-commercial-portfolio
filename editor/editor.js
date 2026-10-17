@@ -74,7 +74,7 @@
     const bytes = [...pendingFiles.values()].reduce((sum, item) => sum + item.blob.size, 0);
     pendingStatus.textContent = count
       ? `待发布 ${count} 个新文件，共 ${(bytes / 1024 / 1024).toFixed(2)} MB。`
-      : "没有待上传的新文件。";
+      : "没有待上传的新文件；文字修改和删除操作仍可直接保存。";
   }
 
   function escapeHtml(value) {
@@ -375,6 +375,7 @@
     if (!token) throw new Error("请先连接 GitHub。 ");
     const response = await fetch(path.startsWith("http") ? path : `${API_ROOT}${path}`, {
       ...options,
+      cache: options.cache ?? "no-store",
       headers: {
         Accept: "application/vnd.github+json",
         Authorization: `Bearer ${token}`,
@@ -480,6 +481,44 @@
     });
   }
 
+  function isFastForwardError(error) {
+    return /fast[ -]?forward/i.test(String(error?.message ?? ""));
+  }
+
+  async function commitTreeEntries(treeEntries) {
+    let lastError;
+    for (let attempt = 1; attempt <= 3; attempt += 1) {
+      setStatus(attempt === 1 ? "正在读取 GitHub 最新版本……" : `检测到线上版本更新，正在自动重试（${attempt}/3）……`);
+      const ref = await github(`/git/ref/heads/${BRANCH}?_=${Date.now()}-${attempt}`);
+      const headSha = ref.object.sha;
+      const commit = await github(`/git/commits/${headSha}`);
+      const tree = await github("/git/trees", {
+        method: "POST",
+        body: JSON.stringify({ base_tree: commit.tree.sha, tree: treeEntries }),
+      });
+      const dateLabel = new Intl.DateTimeFormat("zh-CN", { dateStyle: "medium", timeStyle: "short", hour12: false }).format(new Date());
+      const newCommit = await github("/git/commits", {
+        method: "POST",
+        body: JSON.stringify({
+          message: `Update portfolio via editor - ${dateLabel}`,
+          tree: tree.sha,
+          parents: [headSha],
+        }),
+      });
+      try {
+        await github(`/git/refs/heads/${BRANCH}`, {
+          method: "PATCH",
+          body: JSON.stringify({ sha: newCommit.sha, force: false }),
+        });
+        return newCommit;
+      } catch (error) {
+        lastError = error;
+        if (!isFastForwardError(error) || attempt === 3) throw error;
+      }
+    }
+    throw lastError;
+  }
+
   async function publish() {
     saveCurrentMode();
     if (!token) {
@@ -492,10 +531,6 @@
     saveButton.disabled = true;
     const originalLabel = saveButton.textContent;
     try {
-      setStatus("正在读取 GitHub 最新版本……");
-      const ref = await github(`/git/ref/heads/${BRANCH}`);
-      const headSha = ref.object.sha;
-      const commit = await github(`/git/commits/${headSha}`);
       const treeEntries = [];
 
       let completed = 0;
@@ -512,24 +547,7 @@
       setStatus("正在写入作品集内容……");
       const contentBlob = await createBlob(contentFileSource(), "utf-8");
       treeEntries.push({ path: CONTENT_PATH, mode: "100644", type: "blob", sha: contentBlob.sha });
-
-      const tree = await github("/git/trees", {
-        method: "POST",
-        body: JSON.stringify({ base_tree: commit.tree.sha, tree: treeEntries }),
-      });
-      const dateLabel = new Intl.DateTimeFormat("zh-CN", { dateStyle: "medium", timeStyle: "short", hour12: false }).format(new Date());
-      const newCommit = await github("/git/commits", {
-        method: "POST",
-        body: JSON.stringify({
-          message: `Update portfolio via editor - ${dateLabel}`,
-          tree: tree.sha,
-          parents: [headSha],
-        }),
-      });
-      await github(`/git/refs/heads/${BRANCH}`, {
-        method: "PATCH",
-        body: JSON.stringify({ sha: newCommit.sha, force: false }),
-      });
+      const newCommit = await commitTreeEntries(treeEntries);
 
       pendingFiles.clear();
       for (const url of previewUrls.values()) URL.revokeObjectURL(url);
