@@ -912,7 +912,7 @@
     const frames = distinctStills.slice(0, isHongqiShowcase ? 4 : 2);
     const hasVideo = isRealMedia(project.videoUrl);
     const hasCover = isRealMedia(project.coverImage);
-    const primaryMedia = hasVideo ? `<video controls playsinline preload="none"${hasCover ? ` poster="${escapeHtml(project.coverImage)}"` : ""}>
+    const primaryMedia = hasVideo ? `<video controls playsinline preload="metadata" data-smart-video${hasCover ? ` poster="${escapeHtml(project.coverImage)}"` : ""}>
         <source src="${escapeHtml(project.videoUrl)}" type="video/mp4">
         \u4F60\u7684\u6D4F\u89C8\u5668\u6682\u4E0D\u652F\u6301\u89C6\u9891\u64AD\u653E\u3002
       </video>` : hasCover ? `<button type="button" data-lightbox-item data-lightbox-src="${escapeHtml(project.coverImage)}" data-lightbox-caption="${escapeHtml(project.title)}" aria-label="\u5168\u5C4F\u67E5\u770B\uFF1A${escapeHtml(project.coverAlt)}">
@@ -1131,6 +1131,23 @@
       item.textContent = (/* @__PURE__ */ new Date()).getFullYear();
     });
   }
+  function initSmartVideoLoading() {
+    const videos = [...document.querySelectorAll("[data-smart-video]")];
+    if (!videos.length) return;
+    const connection = navigator.connection ?? navigator.mozConnection ?? navigator.webkitConnection;
+    const constrainedNetwork = Boolean(connection == null ? void 0 : connection.saveData) || /(^|-)2g$/i.test((connection == null ? void 0 : connection.effectiveType) ?? "");
+    if (constrainedNetwork || !("IntersectionObserver" in window)) return;
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const video = entry.target;
+        video.preload = "auto";
+        video.load();
+        observer.unobserve(video);
+      });
+    }, { rootMargin: "900px 0px", threshold: 0.01 });
+    videos.forEach((video) => observer.observe(video));
+  }
   function initLightbox() {
     const items = [...document.querySelectorAll("[data-lightbox-item]")];
     const lightbox = document.querySelector("[data-lightbox]");
@@ -1342,6 +1359,7 @@
     resume.querySelector("small").textContent = "\u5F85\u8865\u5145";
   }
   initSite();
+  initSmartVideoLoading();
   initLightbox();
   if (window.location.hash && !isPageReload) {
     window.requestAnimationFrame(() => {
