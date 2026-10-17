@@ -28,7 +28,7 @@
       <div>
         <h2 id="access-title">连接 GitHub 后才能保存</h2>
         <p>编辑页本身不保存密码。请使用仅授权给 <strong>aigc-visual-portfolio</strong> 仓库、仅有 <strong>Contents 读写</strong>权限的 Fine-grained token。</p>
-        <p class="security-note">令牌只保存在当前浏览器标签页的 sessionStorage 中；关闭标签页后会清除，不会写入网站文件。</p>
+        <p class="security-note">私人电脑可以选择记住令牌；令牌只保存在这台电脑的浏览器中，不会写入网站文件。</p>
       </div>
     </div>
     <div class="token-row">
@@ -42,6 +42,8 @@
         <a href="https://github.com/settings/personal-access-tokens/new?name=AIGC%20Portfolio%20Editor&amp;description=Only%20used%20to%20publish%20the%20AIGC%20portfolio&amp;target_name=Xingriqing&amp;expires_in=90&amp;contents=write" target="_blank" rel="noreferrer">创建90天编辑令牌 ↗</a>
         <span>创建时请选择“Only select repositories” → “aigc-visual-portfolio”。</span>
       </div>
+      <label class="remember-device"><input type="checkbox" data-remember-device checked><span>记住这台私人电脑（90天内通常不需要再次粘贴）</span></label>
+      <p class="remember-warning">不要在网吧、公司公用电脑或他人设备上勾选。</p>
       <p class="connection-status" data-connection-status>尚未连接；可以先编辑，发布前再连接。</p>
     </div>
   </section>

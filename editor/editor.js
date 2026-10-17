@@ -13,7 +13,8 @@
   let currentMode = "site";
   let currentProjectSlug = Object.keys(content.projects ?? {})[0] ?? "";
   let currentExperienceId = Object.keys(content.experiences ?? {})[0] ?? "";
-  let token = sessionStorage.getItem("portfolioEditorToken") ?? "";
+  const savedDeviceToken = localStorage.getItem("portfolioEditorToken") ?? "";
+  let token = savedDeviceToken || sessionStorage.getItem("portfolioEditorToken") || "";
   let connectedUser = null;
   const pendingFiles = new Map();
   const previewUrls = new Map();
@@ -25,6 +26,7 @@
   const tokenInput = document.querySelector("#github-token");
   const connectButton = document.querySelector("[data-connect]");
   const disconnectButton = document.querySelector("[data-disconnect]");
+  const rememberDevice = document.querySelector("[data-remember-device]");
   const projectSelect = document.querySelector("[data-project-select]");
   const experienceSelect = document.querySelector("[data-experience-select]");
   const saveButton = document.querySelector(".button--publish");
@@ -33,6 +35,7 @@
   const environmentLists = [...document.querySelectorAll("[data-environment-list]")];
 
   tokenInput.value = token;
+  rememberDevice.checked = Boolean(savedDeviceToken) || !token;
 
   function input(name) {
     return form.elements.namedItem(name);
@@ -421,7 +424,13 @@
       connectedUser = await github("https://api.github.com/user");
       const repository = await github("");
       if (!repository.permissions?.push && !repository.permissions?.admin) throw new Error("这个令牌没有仓库写入权限，请检查 Contents 是否为 Read and write。");
-      sessionStorage.setItem("portfolioEditorToken", token);
+      if (rememberDevice.checked) {
+        localStorage.setItem("portfolioEditorToken", token);
+        sessionStorage.removeItem("portfolioEditorToken");
+      } else {
+        sessionStorage.setItem("portfolioEditorToken", token);
+        localStorage.removeItem("portfolioEditorToken");
+      }
       disconnectButton.hidden = false;
       setConnection(`已连接：@${connectedUser.login}，正在读取 GitHub 最新内容……`, "ok");
       await loadLatestFromGitHub();
@@ -429,6 +438,7 @@
       setStatus("已从 GitHub 仓库重新载入最新内容。", "ok");
     } catch (error) {
       token = "";
+      localStorage.removeItem("portfolioEditorToken");
       sessionStorage.removeItem("portfolioEditorToken");
       setConnection(error.message || "GitHub 连接失败。", "error");
     } finally {
@@ -440,9 +450,10 @@
     token = "";
     connectedUser = null;
     tokenInput.value = "";
+    localStorage.removeItem("portfolioEditorToken");
     sessionStorage.removeItem("portfolioEditorToken");
     disconnectButton.hidden = true;
-    setConnection("令牌已从当前浏览器标签页清除。", "ok");
+    setConnection("令牌已从这台电脑的浏览器中清除。", "ok");
   }
 
   function contentFileSource() {
