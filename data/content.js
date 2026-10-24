@@ -6,18 +6,18 @@ window.__PORTFOLIO_CONTENT__ = {
       "category": "AI品牌宣传片",
       "client": "红旗天工",
       "platform": "红旗天工官方账号/抖音",
-      "projectType": "COMMERCIAL PROJECT",
+      "projectType": "商业项目",
       "description": "红旗天工品牌AI影像项目。以 AI 生成技术参与品牌短片的视觉制作，生成AI素材及多轮迭代，网站仅展示允许公开的成片和公开项目画面。",
       "coverImage": "./media/uploads/hongqi-tianggong-partners/cover-1791867169940-a4f4c453.jpg",
       "coverVideo": null,
       "videoUrl": "",
-      "coverAlt": "红旗天工《大明天工合伙人》 project cover",
+      "coverAlt": "红旗天工《大明天工合伙人》项目封面",
       "coverAspect": "9:16",
       "coverFit": "cover",
       "role": [
-        "AI Image Generation",
-        "AI Video Generation / AI视频生成",
-        "Asset Iteration"
+        "AI图像生成",
+        "AI视频生成",
+        "素材迭代"
       ],
       "responsibilities": [
         "参与第1、5集AI影像制作。",
@@ -25,23 +25,23 @@ window.__PORTFOLIO_CONTENT__ = {
       ],
       "tools": [
         "Nano Banana",
-        "In-house AI Platform",
+        "内部AI平台",
         "Adobe Photoshop"
       ],
       "stills": [],
       "externalLinks": [
         {
           "url": "https://v.douyin.com/6p1dBfUaRes/ LwS:/ Y@z.gb 06/11 :1pm",
-          "label": "VIEW EP01 ON DOUYIN / 第1集视频"
+          "label": "第1集视频"
         },
         {
           "url": "https://v.douyin.com/j29NFzJt5GE/ :2pm w@F.HV caa:/ 06/01",
-          "label": "VIEW EP05 ON DOUYIN / 第5集视频"
+          "label": "第5集视频"
         }
       ],
       "externalLink": {
         "url": "https://v.douyin.com/6p1dBfUaRes/ LwS:/ Y@z.gb 06/11 :1pm",
-        "label": "VIEW EP01 ON DOUYIN / 第1集视频"
+        "label": "第1集视频"
       },
       "subtitle": "",
       "status": "",
@@ -50,21 +50,21 @@ window.__PORTFOLIO_CONTENT__ = {
     "riji": {
       "title": "日寂",
       "year": "2026",
-      "category": "AI Sci-Fi Visual Film",
+      "category": "AI科幻视觉短片",
       "client": "",
       "platform": "",
-      "projectType": "IP PROJECT",
+      "projectType": "IP项目",
       "description": "科幻世界AI影像项目。围绕 “未来航空科技” 建立整体视觉风格。",
       "coverImage": "./media/uploads/riji/film-1791468548077-68c328f8-poster.jpg",
       "coverVideo": "./media/uploads/riji/film-1791468548077-68c328f8-web.mp4",
       "videoUrl": "./media/uploads/riji/film-1791468548077-68c328f8-web.mp4",
-      "coverAlt": "日寂 project cover",
+      "coverAlt": "《日寂》项目封面",
       "coverAspect": "16:9",
       "coverFit": "cover",
       "role": [
-        "Sci-Fi Visual Development",
-        "AI Image Generation",
-        "Shot Iteration"
+        "科幻视觉开发",
+        "AI图像生成",
+        "镜头迭代"
       ],
       "responsibilities": [
         "负责部分AI图像生成与素材迭代。",
@@ -85,31 +85,30 @@ window.__PORTFOLIO_CONTENT__ = {
       "sourceNote": ""
     },
     "avelor-saltwood": {
-      "title": "AVELOR SALTWOOD",
+      "title": "香水TVC",
       "year": "2026",
-      "category": "AI Fragrance TVC",
+      "category": "AI香水广告",
       "client": "",
       "platform": "",
-      "projectType": "PERSONAL PROJECT",
+      "projectType": "个人项目",
       "description": "一支约20秒的AI香水TVC。以夏日海岸、海盐、水汽与木质感为核心，探索AIGC在高端香氛广告中的商业化应用。",
       "coverImage": "./assets/fragrance-tvc-poster.jpg",
       "coverVideo": "./assets/fragrance-tvc-web.mp4",
       "videoUrl": "./assets/fragrance-tvc-web.mp4",
-      "coverAlt": "AVELOR SALTWOOD project cover",
+      "coverAlt": "香水TVC项目封面",
       "coverAspect": "16:9",
       "coverFit": "cover",
       "role": [
-        "Shot Design",
-        "Visual Concept",
-        "Character, Scene and Prop Design / 人物道具场景设计",
-        "AI Image Generation",
-        "AI Video Generation",
-        "Post-production"
+        "创意策划",
+        "脚本与分镜设计",
+        "视觉风格设计",
+        "AI影像制作",
+        "剪辑与后期"
       ],
       "responsibilities": [
-        "建立整体视觉语言。",
-        "统一人物、产品、服装与海岸环境的视觉设定。",
-        "完成脚本、分镜头设计、AI动态生成、剪辑与后期制作。"
+        "独立完成广告创意策划、脚本及分镜设计，确立品牌视觉风格与叙事节奏。",
+        "独立完成人物、产品及场景视觉设定，AI图像与动态镜头的生成、筛选及迭代。",
+        "独立完成剪辑与后期、配乐与画面节奏统一，实现从创意到成片的完整制作。"
       ],
       "tools": [
         "seedance 2.5",
@@ -120,7 +119,7 @@ window.__PORTFOLIO_CONTENT__ = {
       "stills": [
         {
           "src": "./media/uploads/avelor-saltwood/frame-1-1791469762395-c54c3024.webp",
-          "alt": "AVELOR SALTWOOD project frame",
+          "alt": "香水TVC人物特写素材",
           "label": "人物特写素材",
           "layout": "wide",
           "aspect": "16:9",
@@ -128,7 +127,7 @@ window.__PORTFOLIO_CONTENT__ = {
         },
         {
           "src": "./media/uploads/avelor-saltwood/frame-1-1791469763300-34c63f04.webp",
-          "alt": "AVELOR SALTWOOD project frame",
+          "alt": "香水TVC人物场景素材",
           "label": "人物场景素材",
           "layout": "wide",
           "aspect": "16:9",
@@ -136,32 +135,35 @@ window.__PORTFOLIO_CONTENT__ = {
         }
       ],
       "externalLinks": [],
-      "externalLink": null
+      "externalLink": null,
+      "subtitle": "",
+      "status": ""
     },
     "xunying": {
       "title": "循影",
-      "year": "2026–2027 · Work in Progress",
-      "category": "AI Interactive Film",
+      "year": "2026–2027",
+      "category": "AI交互影像",
       "client": "",
-      "platform": "Unity · In Development",
-      "projectType": "GRADUATION PROJECT",
+      "platform": "Unity · 开发中",
+      "projectType": "毕业设计",
       "description": "毕业设计《循影》是一项基于监控视角展开的AI互动影游。",
       "coverImage": "./assets/projects/xunying/cover-monitor-room.jpg",
       "coverVideo": null,
       "videoUrl": "",
-      "coverAlt": "循影 project cover",
+      "coverAlt": "《循影》项目封面",
       "coverAspect": "16:9",
       "coverFit": "cover",
       "role": [
-        "AI Visual Design / AI视觉设计",
-        "Character / Scene / Prop Design / 人物场景道具设计",
-        "AI Asset Production / AI素材生成",
-        "Post-production / 后期制作"
+        "创意策划",
+        "剧本编写",
+        "分镜与视觉设计",
+        "AI影像制作",
+        "剪辑与后期"
       ],
       "responsibilities": [
-        "负责项目AI视觉风格设计与素材制作。",
-        "完成角色、场景、道具设计。",
-        "AI素材筛选与修复、静态转动态及影像后期。"
+        "独立完成悬疑剧情策划、分支剧本及分镜设计，构建监控视角下的视觉叙事与线索逻辑。",
+        "独立完成人物、场景及道具的视觉设定，AI图像与视频素材生成、优化与迭代。",
+        "负责剪辑与后期制作，规划角色配音、环境音效及声音线索，结合画面节奏推进视听叙事。（开发中）"
       ],
       "tools": [
         "Seedance 2.0",
@@ -176,22 +178,24 @@ window.__PORTFOLIO_CONTENT__ = {
         {
           "src": "./media/uploads/xunying/frame-2-1791474125889-0c2cf6b3.webp",
           "alt": "",
-          "label": "Character Setting",
+          "label": "角色设定",
           "layout": "wide",
           "aspect": "16:9",
           "fit": "cover"
         },
         {
           "src": "./media/uploads/xunying/frame-3-1791871116265-adc46bcc.jpg",
-          "alt": "循影 project frame",
-          "label": "Selected Frame 3",
+          "alt": "《循影》精选画面",
+          "label": "精选画面 3",
           "layout": "wide",
           "aspect": "16:9",
           "fit": "cover"
         }
       ],
       "externalLinks": [],
-      "externalLink": null
+      "externalLink": null,
+      "subtitle": "",
+      "status": "开发中"
     }
   },
   "profile": {

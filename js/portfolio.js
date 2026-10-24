@@ -112,17 +112,16 @@
         "coverAspect": "16:9",
         "coverFit": "cover",
         "role": [
-          "Shot Design",
-          "Visual Concept",
-          "Character, Scene and Prop Design / \u4EBA\u7269\u9053\u5177\u573A\u666F\u8BBE\u8BA1",
-          "AI Image Generation",
-          "AI Video Generation",
-          "Post-production"
+          "\u521B\u610F\u7B56\u5212",
+          "\u811A\u672C\u4E0E\u5206\u955C\u8BBE\u8BA1",
+          "\u89C6\u89C9\u98CE\u683C\u8BBE\u8BA1",
+          "AI\u5F71\u50CF\u5236\u4F5C",
+          "\u526A\u8F91\u4E0E\u540E\u671F"
         ],
         "responsibilities": [
-          "\u5EFA\u7ACB\u6574\u4F53\u89C6\u89C9\u8BED\u8A00\u3002",
-          "\u7EDF\u4E00\u4EBA\u7269\u3001\u4EA7\u54C1\u3001\u670D\u88C5\u4E0E\u6D77\u5CB8\u73AF\u5883\u7684\u89C6\u89C9\u8BBE\u5B9A\u3002",
-          "\u5B8C\u6210\u811A\u672C\u3001\u5206\u955C\u5934\u8BBE\u8BA1\u3001AI\u52A8\u6001\u751F\u6210\u3001\u526A\u8F91\u4E0E\u540E\u671F\u5236\u4F5C\u3002"
+          "\u72EC\u7ACB\u5B8C\u6210\u5E7F\u544A\u521B\u610F\u7B56\u5212\u3001\u811A\u672C\u53CA\u5206\u955C\u8BBE\u8BA1\uFF0C\u786E\u7ACB\u54C1\u724C\u89C6\u89C9\u98CE\u683C\u4E0E\u53D9\u4E8B\u8282\u594F\u3002",
+          "\u72EC\u7ACB\u5B8C\u6210\u4EBA\u7269\u3001\u4EA7\u54C1\u53CA\u573A\u666F\u89C6\u89C9\u8BBE\u5B9A\uFF0CAI\u56FE\u50CF\u4E0E\u52A8\u6001\u955C\u5934\u7684\u751F\u6210\u3001\u7B5B\u9009\u53CA\u8FED\u4EE3\u3002",
+          "\u72EC\u7ACB\u5B8C\u6210\u526A\u8F91\u4E0E\u540E\u671F\u3001\u914D\u4E50\u4E0E\u753B\u9762\u8282\u594F\u7EDF\u4E00\uFF0C\u5B9E\u73B0\u4ECE\u521B\u610F\u5230\u6210\u7247\u7684\u5B8C\u6574\u5236\u4F5C\u3002"
         ],
         "tools": [
           "seedance 2.5",
@@ -211,15 +210,16 @@
         "coverAspect": "16:9",
         "coverFit": "cover",
         "role": [
-          "AI Visual Design / AI\u89C6\u89C9\u8BBE\u8BA1",
-          "Character / Scene / Prop Design / \u4EBA\u7269\u573A\u666F\u9053\u5177\u8BBE\u8BA1",
-          "AI Asset Production / AI\u7D20\u6750\u751F\u6210",
-          "Post-production / \u540E\u671F\u5236\u4F5C"
+          "\u521B\u610F\u7B56\u5212",
+          "\u5267\u672C\u7F16\u5199",
+          "\u5206\u955C\u4E0E\u89C6\u89C9\u8BBE\u8BA1",
+          "AI\u5F71\u50CF\u5236\u4F5C",
+          "\u526A\u8F91\u4E0E\u540E\u671F"
         ],
         "responsibilities": [
-          "\u8D1F\u8D23\u9879\u76EEAI\u89C6\u89C9\u98CE\u683C\u8BBE\u8BA1\u4E0E\u7D20\u6750\u5236\u4F5C\u3002",
-          "\u5B8C\u6210\u89D2\u8272\u3001\u573A\u666F\u3001\u9053\u5177\u8BBE\u8BA1\u3002",
-          "AI\u7D20\u6750\u7B5B\u9009\u4E0E\u4FEE\u590D\u3001\u9759\u6001\u8F6C\u52A8\u6001\u53CA\u5F71\u50CF\u540E\u671F\u3002"
+          "\u72EC\u7ACB\u5B8C\u6210\u60AC\u7591\u5267\u60C5\u7B56\u5212\u3001\u5206\u652F\u5267\u672C\u53CA\u5206\u955C\u8BBE\u8BA1\uFF0C\u6784\u5EFA\u76D1\u63A7\u89C6\u89D2\u4E0B\u7684\u89C6\u89C9\u53D9\u4E8B\u4E0E\u7EBF\u7D22\u903B\u8F91\u3002",
+          "\u72EC\u7ACB\u5B8C\u6210\u4EBA\u7269\u3001\u573A\u666F\u53CA\u9053\u5177\u7684\u89C6\u89C9\u8BBE\u5B9A\uFF0CAI\u56FE\u50CF\u4E0E\u89C6\u9891\u7D20\u6750\u751F\u6210\u3001\u4F18\u5316\u4E0E\u8FED\u4EE3\u3002",
+          "\u8D1F\u8D23\u526A\u8F91\u4E0E\u540E\u671F\u5236\u4F5C\uFF0C\u89C4\u5212\u89D2\u8272\u914D\u97F3\u3001\u73AF\u5883\u97F3\u6548\u53CA\u58F0\u97F3\u7EBF\u7D22\uFF0C\u7ED3\u5408\u753B\u9762\u8282\u594F\u63A8\u8FDB\u89C6\u542C\u53D9\u4E8B\u3002\uFF08\u5F00\u53D1\u4E2D\uFF09"
         ],
         "tools": [
           "Seedance 2.0",
@@ -599,8 +599,8 @@
       platform: null,
       projectType: "PERSONAL PROJECT",
       status: "20-SECOND FILM",
-      role: ["Visual Concept", "Style Development", "AI Image Generation", "AI Video Generation", "Shot Design", "Editing", "Post-production"],
-      responsibilities: ["\u5EFA\u7ACB\u6D77\u76D0\u3001\u6D77\u98CE\u3001\u6E7F\u6DA6\u76AE\u80A4\u3001\u77FF\u7269\u4E0E\u6728\u8D28\u611F\u7684\u6574\u4F53\u89C6\u89C9\u8BED\u8A00\u3002", "\u7EDF\u4E00\u4EBA\u7269\u3001\u4EA7\u54C1\u3001\u670D\u88C5\u4E0E\u6D77\u5CB8\u73AF\u5883\u7684\u89C6\u89C9\u8BBE\u5B9A\u3002", "\u5B8C\u6210\u955C\u5934\u8BBE\u8BA1\u3001\u52A8\u6001\u751F\u6210\u3001\u526A\u8F91\u4E0E\u540E\u671F\u3002"],
+      role: ["\u521B\u610F\u7B56\u5212", "\u811A\u672C\u4E0E\u5206\u955C\u8BBE\u8BA1", "\u89C6\u89C9\u98CE\u683C\u8BBE\u8BA1", "AI\u5F71\u50CF\u5236\u4F5C", "\u526A\u8F91\u4E0E\u540E\u671F"],
+      responsibilities: ["\u72EC\u7ACB\u5B8C\u6210\u5E7F\u544A\u521B\u610F\u7B56\u5212\u3001\u811A\u672C\u53CA\u5206\u955C\u8BBE\u8BA1\uFF0C\u786E\u7ACB\u54C1\u724C\u89C6\u89C9\u98CE\u683C\u4E0E\u53D9\u4E8B\u8282\u594F\u3002", "\u72EC\u7ACB\u5B8C\u6210\u4EBA\u7269\u3001\u4EA7\u54C1\u53CA\u573A\u666F\u89C6\u89C9\u8BBE\u5B9A\uFF0CAI\u56FE\u50CF\u4E0E\u52A8\u6001\u955C\u5934\u7684\u751F\u6210\u3001\u7B5B\u9009\u53CA\u8FED\u4EE3\u3002", "\u72EC\u7ACB\u5B8C\u6210\u526A\u8F91\u4E0E\u540E\u671F\u3001\u914D\u4E50\u4E0E\u753B\u9762\u8282\u594F\u7EDF\u4E00\uFF0C\u5B9E\u73B0\u4ECE\u521B\u610F\u5230\u6210\u7247\u7684\u5B8C\u6574\u5236\u4F5C\u3002"],
       description: "\u4E00\u652F\u7EA620\u79D2\u7684\u72EC\u7ACBAI\u9999\u6C34\u5546\u4E1A\u5E7F\u544A\u3002\u56F4\u7ED5\u6D77\u76D0\u3001\u6D77\u98CE\u3001\u6E7F\u6DA6\u76AE\u80A4\u3001\u77FF\u7269\u548C\u6728\u8D28\u611F\u5EFA\u7ACB\u89C6\u89C9\u8BED\u8A00\uFF0C\u63A2\u7D22AI\u751F\u6210\u5F71\u50CF\u5728\u9AD8\u7AEF\u9999\u6C1B\u5546\u4E1A\u5E7F\u544A\u4E2D\u7684\u5E94\u7528\u3002",
       tools: ["AI Image Tools", "AI Video Tools", "Editing Software\uFF08\u5F85\u8865\u5145\uFF09"],
       coverImage: "./assets/fragrance-tvc-poster.jpg",
@@ -743,8 +743,8 @@
       platform: null,
       projectType: "GRADUATION PROJECT",
       status: "VISUAL DEVELOPMENT \xB7 WORK IN PROGRESS",
-      role: ["Visual Development", "AI Image Generation", "Narrative Visual Design", "Character / Scene / Prop Consistency", "Surveillance Image Design"],
-      responsibilities: ["\u63A2\u7D22\u771F\u5B9E\u5F55\u50CF\u4E0EAI\u751F\u6210\u5F02\u5E38\u5F71\u50CF\u4E4B\u95F4\u7684\u53D9\u4E8B\u5173\u7CFB\u3002", "\u8FDB\u884C\u89D2\u8272\u3001\u573A\u666F\u3001\u9053\u5177\u53CA\u76D1\u63A7\u754C\u9762\u7684\u89C6\u89C9\u5F00\u53D1\u3002", "\u4EE5\u4FE1\u606F / \u8BC1\u636E\u7ED3\u6784\u63A8\u8FDB\u5FC3\u7406\u6050\u6016\u4E0E\u6E38\u620F\u5316\u53D9\u4E8B\u89C6\u89C9\u3002"],
+      role: ["\u521B\u610F\u7B56\u5212", "\u5267\u672C\u7F16\u5199", "\u5206\u955C\u4E0E\u89C6\u89C9\u8BBE\u8BA1", "AI\u5F71\u50CF\u5236\u4F5C", "\u526A\u8F91\u4E0E\u540E\u671F"],
+      responsibilities: ["\u72EC\u7ACB\u5B8C\u6210\u60AC\u7591\u5267\u60C5\u7B56\u5212\u3001\u5206\u652F\u5267\u672C\u53CA\u5206\u955C\u8BBE\u8BA1\uFF0C\u6784\u5EFA\u76D1\u63A7\u89C6\u89D2\u4E0B\u7684\u89C6\u89C9\u53D9\u4E8B\u4E0E\u7EBF\u7D22\u903B\u8F91\u3002", "\u72EC\u7ACB\u5B8C\u6210\u4EBA\u7269\u3001\u573A\u666F\u53CA\u9053\u5177\u7684\u89C6\u89C9\u8BBE\u5B9A\uFF0CAI\u56FE\u50CF\u4E0E\u89C6\u9891\u7D20\u6750\u751F\u6210\u3001\u4F18\u5316\u4E0E\u8FED\u4EE3\u3002", "\u8D1F\u8D23\u526A\u8F91\u4E0E\u540E\u671F\u5236\u4F5C\uFF0C\u89C4\u5212\u89D2\u8272\u914D\u97F3\u3001\u73AF\u5883\u97F3\u6548\u53CA\u58F0\u97F3\u7EBF\u7D22\uFF0C\u7ED3\u5408\u753B\u9762\u8282\u594F\u63A8\u8FDB\u89C6\u542C\u53D9\u4E8B\u3002\uFF08\u5F00\u53D1\u4E2D\uFF09"],
       description: "\u6BD5\u4E1A\u8BBE\u8BA1\u7684Visual Development\u9636\u6BB5\u3002\u56F4\u7ED5\u76D1\u63A7\u89C6\u89D2\u3001\u5F02\u5E38\u5F71\u50CF\u3001\u4FE1\u606F / \u8BC1\u636E\u89C6\u89C9\u53D9\u4E8B\uFF0C\u4EE5\u53CA\u89D2\u8272\u3001\u573A\u666F\u4E0E\u9053\u5177\u4E00\u81F4\u6027\u5C55\u5F00\uFF1B\u5F53\u524D\u4E0D\u5305\u88C5\u4E3A\u5DF2\u5B8C\u6210\u7684\u5B8C\u6574\u6210\u7247\u3002",
       tools: ["AI Image Tools", "\u5177\u4F53\u8F6F\u4EF6\u4E0E\u6D41\u7A0B\u5F85\u8865\u5145"],
       coverImage: "./assets/projects/xunying/cover-monitor-room.jpg",
@@ -914,12 +914,12 @@
     const coverSource = `src="${escapeHtml(project.coverImage)}"`;
     const primaryMedia = hasVideo ? `<button class="deferred-video-shell" type="button" data-deferred-video data-video-src="${escapeHtml(project.videoUrl)}"${hasCover ? ` data-video-poster="${escapeHtml(project.coverImage)}"` : ""} aria-label="\u64AD\u653E\u89C6\u9891\uFF1A${escapeHtml(project.title)}">
         ${hasCover ? `<img ${coverSource} alt="${escapeHtml(project.coverAlt)}" width="1600" height="1000" ${imageLoading} decoding="async">` : ""}
-        <span class="deferred-video-shell__prompt"><i aria-hidden="true">\u25B6</i><b>Play Film / \u64AD\u653E\u89C6\u9891</b></span>
+        <span class="deferred-video-shell__prompt"><i aria-hidden="true">\u25B6</i><b>\u64AD\u653E\u89C6\u9891</b></span>
       </button>` : hasCover ? `<button type="button" data-lightbox-item data-lightbox-src="${escapeHtml(project.coverImage)}" data-lightbox-caption="${escapeHtml(project.title)}" aria-label="\u5168\u5C4F\u67E5\u770B\uFF1A${escapeHtml(project.coverAlt)}">
           <img ${coverSource} alt="${escapeHtml(project.coverAlt)}" width="1600" height="1000" ${imageLoading} decoding="async">
         </button>` : "";
     const externalLinks = getExternalLinks(project);
-    const externalButtons = externalLinks.map((link) => `<a class="work-case__watch" href="${escapeHtml(link.url)}" target="_blank" rel="noreferrer">${escapeHtml(link.label ?? "View Public Release / \u67E5\u770B\u516C\u5F00\u9875\u9762")} <span>\u2197</span></a>`).join("");
+    const externalButtons = externalLinks.map((link) => `<a class="work-case__watch" href="${escapeHtml(link.url)}" target="_blank" rel="noreferrer">${escapeHtml(link.label ?? "\u67E5\u770B\u516C\u5F00\u9875\u9762")} <span>\u2197</span></a>`).join("");
     const release = hasValue(project.publicReleaseNote) && !isPendingValue(project.publicReleaseNote) ? `<span class="work-case__release">${escapeHtml(project.publicReleaseNote)}</span>` : "";
     const imageButtons = isHongqiShowcase ? "" : externalButtons;
     const actions = imageButtons || release ? `<div class="work-case__actions">${release}${imageButtons}</div>` : "";
@@ -929,23 +929,23 @@
     const roles = visibleItems(project.role).map(formatBilingual);
     const responsibilities = visibleItems(project.responsibilities);
     const tools = visibleItems(project.tools).map(formatBilingual);
-    const projectFact = hasValue(project.subtitle) || projectMeta.length ? `<section><p class="work-case__label">Project / \u9879\u76EE</p>${hasValue(project.subtitle) ? `<p>${escapeHtml(formatBilingual(project.subtitle))}</p>` : ""}${projectMeta.length ? `<small>${projectMeta.map(escapeHtml).join("<br>")}</small>` : ""}</section>` : "";
+    const projectFact = hasValue(project.subtitle) || projectMeta.length ? `<section><p class="work-case__label">\u9879\u76EE</p>${hasValue(project.subtitle) ? `<p>${escapeHtml(formatBilingual(project.subtitle))}</p>` : ""}${projectMeta.length ? `<small>${projectMeta.map(escapeHtml).join("<br>")}</small>` : ""}</section>` : "";
     const facts = [
       projectFact,
-      roles.length ? `<section><p class="work-case__label">Role / \u804C\u8D23</p><ul>${roles.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul></section>` : "",
-      responsibilities.length ? `<section class="work-case__contribution"><p class="work-case__label">My Contribution / \u6211\u7684\u5DE5\u4F5C</p><ol>${responsibilities.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ol></section>` : "",
-      tools.length || resourceLinks ? `<section class="work-case__tools"><p class="work-case__label">Tools / \u5DE5\u5177</p>${tools.length ? `<p>${tools.map(escapeHtml).join(" / ")}</p>` : ""}${resourceLinks}</section>` : ""
+      roles.length ? `<section><p class="work-case__label">\u804C\u8D23</p><ul>${roles.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul></section>` : "",
+      responsibilities.length ? `<section class="work-case__contribution"><p class="work-case__label">\u6211\u7684\u5DE5\u4F5C</p><ol>${responsibilities.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ol></section>` : "",
+      tools.length || resourceLinks ? `<section class="work-case__tools"><p class="work-case__label">\u5DE5\u5177</p>${tools.length ? `<p>${tools.map(escapeHtml).join(" / ")}</p>` : ""}${resourceLinks}</section>` : ""
     ].filter(Boolean).join("");
     const headingMeta = [project.year, project.status].filter((item) => hasValue(item) && !isPendingValue(item));
     const eyebrow = [formatBilingual(project.category), headingMeta.join(" \xB7 ")].filter(hasValue).map((item) => `<span>${escapeHtml(item)}</span>`).join("");
-    const availability = hasVideo ? "Film available / \u6210\u7247\u53EF\u64AD\u653E" : hasCover || frames.length ? "Selected material / \u7CBE\u9009\u753B\u9762" : "";
+    const availability = hasVideo ? "\u6210\u7247\u53EF\u64AD\u653E" : hasCover || frames.length ? "\u7CBE\u9009\u753B\u9762" : "";
     const summary = hasValue(project.description) || availability ? `<div class="work-case__summary">${hasValue(project.description) ? `<p>${escapeHtml(project.description)}</p>` : ""}${availability ? `<span>${availability}</span>` : ""}</div>` : "";
     const frameMarkup = frames.length ? `<aside class="work-case__frames" aria-label="${escapeHtml(project.title)} \u5173\u952E\u5E27">${frames.map((frame, frameIndex) => renderShowcaseFrame(frame, frameIndex)).join("")}</aside>` : "";
     const stage = primaryMedia ? `<div class="work-case__stage${frames.length ? "" : " is-media-only"} reveal">
         ${sourceNote ? '<div class="work-case__primary-column">' : ""}
         <div class="work-case__primary${project.coverFit === "contain" ? " is-contain" : ""}" style="${mediaStyle(project.coverAspect)}">
           ${primaryMedia}
-          <span class="work-case__media-label">${hasVideo ? "Final Film / \u6210\u7247" : "Project Image / \u9879\u76EE\u753B\u9762"}</span>
+          <span class="work-case__media-label">${hasVideo ? "\u6210\u7247" : "\u9879\u76EE\u753B\u9762"}</span>
           ${actions}
         </div>
         ${sourceNote ? `<p class="work-case__source-note">${escapeHtml(sourceNote)}</p></div>` : ""}
@@ -978,9 +978,9 @@
       const release = isPendingValue(item.publicReleaseNote) ? "" : item.publicReleaseNote;
       const meta = [platform, status].filter(hasValue).join(" \xB7 ");
       const actions = externalLinks.map((link, linkIndex) => `<a class="series-project-card__action" href="${escapeHtml(link.url)}" target="_blank" rel="noreferrer">
-      <span>${escapeHtml(link.label ?? "View Public Release / \u67E5\u770B\u516C\u5F00\u9875\u9762")}${externalLinks.length > 1 ? ` ${String(linkIndex + 1).padStart(2, "0")}` : ""}</span><b>\u2197</b>
+      <span>${escapeHtml(link.label ?? "\u67E5\u770B\u516C\u5F00\u9875\u9762")}${externalLinks.length > 1 ? ` ${String(linkIndex + 1).padStart(2, "0")}` : ""}</span><b>\u2197</b>
     </a>`).join("");
-      const frames = stills.map((frame, frameIndex) => `<button class="series-project-card__frame${frame.fit === "contain" ? " is-contain" : ""}" type="button" data-lightbox-item data-lightbox-src="${escapeHtml(frame.src)}" data-lightbox-caption="${escapeHtml(frame.label ?? `${item.title} Keyframe ${frameIndex + 1}`)}" aria-label="\u5168\u5C4F\u67E5\u770B\uFF1A${escapeHtml(frame.alt ?? `${item.title}\u5173\u952E\u5E27`)}">
+      const frames = stills.map((frame, frameIndex) => `<button class="series-project-card__frame${frame.fit === "contain" ? " is-contain" : ""}" type="button" data-lightbox-item data-lightbox-src="${escapeHtml(frame.src)}" data-lightbox-caption="${escapeHtml(frame.label ?? `${item.title} \u5173\u952E\u5E27 ${frameIndex + 1}`)}" aria-label="\u5168\u5C4F\u67E5\u770B\uFF1A${escapeHtml(frame.alt ?? `${item.title}\u5173\u952E\u5E27`)}">
       <img src="${escapeHtml(frame.src)}" alt="${escapeHtml(frame.alt ?? `${item.title}\u5173\u952E\u5E27`)}" width="720" height="1280" loading="lazy" fetchpriority="low" decoding="async">
       <span>${String(frameIndex + 1).padStart(2, "0")}${hasValue(frame.label) ? ` / ${escapeHtml(frame.label)}` : ""}</span>
     </button>`).join("");
