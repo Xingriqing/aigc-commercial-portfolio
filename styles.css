@@ -683,6 +683,23 @@ h1, h2, h3, h4 { text-rendering: geometricPrecision; }
 #hongqi-tianggong-partners .work-case__stage.is-frames-only:has(.work-case__frame:only-child) { max-width: 440px; }
 #hongqi-tianggong-partners .work-case__stage.is-frames-only:has(.work-case__frame:only-child) .work-case__frames { grid-template-columns: 1fr; }
 
+#personal-documentary-photography .work-case__stage.is-frames-only { width: 100%; }
+#personal-documentary-photography .work-case__stage.is-frames-only .work-case__frames {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(8px, 1vw, 16px);
+}
+#personal-documentary-photography .work-case__frame { aspect-ratio: 3 / 2; }
+#personal-documentary-photography .work-case__frame img { object-fit: cover; }
+
+#two-selves .work-case__heading h3 { font-size: clamp(46px, 5.4vw, 86px); line-height: .98; }
+#two-selves .work-case__stage.is-frames-only { width: 100%; }
+#two-selves .work-case__stage.is-frames-only .work-case__frames {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(8px, .8vw, 14px);
+}
+#two-selves .work-case__frame { aspect-ratio: 16 / 9; }
+#two-selves .work-case__frame img { object-fit: cover; }
+
 @media (min-width: 1200px) {
   #hongqi-tianggong-partners .work-case__summary > p { font-size: clamp(12px, .9vw, 14px); white-space: nowrap; }
 }
@@ -713,4 +730,11 @@ h1, h2, h3, h4 { text-rendering: geometricPrecision; }
   }
   #hongqi-tianggong-partners .work-case__stage:not(.is-frames-only):has(.work-case__frame:only-child) .work-case__frames { grid-template-columns: 1fr; width: 50%; justify-self: center; }
   #hongqi-tianggong-partners .work-case__visual-details .work-case__facts { gap: 8px; }
+  #personal-documentary-photography .work-case__stage.is-frames-only .work-case__frames {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  #two-selves .work-case__heading h3 { font-size: clamp(38px, 10.5vw, 58px); }
+  #two-selves .work-case__stage.is-frames-only .work-case__frames {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }

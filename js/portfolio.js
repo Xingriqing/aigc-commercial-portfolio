@@ -581,7 +581,7 @@
       visualTests: [],
       credits: [],
       featured: true,
-      order: 3,
+      order: 5,
       relatedProjects: [],
       archive: false,
       workInProgress: false,
@@ -623,6 +623,86 @@
       credits: [],
       featured: true,
       order: 2,
+      relatedProjects: [],
+      archive: false,
+      workInProgress: false,
+      materialStatus: "ready",
+      publish: true
+    },
+    {
+      id: "project-07",
+      slug: "personal-documentary-photography",
+      title: "个人纪实摄影",
+      subtitle: "",
+      year: "",
+      category: "纪实摄影",
+      client: null,
+      platform: null,
+      projectType: null,
+      status: "",
+      role: [],
+      responsibilities: [],
+      description: "以日常生活与公共空间为观察对象，记录自然发生的人物瞬间。",
+      tools: [],
+      coverImage: null,
+      coverAlt: "",
+      coverFit: "cover",
+      coverVideo: null,
+      videoUrl: null,
+      externalLink: null,
+      publicReleaseNote: null,
+      stills: [
+        { src: "./assets/projects/personal-documentary-photography/01-park-family-bike.jpg", alt: "公园林荫道上的家庭脚踏车与儿童", layout: "wide", aspect: "3:2", label: "林荫道", fit: "cover" },
+        { src: "./assets/projects/personal-documentary-photography/02-family-camping.jpg", alt: "草地露营中的一家人", layout: "wide", aspect: "3:2", label: "草地露营", fit: "cover" },
+        { src: "./assets/projects/personal-documentary-photography/03-balloon-stall-closeup.jpg", alt: "气球摊位上的彩色气球", layout: "wide", aspect: "3:2", label: "气球摊", fit: "cover" },
+        { src: "./assets/projects/personal-documentary-photography/04-balloon-stall-bridge.jpg", alt: "桥栏两侧的儿童与气球摊", layout: "wide", aspect: "3:2", label: "桥上相遇", fit: "cover" },
+        { src: "./assets/projects/personal-documentary-photography/05-children-sketching.jpg", alt: "户外写生中的孩子们", layout: "wide", aspect: "3:2", label: "户外写生", fit: "cover" },
+        { src: "./assets/projects/personal-documentary-photography/06-child-with-balloon.jpg", alt: "骑玩具车、手持气球的孩子", layout: "wide", aspect: "3:2", label: "孩子与气球", fit: "cover" }
+      ],
+      productionFrames: [],
+      visualTests: [],
+      credits: [],
+      featured: true,
+      order: 3,
+      relatedProjects: [],
+      archive: false,
+      workInProgress: false,
+      materialStatus: "ready",
+      publish: true
+    },
+    {
+      id: "project-08",
+      slug: "two-selves",
+      title: "实验性视觉设计《Two selves》",
+      subtitle: "",
+      year: "",
+      category: "实验性视觉设计",
+      client: null,
+      platform: null,
+      projectType: null,
+      status: "",
+      role: [],
+      responsibilities: [],
+      description: "人的内外常是两个世界。外在力求展现平静、精致与秩序；内在却充斥着自然生长的复杂思绪与情感。通过人像与风景影像的拼贴与折叠重组，以视觉错位呈现自我的双重性。",
+      tools: [],
+      coverImage: null,
+      coverAlt: "",
+      coverFit: "cover",
+      coverVideo: null,
+      videoUrl: null,
+      externalLink: null,
+      publicReleaseNote: null,
+      stills: [
+        { src: "./assets/projects/two-selves/01-sea-collage.png", alt: "海面与海浪的黑白拼贴作品", layout: "wide", aspect: "16:9", label: "作品一", fit: "cover" },
+        { src: "./assets/projects/two-selves/02-piano-pair.png", alt: "钢琴外部与内部结构的并置作品", layout: "wide", aspect: "16:9", label: "作品二", fit: "cover" },
+        { src: "./assets/projects/two-selves/03-trees-and-sea.png", alt: "树木与海景的黑白并置作品", layout: "wide", aspect: "16:9", label: "作品三", fit: "cover" },
+        { src: "./assets/projects/two-selves/04-folded-self-portrait.png", alt: "折叠摄影书与人像拼贴成品", layout: "wide", aspect: "16:9", label: "作品四", fit: "cover" }
+      ],
+      productionFrames: [],
+      visualTests: [],
+      credits: [],
+      featured: true,
+      order: 4,
       relatedProjects: [],
       archive: false,
       workInProgress: false,
@@ -766,7 +846,7 @@
       visualTests: [],
       credits: [],
       featured: true,
-      order: 4,
+      order: 6,
       relatedProjects: [],
       archive: false,
       workInProgress: true,
@@ -905,8 +985,10 @@
   function renderProjectShowcase(project, index, total) {
     const number = String(index + 1).padStart(2, "0");
     const isHongqiShowcase = project.slug === "hongqi-tianggong-partners";
+    const isPhotographyShowcase = project.slug === "personal-documentary-photography";
+    const isTwoSelvesShowcase = project.slug === "two-selves";
     const distinctStills = (project.stills ?? []).filter((item) => isRealMedia(item == null ? void 0 : item.src) && item.src !== project.coverImage);
-    const frames = distinctStills.slice(0, isHongqiShowcase ? 4 : 2);
+    const frames = distinctStills.slice(0, isPhotographyShowcase ? 6 : isHongqiShowcase || isTwoSelvesShowcase ? 4 : 2);
     const hasVideo = isRealMedia(project.videoUrl);
     const hasCover = isRealMedia(project.coverImage);
     const priorityImage = index < 3;
@@ -1251,7 +1333,7 @@
     preload.fetchPriority = index === 0 ? "high" : "auto";
     document.head.append(preload);
   });
-  var workMarkup = featured.map((project, listIndex) => renderProjectShowcase(project, listIndex < 4 ? listIndex : listIndex + 1, totalShowcases));
+  var workMarkup = featured.map((project, listIndex) => renderProjectShowcase(project, seriesProjects.length && listIndex >= 4 ? listIndex + 1 : listIndex, totalShowcases));
   if (seriesProjects.length) workMarkup.splice(4, 0, renderSeriesShowcase(releasedSeriesCollection, seriesProjects, 4, totalShowcases));
   document.querySelector("[data-project-list]").innerHTML = workMarkup.join("");
   var environmentAspects = {
