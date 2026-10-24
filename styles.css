@@ -93,6 +93,7 @@ button { color: inherit; }
 .section-heading h2 { font-family: var(--display); font-size: clamp(64px, 8.5vw, 132px); line-height: .88; letter-spacing: -.055em; font-weight: 400; }
 .section-heading h2 em { color: var(--sage); font-family: var(--display); font-style: normal; font-weight: 400; text-transform: none; }
 .section-heading > span { max-width: 320px; color: var(--muted); font-size: 11px; line-height: 1.65; letter-spacing: .04em; text-transform: uppercase; }
+.section-heading--works { display: block; margin-bottom: 0; padding-bottom: clamp(24px, 3vw, 42px); }
 
 .project-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: clamp(38px, 5.5vw, 88px) clamp(14px, 2vw, 30px); align-items: start; }
 .project-card { grid-column: span 6; }
