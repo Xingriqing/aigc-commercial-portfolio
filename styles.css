@@ -769,53 +769,76 @@ h1, h2, h3, h4 { text-rendering: geometricPrecision; }
 .site-header:not(.is-scrolled) .site-nav a[aria-current] { color: var(--ink); }
 .site-header:not(.is-scrolled) .site-nav a small { color: rgba(11, 12, 12, .42); }
 
-/* Red Flag: compact portrait cover, then full-width project information. */
+/* Red Flag: portrait cover left, project information right at matching height. */
 #hongqi-tianggong-partners.work-case { padding-block: clamp(44px, 4.5vw, 70px); }
 #hongqi-tianggong-partners .work-case__heading h3.hongqi-title { font-size: clamp(46px, 5.2vw, 80px); line-height: .96; }
 #hongqi-tianggong-partners .work-case__visual-details,
 #hongqi-tianggong-partners .work-case__visual-details:has(.work-case__frames) {
-  display: block;
+  display: grid;
+  grid-template-columns: minmax(230px, 290px) minmax(0, 1fr);
+  gap: clamp(34px, 4vw, 58px);
+  align-items: stretch;
   max-width: 1120px;
   margin-top: clamp(24px, 3vw, 40px);
   margin-inline: auto;
 }
-#hongqi-tianggong-partners .work-case__visual-details .work-case__stage.is-media-only { width: 100%; max-width: 230px; margin-inline: auto; }
-#hongqi-tianggong-partners .work-case__visual-details .work-case__facts { grid-template-columns: 1fr; gap: 0; width: 100%; max-width: none; margin-top: 22px; }
+#hongqi-tianggong-partners .work-case__visual-details .work-case__stage.is-media-only { width: 100%; max-width: 290px; margin: 0; }
+#hongqi-tianggong-partners .work-case__visual-details .work-case__facts {
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto minmax(0, 1fr);
+  align-content: stretch;
+  gap: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  margin-top: 0;
+}
 #hongqi-tianggong-partners .work-case__visual-details .work-case__facts > section,
 #hongqi-tianggong-partners .work-case__visual-details .work-case__facts > section:not(:first-child) { padding: 13px 0 4px; border-right: 0; }
 #hongqi-tianggong-partners .work-case__label { margin-bottom: 11px; }
 #hongqi-tianggong-partners .work-case__facts p,
 #hongqi-tianggong-partners .work-case__facts li { font-size: 11px; line-height: 1.7; }
+#hongqi-tianggong-partners .work-case__tools { display: flex; flex-direction: column; }
 #hongqi-tianggong-partners .work-case__resource-links {
   grid-template-columns: 1fr;
   max-width: 380px;
-  margin-top: 14px;
+  margin-top: auto;
+  padding-top: 16px;
 }
 #hongqi-tianggong-partners .work-case__resource-links .work-case__watch { min-width: 0; gap: 12px; }
 
-/* Riji: video and project information use the same full content width. */
+/* Riji: film left, project information right at matching height. */
 #riji.work-case { padding-block: clamp(48px, 5vw, 76px); }
 #riji .work-case__heading h3 { font-size: clamp(48px, 5.8vw, 88px); }
 #riji .work-case__summary { margin-top: 18px; }
 #riji .work-case__summary > p { font-size: 13px; line-height: 1.72; }
 #riji .work-case__visual-details {
-  display: block;
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(320px, 1fr);
+  gap: clamp(32px, 4vw, 52px);
+  align-items: stretch;
   width: 100%;
-  max-width: 980px;
+  max-width: 1120px;
   margin-top: 24px;
   margin-inline: auto;
 }
 #riji .work-case__visual-details .work-case__stage,
 #riji .work-case__visual-details .work-case__facts { margin-top: 0; }
-#riji .work-case__visual-details .work-case__facts { grid-template-columns: 2fr 3fr 5fr 2fr; margin-top: 18px; border-top: 1px solid var(--line-light); }
+#riji .work-case__visual-details .work-case__facts {
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto minmax(0, 1fr) auto;
+  align-content: stretch;
+  height: 100%;
+  border-top: 1px solid var(--line-light);
+}
 #riji .work-case__visual-details .work-case__facts > section,
 #riji .work-case__visual-details .work-case__facts > section:not(:first-child) {
-  padding: 20px clamp(14px, 1.8vw, 26px) 6px;
-  border-top: 0;
-  border-right: 1px solid var(--line-light);
+  padding: 12px 0 8px;
+  border-top: 1px solid var(--line-light);
+  border-right: 0;
 }
-#riji .work-case__visual-details .work-case__facts > section:first-child { padding-left: 0; }
-#riji .work-case__visual-details .work-case__facts > section:last-child { padding-right: 0; border-right: 0; }
+#riji .work-case__visual-details .work-case__facts > section:first-child { border-top: 0; }
+#riji .work-case__visual-details .work-case__facts > section:last-child { padding-bottom: 0; }
 #riji .work-case__label { margin-bottom: 11px; }
 
 /* Xunying: the cover and two supporting images form one uninterrupted row. */
@@ -836,7 +859,13 @@ h1, h2, h3, h4 { text-rendering: geometricPrecision; }
   .work-case__facts--3,
   .work-case__facts--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .work-case__facts--1 { grid-template-columns: 1fr; }
-  #riji .work-case__visual-details .work-case__facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  #hongqi-tianggong-partners .work-case__visual-details,
+  #hongqi-tianggong-partners .work-case__visual-details:has(.work-case__frames),
+  #riji .work-case__visual-details { display: block; }
+  #hongqi-tianggong-partners .work-case__visual-details .work-case__stage.is-media-only { margin-inline: auto; }
+  #hongqi-tianggong-partners .work-case__visual-details .work-case__facts,
+  #riji .work-case__visual-details .work-case__facts { height: auto; margin-top: 20px; }
+  #riji .work-case__visual-details .work-case__facts { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: none; }
   #riji .work-case__visual-details .work-case__facts > section,
   #riji .work-case__visual-details .work-case__facts > section:not(:first-child) { padding: 18px; border-right: 1px solid var(--line-light); }
   #riji .work-case__visual-details .work-case__facts > section:nth-child(even) { border-right: 0; }
