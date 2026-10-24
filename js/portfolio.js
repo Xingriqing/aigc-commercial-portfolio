@@ -357,17 +357,17 @@
     "profile": {
       "name": "\u8D39\u8BD7\u96E8",
       "englishName": "SHIYU FEI",
-      "title": "AI Visual Creator",
-      "titleCN": "AI\u89C6\u89C9\u521B\u4F5C\u8005",
-      "disciplines": "AI Commercial Projects \xB7 Narrative Content \xB7 Visual Practice",
-      "disciplinesCN": "AI\u5546\u4E1A\u9879\u76EE \xB7 \u53D9\u4E8B\u5185\u5BB9 \xB7 \u89C6\u89C9\u5B9E\u8DF5",
+      "title": "AI\u521B\u610F\u5F71\u50CF\u5236\u4F5C",
+      "titleCN": "",
+      "disciplines": "",
+      "disciplinesCN": "",
       "introEn": "",
       "introZh": "",
       "email": "2071745698@qq.com",
       "phone": "18221648959",
       "wechat": "yuuu5114_",
       "portfolioUrl": "",
-      "resumeUrl": "./media/uploads/site-resume/resume-1791813734309-362383f1.pdf?v=20261017-aliyun-link-1"
+      "resumeUrl": ""
     },
     "hero": {
       "image": "",
@@ -467,10 +467,10 @@
   var profile = {
     name: "[\u59D3\u540D\u5F85\u8865\u5145]",
     englishName: "[ENGLISH NAME]",
-    title: "AI Visual Creator",
-    titleCN: "AI\u89C6\u89C9\u521B\u4F5C\u8005",
-    disciplines: "AI Filmmaking \xB7 Commercial Visuals \xB7 Narrative Content",
-    disciplinesCN: "AI\u5F71\u50CF\u5236\u4F5C \xB7 \u5546\u4E1A\u89C6\u89C9 \xB7 \u53D9\u4E8B\u5185\u5BB9",
+    title: "AI\u521B\u610F\u5F71\u50CF\u5236\u4F5C",
+    titleCN: "",
+    disciplines: "",
+    disciplinesCN: "",
     introEn: "Focused on AI filmmaking, commercial visuals and narrative content.",
     introZh: "AI\u5F71\u50CF\u3001\u5546\u4E1A\u89C6\u89C9\u4E0E\u53D9\u4E8B\u5185\u5BB9\u521B\u4F5C\u3002",
     email: null,
@@ -515,8 +515,7 @@
   var releasedSeriesCollection = {
     id: "released-ai-series",
     homepageOrder: 5,
-    // 下方项目会在首页第 05 个 Case 中依次展开，不需要进入子页面。
-    projectSlugs: ["hougongmou", "quzhong-ren-weihuan"]
+    projectSlugs: []
   };
 
   // ../../../../Temp/aigc-portfolio-offline-oySPln/data/projects.js
@@ -582,7 +581,7 @@
       visualTests: [],
       credits: [],
       featured: true,
-      order: 2,
+      order: 3,
       relatedProjects: [],
       archive: false,
       workInProgress: false,
@@ -623,7 +622,7 @@
       visualTests: [],
       credits: [],
       featured: true,
-      order: 3,
+      order: 2,
       relatedProjects: [],
       archive: false,
       workInProgress: false,
@@ -767,7 +766,7 @@
       visualTests: [],
       credits: [],
       featured: true,
-      order: 6,
+      order: 4,
       relatedProjects: [],
       archive: false,
       workInProgress: true,
@@ -876,9 +875,7 @@
   }
   function renderHeader(active = "") {
     const links = [
-      ["experience", "#experience", "Experience", "\u7ECF\u5386"],
       ["work", "#selected-work", "Work", "\u4F5C\u54C1"],
-      ["resume", "#resume", "Resume", "\u7B80\u5386"],
       ["contact", "#contact", "Contact", "\u8054\u7CFB"]
     ];
     return `
@@ -1236,16 +1233,15 @@
   var projectOverrides = contentOverrides.projects ?? {};
   var activeProfile = { ...profile, ...contentOverrides.profile ?? {} };
   var activeHero = { ...hero, ...contentOverrides.hero ?? {} };
-  var activeExperiences = experiences.map((item) => {
-    var _a5;
-    return { ...item, ...((_a5 = contentOverrides.experiences) == null ? void 0 : _a5[item.id]) ?? {} };
-  });
+  var activeExperiences = [];
   document.querySelector("[data-header-slot]").innerHTML = renderHeader("", activeProfile);
   document.querySelector("[data-footer-slot]").innerHTML = renderFooter(activeProfile);
-  var activeProjects = projects.map((project) => normalizeProject({ ...project, ...projectOverrides[project.slug] ?? {} }));
+  var removedProjectSlugs = /* @__PURE__ */ new Set(["junkyard-billionaires-wife", "hougongmou", "quzhong-ren-weihuan"]);
+  var activeProjects = projects.filter((project) => !removedProjectSlugs.has(project.slug)).map((project) => normalizeProject({ ...project, ...projectOverrides[project.slug] ?? {} }));
   var getActiveProjectBySlug = (slug) => activeProjects.find((project) => project.slug === slug);
-  var totalShowcases = 6;
   var featured = activeProjects.filter((project) => project.featured).sort((a, b) => a.order - b.order);
+  var seriesProjects = releasedSeriesCollection.projectSlugs.map(getActiveProjectBySlug).filter(Boolean);
+  var totalShowcases = featured.length + (seriesProjects.length ? 1 : 0);
   featured.slice(0, 3).forEach((project, index) => {
     if (!isRealMedia(project.coverImage)) return;
     const preload = document.createElement("link");
@@ -1256,8 +1252,7 @@
     document.head.append(preload);
   });
   var workMarkup = featured.map((project, listIndex) => renderProjectShowcase(project, listIndex < 4 ? listIndex : listIndex + 1, totalShowcases));
-  var seriesProjects = releasedSeriesCollection.projectSlugs.map(getActiveProjectBySlug).filter(Boolean);
-  workMarkup.splice(4, 0, renderSeriesShowcase(releasedSeriesCollection, seriesProjects, 4, totalShowcases));
+  if (seriesProjects.length) workMarkup.splice(4, 0, renderSeriesShowcase(releasedSeriesCollection, seriesProjects, 4, totalShowcases));
   document.querySelector("[data-project-list]").innerHTML = workMarkup.join("");
   var environmentAspects = {
     "16:9": "16 / 9",
@@ -1289,7 +1284,8 @@
   </div>`;
   }).join("");
   document.querySelector("[data-lightbox-slot]").innerHTML = renderLightbox();
-  document.querySelector("[data-experience-list]").innerHTML = activeExperiences.map((item) => renderExperience(item)).join("");
+  var experienceList = document.querySelector("[data-experience-list]");
+  if (experienceList) experienceList.innerHTML = activeExperiences.map((item) => renderExperience(item)).join("");
   var collectionSlugs = new Set(releasedSeriesCollection.projectSlugs);
   var archiveProjects = activeProjects.filter((project) => project.archive && !collectionSlugs.has(project.slug));
   var archiveList = document.querySelector("[data-archive-list]");
@@ -1378,14 +1374,14 @@
     } else link.hidden = true;
   });
   var resume = document.querySelector("[data-resume]");
-  if (activeProfile.resumeUrl) {
+  if (resume && activeProfile.resumeUrl) {
     resume.href = activeProfile.resumeUrl;
     resume.classList.remove("is-disabled");
     resume.removeAttribute("aria-disabled");
     resume.setAttribute("target", "_blank");
     resume.setAttribute("rel", "noreferrer");
     resume.querySelector("small").textContent = "Open \u2197";
-  } else {
+  } else if (resume) {
     resume.removeAttribute("href");
     resume.removeAttribute("target");
     resume.removeAttribute("rel");

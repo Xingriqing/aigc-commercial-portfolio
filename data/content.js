@@ -138,51 +138,6 @@ window.__PORTFOLIO_CONTENT__ = {
       "externalLinks": [],
       "externalLink": null
     },
-    "junkyard-billionaires-wife": {
-      "title": "After Switching Husbands, I Become A Junkyard Billionaire's Wife",
-      "year": "2026",
-      "category": "AI Live-action Drama",
-      "client": "",
-      "platform": "iDrama",
-      "projectType": "PLATFORM PROJECT",
-      "description": "正式上线 iDrama 的海外 AI 真人短剧项目。\n（该项目正式上线 iDrama。因地区及平台访问限制，目前无法获取原始上线页面及完整成片素材，因此本页面以现有公开上线记录及项目信息进行展示。）",
-      "coverImage": "./media/uploads/junkyard-billionaires-wife/cover-1791472031888-7c0fdcdf.webp",
-      "coverVideo": null,
-      "videoUrl": "",
-      "coverAlt": "After Switching Husbands, I Become A Junkyard Billionaire's Wife project cover",
-      "coverAspect": "16:9",
-      "coverFit": "cover",
-      "role": [
-        "AI Image Generation",
-        "AI Video Generation / AI视频生成",
-        "Shot Iteration"
-      ],
-      "responsibilities": [
-        "参与剧集AI 影像制作。",
-        "负责部分镜头的图像与视频生成、人物一致性调整。",
-        "根据反馈进行画面修改与版本迭代。"
-      ],
-      "tools": [
-        "Seedance 2.0",
-        "Jimeng AI",
-        "Kling AI",
-        "Nano Banana",
-        "In-house AI Platform",
-        "Adobe Photoshop"
-      ],
-      "stills": [
-        {
-          "src": "./media/uploads/junkyard-billionaires-wife/frame-1-1791870184147-ff5de8a9.jpg",
-          "alt": "",
-          "label": "",
-          "layout": "wide",
-          "aspect": "1:1",
-          "fit": "cover"
-        }
-      ],
-      "externalLinks": [],
-      "externalLink": null
-    },
     "xunying": {
       "title": "循影",
       "year": "2026–2027 · Work in Progress",
@@ -237,124 +192,22 @@ window.__PORTFOLIO_CONTENT__ = {
       ],
       "externalLinks": [],
       "externalLink": null
-    },
-    "hougongmou": {
-      "title": "后宫谋",
-      "year": "2026",
-      "category": "AI Live-action Drama",
-      "client": "",
-      "platform": "红果",
-      "projectType": "PLATFORM PROJECT",
-      "description": "正式上线红果平台的AI真人剧项目。\n历史平台页面显示1523万热度，目前作品已下架。",
-      "coverImage": "./media/uploads/hougongmou/cover-1791734958866-b8178ed5.webp",
-      "coverVideo": null,
-      "videoUrl": "",
-      "coverAlt": "后宫谋 project cover",
-      "coverAspect": "9:16",
-      "coverFit": "contain",
-      "role": [
-        "AI Image Generation",
-        "AI Video Generation"
-      ],
-      "responsibilities": [
-        "参与剧集AI视觉制作，",
-        "负责部分镜头的AI图像生成、视频生成，并根据剧情与制作反馈进行画面修改和版本迭代，"
-      ],
-      "tools": [
-        "Jimeng AI",
-        "Nano Banana",
-        "In-house AI Platform"
-      ],
-      "stills": [],
-      "externalLinks": [],
-      "externalLink": null
-    },
-    "quzhong-ren-weihuan": {
-      "title": "曲终人未还",
-      "year": "2026",
-      "category": "AI Live-action Drama",
-      "client": "",
-      "platform": "腾讯视频",
-      "projectType": "PLATFORM PROJECT",
-      "description": "正式上线腾讯视频的AI古装真人短剧项目。\n本人负责第17、21、25集全部AI视频素材的生成与迭代。\n制作阶段画面，对应内容已于腾讯视频公开上线，仅用于个人项目经历展示，相关影像及素材权利归项目版权方所有。",
-      "coverImage": "./media/uploads/quzhong-ren-weihuan/cover-1791724487884-9e626286.png",
-      "coverVideo": null,
-      "videoUrl": "",
-      "coverAlt": "曲终人未还 project cover",
-      "coverAspect": "3:4",
-      "coverFit": "cover",
-      "role": [
-        "AI Image Generation",
-        "AI Video Generation"
-      ],
-      "responsibilities": [
-        "负责第17、21、25集AI视频素材制作，包括镜头生成、人物与场景一致性控制、画面调整及版本迭代，并将最终AI视频素材交付后续剪辑。"
-      ],
-      "tools": [
-        "Seedance 2.0",
-        "Jimeng AI",
-        "Nano Banana"
-      ],
-      "stills": [
-        {
-          "src": "./media/uploads/quzhong-ren-weihuan/frame-1-1791724908460-cf502301.webp",
-          "alt": "",
-          "label": "EP17",
-          "layout": "wide",
-          "aspect": "9:16",
-          "fit": "cover"
-        },
-        {
-          "src": "./media/uploads/quzhong-ren-weihuan/frame-2-1791725359586-977fa0df.webp",
-          "alt": "",
-          "label": "EP21",
-          "layout": "wide",
-          "aspect": "16:9",
-          "fit": "cover"
-        },
-        {
-          "src": "./media/uploads/quzhong-ren-weihuan/frame-3-1791725446853-3e01d2f1.webp",
-          "alt": "",
-          "label": "EP25",
-          "layout": "wide",
-          "aspect": "9:16",
-          "fit": "cover"
-        }
-      ],
-      "externalLinks": [
-        {
-          "url": "https://v.qq.com/x/cover/mzc003ol3xl09xf/y3198h4pjt9.html?url_from=share",
-          "label": "VIEW EP17 / 第17集视频"
-        },
-        {
-          "url": "https://v.qq.com/x/cover/mzc003ol3xl09xf/l3198otoogw.html?url_from=share",
-          "label": "VIEW EP21 / 第21集视频"
-        },
-        {
-          "url": "https://v.qq.com/x/cover/mzc003ol3xl09xf/r3198iyw1hn.html?url_from=share",
-          "label": "VIEW EP25 /  第25集视频"
-        }
-      ],
-      "externalLink": {
-        "url": "https://v.qq.com/x/cover/mzc003ol3xl09xf/y3198h4pjt9.html?url_from=share",
-        "label": "VIEW EP17 / 第17集视频"
-      }
     }
   },
   "profile": {
     "name": "费诗雨",
     "englishName": "SHIYU FEI",
-    "title": "AI Visual Creator",
-    "titleCN": "AI视觉创作者",
-    "disciplines": "AI Commercial Projects · Narrative Content · Visual Practice",
-    "disciplinesCN": "AI商业项目 · 叙事内容 · 视觉实践",
+    "title": "AI创意影像制作",
+    "titleCN": "",
+    "disciplines": "",
+    "disciplinesCN": "",
     "introEn": "",
     "introZh": "",
     "email": "2071745698@qq.com",
     "phone": "18221648959",
     "wechat": "yuuu5114_",
     "portfolioUrl": "",
-    "resumeUrl": "./media/uploads/site-resume/resume-1791813734309-362383f1.pdf?v=20261017-aliyun-link-1"
+    "resumeUrl": ""
   },
   "hero": {
     "image": "",
@@ -363,26 +216,7 @@ window.__PORTFOLIO_CONTENT__ = {
     "fit": "cover",
     "position": "center"
   },
-  "experiences": {
-    "iqiyi-ai-account-operations": {
-      "company": "iQIYI",
-      "companyCN": "爱奇艺",
-      "location": "Shanghai",
-      "locationCN": "上海",
-      "role": "AI Account Operations Intern",
-      "roleCN": "AI账号运营实习生",
-      "type": "INTERNSHIP EXPERIENCE",
-      "period": "3+ Months",
-      "summary": "参与爱奇艺AI账号的短视频内容生产与运营，围绕影视内容开展AI辅助二创，接触抖音、视频号、小红书等平台的内容策划、素材制作、版本迭代与发布流程。在实际业务中使用AI工具提升内容生产效率，并结合平台趋势、热点与用户反馈持续优化内容呈现。",
-      "confidentialityNote": "因业务及项目保密要求，具体账号、内部项目细节与相关业务数据暂不公开。",
-      "responsibilities": [
-        "短视频内容生产：参与抖音、视频号、小红书等平台的影视二创及 AI 短视频制作，围绕影视内容开展创意表达与素材加工。",
-        "AI 工作流与发布：结合自研 AI 工具辅助内容生产，参与制作流程梳理，协助内容发布与账号日常运营。",
-        "热点与内容迭代：关注平台趋势、热门话题与竞品动态，结合用户反馈协助调整选题和内容表达。"
-      ],
-      "featured": true
-    }
-  },
+  "experiences": {},
   "environmentGallery": {
     "groups": [
       [
