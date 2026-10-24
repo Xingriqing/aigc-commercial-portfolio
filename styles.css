@@ -785,7 +785,7 @@ h1, h2, h3, h4 { text-rendering: geometricPrecision; }
 #hongqi-tianggong-partners .work-case__visual-details .work-case__stage.is-media-only { width: 100%; max-width: 290px; margin: 0; }
 #hongqi-tianggong-partners .work-case__visual-details .work-case__facts {
   grid-template-columns: 1fr;
-  grid-template-rows: auto auto minmax(0, 1fr);
+  grid-template-rows: repeat(3, minmax(0, 1fr));
   align-content: stretch;
   gap: 0;
   width: 100%;
@@ -798,12 +798,10 @@ h1, h2, h3, h4 { text-rendering: geometricPrecision; }
 #hongqi-tianggong-partners .work-case__label { margin-bottom: 11px; }
 #hongqi-tianggong-partners .work-case__facts p,
 #hongqi-tianggong-partners .work-case__facts li { font-size: 11px; line-height: 1.7; }
-#hongqi-tianggong-partners .work-case__tools { display: flex; flex-direction: column; }
 #hongqi-tianggong-partners .work-case__resource-links {
   grid-template-columns: 1fr;
   max-width: 380px;
-  margin-top: auto;
-  padding-top: 16px;
+  margin-top: 16px;
 }
 #hongqi-tianggong-partners .work-case__resource-links .work-case__watch { min-width: 0; gap: 12px; }
 
