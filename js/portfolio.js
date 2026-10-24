@@ -6,24 +6,20 @@
         "title": "\u7EA2\u65D7\u5929\u5DE5\u300A\u5927\u660E\u5929\u5DE5\u5408\u4F19\u4EBA\u300B",
         "year": "2026",
         "category": "AI\u54C1\u724C\u5BA3\u4F20\u7247",
-        "client": "\u7EA2\u65D7\u5929\u5DE5",
-        "platform": "\u7EA2\u65D7\u5929\u5DE5\u5B98\u65B9\u8D26\u53F7/\u6296\u97F3",
-        "projectType": "COMMERCIAL PROJECT",
-        "description": "\u7EA2\u65D7\u5929\u5DE5\u54C1\u724CAI\u5F71\u50CF\u9879\u76EE\u3002\u4EE5 AI \u751F\u6210\u6280\u672F\u53C2\u4E0E\u54C1\u724C\u77ED\u7247\u7684\u89C6\u89C9\u5236\u4F5C\uFF0C\u751F\u6210AI\u7D20\u6750\u53CA\u591A\u8F6E\u8FED\u4EE3\uFF0C\u7F51\u7AD9\u4EC5\u5C55\u793A\u5141\u8BB8\u516C\u5F00\u7684\u6210\u7247\u548C\u516C\u5F00\u9879\u76EE\u753B\u9762\u3002",
+        "client": "",
+        "platform": "",
+        "projectType": "",
+        "description": "",
+        "detailNote": "\u4EE5 AI \u751F\u6210\u6280\u672F\u53C2\u4E0E\u54C1\u724C\u77ED\u7247\u7684\u89C6\u89C9\u5236\u4F5C\uFF0C\n\u7F51\u7AD9\u4EC5\u5C55\u793A\u5141\u8BB8\u516C\u5F00\u7684\u6210\u7247\u548C\u516C\u5F00\u9879\u76EE\u753B\u9762\u3002",
         "coverImage": "./media/uploads/hongqi-tianggong-partners/cover-1791867169940-a4f4c453.jpg",
         "coverVideo": null,
         "videoUrl": "",
         "coverAlt": "\u7EA2\u65D7\u5929\u5DE5\u300A\u5927\u660E\u5929\u5DE5\u5408\u4F19\u4EBA\u300B project cover",
         "coverAspect": "9:16",
         "coverFit": "cover",
-        "role": [
-          "AI Image Generation",
-          "AI Video Generation / AI\u89C6\u9891\u751F\u6210",
-          "Asset Iteration"
-        ],
+        "role": [],
         "responsibilities": [
-          "\u53C2\u4E0E\u7B2C1\u30015\u96C6AI\u5F71\u50CF\u5236\u4F5C\u3002",
-          "\u8D1F\u8D23\u90E8\u5206\u955C\u5934\u7684 AI \u56FE\u50CF\u751F\u6210\u3001AI\u89C6\u9891\u751F\u6210\uFF0C\u5E76\u6839\u636E\u53CD\u9988\u8FDB\u884C\u753B\u9762\u8C03\u6574\u4E0E\u7D20\u6750\u8FED\u4EE3\uFF0C\u914D\u5408\u5B8C\u6210\u6700\u7EC8\u89C6\u89C9\u8D44\u4EA7\u4EA4\u4ED8\u3002"
+          "\u8D1F\u8D23\u7B2C1\u30015\u96C6\u90E8\u5206AI\u5F71\u50CF\u5236\u4F5C\uFF0C\n\u6839\u636E\u53CD\u9988\u8FDB\u884C\u753B\u9762\u8C03\u6574\u4E0E\u7D20\u6750\u8FED\u4EE3\u3002"
         ],
         "tools": [
           "Nano Banana",
@@ -202,6 +198,7 @@
         "client": "",
         "platform": "Unity \xB7 In Development",
         "projectType": "GRADUATION PROJECT",
+        "detailNote": "AI\u4E92\u52A8\u5F71\u6E38\u620F",
         "description": "\u6BD5\u4E1A\u8BBE\u8BA1\u300A\u5FAA\u5F71\u300B\u662F\u4E00\u9879\u57FA\u4E8E\u76D1\u63A7\u89C6\u89D2\u5C55\u5F00\u7684AI\u4E92\u52A8\u5F71\u6E38\u3002",
         "coverImage": "./assets/projects/xunying/cover-monitor-room.jpg",
         "coverVideo": null,
@@ -527,13 +524,14 @@
       subtitle: "AI Brand Short Film",
       year: "2026",
       category: "AI Brand Short Film",
-      client: "\u7EA2\u65D7\u5929\u5DE5",
+      client: null,
       platform: null,
-      projectType: "COMMERCIAL PROJECT",
-      status: "PUBLIC MATERIAL PENDING",
-      role: ["AI Visual Production", "AI Image Generation", "Shot-level Visual Execution", "Asset Iteration"],
-      responsibilities: ["\u53C2\u4E0E\u7B2C1\u96C6\u3001\u7B2C5\u96C6AI\u5F71\u50CF\u5236\u4F5C\u3002", "\u5177\u4F53\u955C\u5934\u8303\u56F4\u4E0E\u804C\u8D23\u7EC6\u8282\u5F85\u8865\u5145\u3002"],
-      description: "\u771F\u5B9E\u54C1\u724C\u5546\u4E1A\u9879\u76EE\u3002\u53C2\u4E0E\u6B63\u5F0FAI\u5F71\u50CF\u751F\u4EA7\u6D41\u7A0B\u4E2D\u7684\u955C\u5934\u7EA7\u89C6\u89C9\u6267\u884C\u4E0E\u7D20\u6750\u8FED\u4EE3\uFF1B\u7F51\u7AD9\u4EC5\u5C55\u793A\u5141\u8BB8\u516C\u5F00\u7684\u6210\u7247\u3001\u516C\u5F00\u9875\u9762\u548C\u516C\u5F00\u9879\u76EE\u753B\u9762\u3002",
+      projectType: null,
+      status: "",
+      role: [],
+      responsibilities: ["\u8D1F\u8D23\u7B2C1\u30015\u96C6\u90E8\u5206AI\u5F71\u50CF\u5236\u4F5C\uFF0C\n\u6839\u636E\u53CD\u9988\u8FDB\u884C\u753B\u9762\u8C03\u6574\u4E0E\u7D20\u6750\u8FED\u4EE3\u3002"],
+      description: "",
+      detailNote: "\u4EE5 AI \u751F\u6210\u6280\u672F\u53C2\u4E0E\u54C1\u724C\u77ED\u7247\u7684\u89C6\u89C9\u5236\u4F5C\uFF0C\n\u7F51\u7AD9\u4EC5\u5C55\u793A\u5141\u8BB8\u516C\u5F00\u7684\u6210\u7247\u548C\u516C\u5F00\u9879\u76EE\u753B\u9762\u3002",
       tools: [],
       coverImage: "./assets/placeholder-project.svg",
       coverAlt: "\u7EA2\u65D7\u5929\u5DE5\u9879\u76EE\u516C\u5F00\u5C01\u9762\u5F85\u8865\u5145",
@@ -683,7 +681,7 @@
       status: "",
       role: [],
       responsibilities: [],
-      description: "人的内外常是两个世界。外在力求展现平静、精致与秩序；内在却充斥着自然生长的复杂思绪与情感。通过人像与风景影像的拼贴与折叠重组，以视觉错位呈现自我的双重性。",
+      description: "人的内外常是两个世界。外在力求展现平静、精致与秩序；内在却充斥着自然生长的复杂思绪与情感。\n通过人像与风景影像的拼贴与折叠重组，以视觉错位呈现自我的双重性。",
       tools: [],
       coverImage: null,
       coverAlt: "",
@@ -822,6 +820,7 @@
       client: null,
       platform: null,
       projectType: "GRADUATION PROJECT",
+      detailNote: "AI互动影游戏",
       status: "VISUAL DEVELOPMENT \xB7 WORK IN PROGRESS",
       role: ["\u521B\u610F\u7B56\u5212", "\u5267\u672C\u7F16\u5199", "\u5206\u955C\u4E0E\u89C6\u89C9\u8BBE\u8BA1", "AI\u5F71\u50CF\u5236\u4F5C", "\u526A\u8F91\u4E0E\u540E\u671F"],
       responsibilities: ["\u72EC\u7ACB\u5B8C\u6210\u60AC\u7591\u5267\u60C5\u7B56\u5212\u3001\u5206\u652F\u5267\u672C\u53CA\u5206\u955C\u8BBE\u8BA1\uFF0C\u6784\u5EFA\u76D1\u63A7\u89C6\u89D2\u4E0B\u7684\u89C6\u89C9\u53D9\u4E8B\u4E0E\u7EBF\u7D22\u903B\u8F91\u3002", "\u72EC\u7ACB\u5B8C\u6210\u4EBA\u7269\u3001\u573A\u666F\u53CA\u9053\u5177\u7684\u89C6\u89C9\u8BBE\u5B9A\uFF0CAI\u56FE\u50CF\u4E0E\u89C6\u9891\u7D20\u6750\u751F\u6210\u3001\u4F18\u5316\u4E0E\u8FED\u4EE3\u3002", "\u8D1F\u8D23\u526A\u8F91\u4E0E\u540E\u671F\u5236\u4F5C\uFF0C\u89C4\u5212\u89D2\u8272\u914D\u97F3\u3001\u73AF\u5883\u97F3\u6548\u53CA\u58F0\u97F3\u7EBF\u7D22\uFF0C\u7ED3\u5408\u753B\u9762\u8282\u594F\u63A8\u8FDB\u89C6\u542C\u53D9\u4E8B\u3002\uFF08\u5F00\u53D1\u4E2D\uFF09"],
@@ -985,6 +984,7 @@
   function renderProjectShowcase(project, index, total) {
     const number = String(index + 1).padStart(2, "0");
     const isHongqiShowcase = project.slug === "hongqi-tianggong-partners";
+    const isRijiShowcase = project.slug === "riji";
     const isPhotographyShowcase = project.slug === "personal-documentary-photography";
     const isTwoSelvesShowcase = project.slug === "two-selves";
     const distinctStills = (project.stills ?? []).filter((item) => isRealMedia(item == null ? void 0 : item.src) && item.src !== project.coverImage);
@@ -1006,34 +1006,32 @@
     const imageButtons = isHongqiShowcase ? "" : externalButtons;
     const actions = imageButtons || release ? `<div class="work-case__actions">${release}${imageButtons}</div>` : "";
     const resourceLinks = isHongqiShowcase && externalButtons ? `<div class="work-case__resource-links">${externalButtons}</div>` : "";
-    const sourceNote = hasCover && !hasVideo ? hasValue(project.sourceNote) ? project.sourceNote : isHongqiShowcase ? "\u56FE\u7247\u6765\u6E90\u4E8E\u7EA2\u65D7\u5929\u5DE5\u5B98\u65B9\u516C\u5F00\u53D1\u5E03\u7269\u6599\uFF0C\u4EC5\u7528\u4E8E\u4E2A\u4EBA\u9879\u76EE\u7ECF\u5386\u5C55\u793A\u3002" : "" : "";
-    const projectMeta = [project.client, project.platform, project.projectType].filter((item) => hasValue(item) && !isPendingValue(item)).map(formatBilingual);
+    const sourceNote = hasCover && !hasVideo && hasValue(project.sourceNote) ? project.sourceNote : "";
     const roles = visibleItems(project.role).map(formatBilingual);
     const responsibilities = visibleItems(project.responsibilities);
     const tools = visibleItems(project.tools).map(formatBilingual);
-    const projectFact = hasValue(project.subtitle) || projectMeta.length ? `<section><p class="work-case__label">\u9879\u76EE</p>${hasValue(project.subtitle) ? `<p>${escapeHtml(formatBilingual(project.subtitle))}</p>` : ""}${projectMeta.length ? `<small>${projectMeta.map(escapeHtml).join("<br>")}</small>` : ""}</section>` : "";
-    const facts = [
-      projectFact,
+    const detailNote = hasValue(project.detailNote) && !isPendingValue(project.detailNote) ? `<section class="work-case__detail-note"><p>${formatMultiline(project.detailNote)}</p></section>` : "";
+    const factSections = [
+      detailNote,
       roles.length ? `<section><p class="work-case__label">\u804C\u8D23</p><ul>${roles.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul></section>` : "",
-      responsibilities.length ? `<section class="work-case__contribution"><p class="work-case__label">\u6211\u7684\u5DE5\u4F5C</p><ol>${responsibilities.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ol></section>` : "",
+      responsibilities.length ? `<section class="work-case__contribution"><p class="work-case__label">\u6211\u7684\u5DE5\u4F5C</p><ol>${responsibilities.map((item) => `<li>${formatMultiline(item)}</li>`).join("")}</ol></section>` : "",
       tools.length || resourceLinks ? `<section class="work-case__tools"><p class="work-case__label">\u5DE5\u5177</p>${tools.length ? `<p>${tools.map(escapeHtml).join(" / ")}</p>` : ""}${resourceLinks}</section>` : ""
-    ].filter(Boolean).join("");
+    ].filter(Boolean);
+    const facts = factSections.join("");
     const headingMeta = [project.year, project.status].filter((item) => hasValue(item) && !isPendingValue(item));
     const eyebrow = [formatBilingual(project.category), headingMeta.join(" \xB7 ")].filter(hasValue).map((item) => `<span>${escapeHtml(item)}</span>`).join("");
-    const availability = hasVideo ? "\u6210\u7247\u53EF\u64AD\u653E" : hasCover || frames.length ? "\u7CBE\u9009\u753B\u9762" : "";
-    const summary = hasValue(project.description) || availability ? `<div class="work-case__summary">${hasValue(project.description) ? `<p>${escapeHtml(project.description)}</p>` : ""}${availability ? `<span>${availability}</span>` : ""}</div>` : "";
+    const summary = hasValue(project.description) ? `<div class="work-case__summary"><p>${formatMultiline(project.description)}</p></div>` : "";
     const frameMarkup = frames.length ? `<aside class="work-case__frames" aria-label="${escapeHtml(project.title)} \u5173\u952E\u5E27">${frames.map((frame, frameIndex) => renderShowcaseFrame(frame, frameIndex)).join("")}</aside>` : "";
     const stage = primaryMedia ? `<div class="work-case__stage${frames.length ? "" : " is-media-only"} reveal">
         ${sourceNote ? '<div class="work-case__primary-column">' : ""}
         <div class="work-case__primary${project.coverFit === "contain" ? " is-contain" : ""}" style="${mediaStyle(project.coverAspect)}">
           ${primaryMedia}
-          <span class="work-case__media-label">${hasVideo ? "\u6210\u7247" : "\u9879\u76EE\u753B\u9762"}</span>
           ${actions}
         </div>
         ${sourceNote ? `<p class="work-case__source-note">${escapeHtml(sourceNote)}</p></div>` : ""}
         ${frameMarkup}
       </div>` : frames.length ? `<div class="work-case__stage is-frames-only reveal">${frameMarkup}</div>` : actions ? `<div class="work-case__standalone-actions reveal">${actions}</div>` : "";
-    const factsMarkup = facts ? `<div class="work-case__facts reveal">${facts}</div>` : "";
+    const factsMarkup = facts ? `<div class="work-case__facts work-case__facts--${factSections.length} reveal">${facts}</div>` : "";
     return `<article class="work-case" id="${escapeHtml(project.slug)}" aria-labelledby="work-title-${index}">
     <header class="work-case__heading reveal">
       <div class="work-case__index"><span>${number}</span><i>/</i><span>${String(total).padStart(2, "0")}</span></div>
@@ -1043,7 +1041,7 @@
         ${summary}
       </div>
     </header>
-    ${isHongqiShowcase && stage && factsMarkup ? `<div class="work-case__visual-details">${stage}${factsMarkup}</div>` : `${stage}${factsMarkup}`}
+    ${(isHongqiShowcase || isRijiShowcase) && stage && factsMarkup ? `<div class="work-case__visual-details">${stage}${factsMarkup}</div>` : `${stage}${factsMarkup}`}
   </article>`;
   }
   function renderSeriesShowcase(collection, series, index, total) {

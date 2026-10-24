@@ -4,24 +4,20 @@ window.__PORTFOLIO_CONTENT__ = {
       "title": "红旗天工《大明天工合伙人》",
       "year": "2026",
       "category": "AI品牌宣传片",
-      "client": "红旗天工",
-      "platform": "红旗天工官方账号/抖音",
-      "projectType": "商业项目",
-      "description": "红旗天工品牌AI影像项目。以 AI 生成技术参与品牌短片的视觉制作，生成AI素材及多轮迭代，网站仅展示允许公开的成片和公开项目画面。",
+      "client": "",
+      "platform": "",
+      "projectType": "",
+      "description": "",
+      "detailNote": "以 AI 生成技术参与品牌短片的视觉制作，\n网站仅展示允许公开的成片和公开项目画面。",
       "coverImage": "./media/uploads/hongqi-tianggong-partners/cover-1791867169940-a4f4c453.jpg",
       "coverVideo": null,
       "videoUrl": "",
       "coverAlt": "红旗天工《大明天工合伙人》项目封面",
       "coverAspect": "9:16",
       "coverFit": "cover",
-      "role": [
-        "AI图像生成",
-        "AI视频生成",
-        "素材迭代"
-      ],
+      "role": [],
       "responsibilities": [
-        "参与第1、5集AI影像制作。",
-        "负责部分镜头的 AI 图像生成、AI视频生成，并根据反馈进行画面调整与素材迭代，配合完成最终视觉资产交付。"
+        "负责第1、5集部分AI影像制作，\n根据反馈进行画面调整与素材迭代。"
       ],
       "tools": [
         "Nano Banana",
@@ -220,7 +216,7 @@ window.__PORTFOLIO_CONTENT__ = {
       "client": "",
       "platform": "",
       "projectType": "",
-      "description": "人的内外常是两个世界。外在力求展现平静、精致与秩序；内在却充斥着自然生长的复杂思绪与情感。通过人像与风景影像的拼贴与折叠重组，以视觉错位呈现自我的双重性。",
+      "description": "人的内外常是两个世界。外在力求展现平静、精致与秩序；内在却充斥着自然生长的复杂思绪与情感。\n通过人像与风景影像的拼贴与折叠重组，以视觉错位呈现自我的双重性。",
       "coverImage": "",
       "coverVideo": null,
       "videoUrl": "",
@@ -278,6 +274,7 @@ window.__PORTFOLIO_CONTENT__ = {
       "client": "",
       "platform": "Unity · 开发中",
       "projectType": "毕业设计",
+      "detailNote": "AI互动影游戏",
       "description": "毕业设计《循影》是一项基于监控视角展开的AI互动影游。",
       "coverImage": "./assets/projects/xunying/cover-monitor-room.jpg",
       "coverVideo": null,

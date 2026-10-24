@@ -154,7 +154,6 @@ button { color: inherit; }
 .deferred-video-shell__prompt b { font-size: 8px; font-weight: 600; letter-spacing: .13em; text-transform: uppercase; }
 .work-case__primary.is-contain { background: #eeece7; }
 .work-case__primary.is-contain > video, .work-case__primary.is-contain > img, .work-case__primary.is-contain > button > img { object-fit: contain; }
-.work-case__media-label { position: absolute; z-index: 3; top: 16px; left: 16px; padding: 8px 10px; color: var(--ink); background: rgba(245,242,234,.9); font-size: 8px; letter-spacing: .16em; text-transform: uppercase; pointer-events: none; }
 .work-case__actions { position: absolute; z-index: 3; right: 16px; bottom: 16px; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 7px; max-width: calc(100% - 32px); }
 .work-case__watch, .work-case__pending { padding: 10px 12px; color: var(--ink); background: rgba(245,242,234,.92); font-size: 8px; letter-spacing: .13em; text-transform: uppercase; }
 .work-case__release { max-width: min(70%, 520px); padding: 10px 12px; color: var(--ink); background: rgba(245,242,234,.92); font-size: 8px; line-height: 1.5; letter-spacing: .12em; text-transform: uppercase; }
@@ -398,7 +397,6 @@ a.contact-link-row > strong { justify-self: end; color: #8e928c; font-size: 8px;
   .work-case__facts { grid-template-columns: 1fr; }
   .work-case__facts > section, .work-case__facts > section:not(:first-child) { padding: 22px 0; border-right: 0; border-top: 1px solid var(--line-light); }
   .work-case__facts > section:first-child { border-top: 0; }
-  .work-case__media-label { top: 10px; left: 10px; }
   .work-case__actions { right: 10px; bottom: 10px; left: 10px; justify-content: flex-end; }
   .work-case__watch, .work-case__pending { justify-content: space-between; }
   .resume-row { grid-template-columns: 1fr; }
@@ -737,4 +735,131 @@ h1, h2, h3, h4 { text-rendering: geometricPrecision; }
   #two-selves .work-case__stage.is-frames-only .work-case__frames {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+}
+
+/* 2026-10-24: compact editorial pass for the application portfolio. */
+.work-case__facts--4 { grid-template-columns: 2fr 3fr 5fr 2fr; }
+.work-case__facts--3 { grid-template-columns: minmax(0, 3fr) minmax(0, 6fr) minmax(0, 3fr); }
+.work-case__facts--2 { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); }
+.work-case__facts--1 { grid-template-columns: 1fr; }
+.work-case__detail-note p,
+.work-case__contribution li { white-space: pre-line; }
+
+/* The opening page borrows the quiet sage field from the closing page. */
+.intro-hero {
+  min-height: 76svh;
+  align-items: center;
+  padding-top: clamp(118px, 14vh, 158px);
+  padding-bottom: clamp(70px, 9vh, 110px);
+  color: var(--ink);
+  background: var(--sage);
+  box-shadow: 0 0 0 100vmax var(--sage);
+  clip-path: inset(0 -100vmax);
+}
+.intro-hero__copy { grid-column: 1 / -1; align-self: center; padding-bottom: 0; }
+.intro-hero__identity { margin-bottom: clamp(24px, 3vh, 36px); color: var(--ink); }
+.intro-hero__identity em { color: rgba(11, 12, 12, .58); }
+.intro-hero__kicker { margin-bottom: clamp(34px, 5vh, 58px); color: #873926; }
+.intro-hero h1 { max-width: 1280px; font-size: clamp(68px, 9.2vw, 140px); line-height: .86; color: var(--ink); }
+.site-header:not(.is-scrolled) { color: var(--ink); }
+.site-header:not(.is-scrolled) .site-nav a { color: rgba(11, 12, 12, .62); }
+.site-header:not(.is-scrolled) .site-nav a:hover,
+.site-header:not(.is-scrolled) .site-nav a[aria-current] { color: var(--ink); }
+.site-header:not(.is-scrolled) .site-nav a small { color: rgba(11, 12, 12, .42); }
+
+/* Red Flag: one compact project page with the public note beside the cover. */
+#hongqi-tianggong-partners.work-case { padding-block: clamp(44px, 4.5vw, 70px); }
+#hongqi-tianggong-partners .work-case__eyebrow { margin-bottom: clamp(15px, 2vw, 26px); }
+#hongqi-tianggong-partners .work-case__heading h3.hongqi-title { font-size: clamp(46px, 5.2vw, 80px); line-height: .96; }
+#hongqi-tianggong-partners .work-case__visual-details,
+#hongqi-tianggong-partners .work-case__visual-details:has(.work-case__frames) {
+  grid-template-columns: minmax(210px, 290px) minmax(0, 1fr);
+  gap: clamp(28px, 4vw, 62px);
+  align-items: start;
+  max-width: 1080px;
+  margin-top: clamp(24px, 3vw, 40px);
+}
+#hongqi-tianggong-partners .work-case__visual-details .work-case__stage.is-media-only { width: 100%; max-width: 290px; justify-self: end; }
+#hongqi-tianggong-partners .work-case__visual-details .work-case__facts { gap: 0; max-width: none; }
+#hongqi-tianggong-partners .work-case__visual-details .work-case__facts > section,
+#hongqi-tianggong-partners .work-case__visual-details .work-case__facts > section:not(:first-child) { padding: 15px 0 2px; }
+#hongqi-tianggong-partners .work-case__label { margin-bottom: 11px; }
+#hongqi-tianggong-partners .work-case__facts p,
+#hongqi-tianggong-partners .work-case__facts li { font-size: 11px; line-height: 1.7; }
+#hongqi-tianggong-partners .work-case__resource-links {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: none;
+  margin-top: 14px;
+}
+#hongqi-tianggong-partners .work-case__resource-links .work-case__watch { min-width: 0; gap: 12px; }
+
+/* Riji: film and production facts share one screen-sized composition. */
+#riji.work-case { padding-block: clamp(48px, 5vw, 76px); }
+#riji .work-case__eyebrow { margin-bottom: clamp(15px, 2vw, 26px); }
+#riji .work-case__heading h3 { font-size: clamp(48px, 5.8vw, 88px); }
+#riji .work-case__summary { margin-top: 18px; }
+#riji .work-case__summary > p { font-size: 13px; line-height: 1.72; }
+#riji .work-case__visual-details {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(300px, 4fr);
+  gap: clamp(28px, 4vw, 60px);
+  align-items: start;
+  margin-top: clamp(26px, 3.2vw, 44px);
+}
+#riji .work-case__visual-details .work-case__stage,
+#riji .work-case__visual-details .work-case__facts { margin-top: 0; }
+#riji .work-case__visual-details .work-case__facts { grid-template-columns: 1fr; border-top: 0; }
+#riji .work-case__visual-details .work-case__facts > section,
+#riji .work-case__visual-details .work-case__facts > section:not(:first-child) {
+  padding: 14px 0 4px;
+  border-top: 1px solid var(--line-light);
+  border-right: 0;
+}
+#riji .work-case__label { margin-bottom: 11px; }
+
+/* Xunying: the cover and two supporting images form one uninterrupted row. */
+#xunying .work-case__stage:not(.is-media-only):not(.is-frames-only) {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+#xunying .work-case__stage:not(.is-media-only):not(.is-frames-only) .work-case__primary { grid-column: 1; }
+#xunying .work-case__stage:not(.is-media-only):not(.is-frames-only) .work-case__frames {
+  grid-column: 2 / 4;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+@media (max-width: 1000px) {
+  .work-case__facts--4,
+  .work-case__facts--3,
+  .work-case__facts--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .work-case__facts--1 { grid-template-columns: 1fr; }
+  #hongqi-tianggong-partners .work-case__visual-details,
+  #hongqi-tianggong-partners .work-case__visual-details:has(.work-case__frames),
+  #riji .work-case__visual-details { grid-template-columns: 1fr; }
+  #hongqi-tianggong-partners .work-case__visual-details .work-case__stage.is-media-only { justify-self: center; }
+  #riji .work-case__visual-details .work-case__facts { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  #riji .work-case__visual-details .work-case__facts > section,
+  #riji .work-case__visual-details .work-case__facts > section:not(:first-child) { padding: 18px; border-right: 1px solid var(--line-light); }
+  #riji .work-case__visual-details .work-case__facts > section:last-child { border-right: 0; }
+}
+
+@media (max-width: 760px) {
+  .work-case__facts--4,
+  .work-case__facts--3,
+  .work-case__facts--2,
+  .work-case__facts--1 { grid-template-columns: 1fr; }
+  .intro-hero { min-height: 66svh; padding-top: 112px; padding-bottom: 64px; }
+  .intro-hero h1 { font-size: clamp(38px, 10.5vw, 52px); line-height: .92; white-space: nowrap; }
+  .site-header:not(.is-scrolled) .nav-toggle { color: var(--ink); }
+  .site-header:not(.is-scrolled) .site-nav.is-open a { color: rgba(245, 242, 234, .74); }
+  .site-header:not(.is-scrolled) .site-nav.is-open a:hover,
+  .site-header:not(.is-scrolled) .site-nav.is-open a[aria-current] { color: var(--white); }
+  #hongqi-tianggong-partners .work-case__resource-links { grid-template-columns: 1fr; }
+  #riji .work-case__visual-details .work-case__facts { grid-template-columns: 1fr; }
+  #riji .work-case__visual-details .work-case__facts > section,
+  #riji .work-case__visual-details .work-case__facts > section:not(:first-child) { padding: 15px 0; border-right: 0; }
+  #xunying .work-case__stage:not(.is-media-only):not(.is-frames-only) { grid-template-columns: 1fr; }
+  #xunying .work-case__stage:not(.is-media-only):not(.is-frames-only) .work-case__primary,
+  #xunying .work-case__stage:not(.is-media-only):not(.is-frames-only) .work-case__frames { grid-column: 1; }
 }
