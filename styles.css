@@ -785,12 +785,14 @@ h1, h2, h3, h4 { text-rendering: geometricPrecision; }
 #hongqi-tianggong-partners .work-case__visual-details .work-case__stage.is-media-only { width: 100%; max-width: 290px; margin: 0; }
 #hongqi-tianggong-partners .work-case__visual-details .work-case__facts {
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, minmax(0, 1fr));
-  align-content: stretch;
+  grid-template-rows: none;
+  align-content: initial;
+  align-self: end;
+  justify-self: start;
   gap: 0;
-  width: 100%;
-  height: 100%;
-  max-width: none;
+  width: min(100%, 400px);
+  height: auto;
+  max-width: 400px;
   margin-top: 0;
 }
 #hongqi-tianggong-partners .work-case__visual-details .work-case__facts > section,
@@ -861,7 +863,7 @@ h1, h2, h3, h4 { text-rendering: geometricPrecision; }
   #hongqi-tianggong-partners .work-case__visual-details:has(.work-case__frames),
   #riji .work-case__visual-details { display: block; }
   #hongqi-tianggong-partners .work-case__visual-details .work-case__stage.is-media-only { margin-inline: auto; }
-  #hongqi-tianggong-partners .work-case__visual-details .work-case__facts,
+  #hongqi-tianggong-partners .work-case__visual-details .work-case__facts { width: 100%; height: auto; max-width: none; margin-top: 20px; }
   #riji .work-case__visual-details .work-case__facts { height: auto; margin-top: 20px; }
   #riji .work-case__visual-details .work-case__facts { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: none; }
   #riji .work-case__visual-details .work-case__facts > section,
