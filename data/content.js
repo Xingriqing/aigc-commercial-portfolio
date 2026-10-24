@@ -8,7 +8,7 @@ window.__PORTFOLIO_CONTENT__ = {
       "platform": "",
       "projectType": "",
       "description": "",
-      "detailNote": "以 AI 生成技术参与品牌短片的视觉制作，\n网站仅展示允许公开的成片和公开项目画面。",
+      "detailNote": "以 AI 生成技术参与品牌短片的视觉制作，网站仅展示允许公开的成片。",
       "coverImage": "./media/uploads/hongqi-tianggong-partners/cover-1791867169940-a4f4c453.jpg",
       "coverVideo": null,
       "videoUrl": "",
@@ -17,7 +17,7 @@ window.__PORTFOLIO_CONTENT__ = {
       "coverFit": "cover",
       "role": [],
       "responsibilities": [
-        "负责第1、5集部分AI影像制作，\n根据反馈进行画面调整与素材迭代。"
+        "负责第1、5集部分AI影像制作，根据反馈进行画面调整与素材迭代。"
       ],
       "tools": [
         "Nano Banana",
@@ -41,7 +41,8 @@ window.__PORTFOLIO_CONTENT__ = {
       },
       "subtitle": "",
       "status": "",
-      "sourceNote": ""
+      "sourceNote": "图片来源于红旗天工官方公开发布物料，仅用于个人项目经历展示。",
+      "order": 2
     },
     "riji": {
       "title": "日寂",
@@ -133,7 +134,8 @@ window.__PORTFOLIO_CONTENT__ = {
       "externalLinks": [],
       "externalLink": null,
       "subtitle": "",
-      "status": ""
+      "status": "",
+      "order": 1
     },
     "personal-documentary-photography": {
       "title": "个人纪实摄影",

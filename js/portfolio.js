@@ -10,7 +10,7 @@
         "platform": "",
         "projectType": "",
         "description": "",
-        "detailNote": "\u4EE5 AI \u751F\u6210\u6280\u672F\u53C2\u4E0E\u54C1\u724C\u77ED\u7247\u7684\u89C6\u89C9\u5236\u4F5C\uFF0C\n\u7F51\u7AD9\u4EC5\u5C55\u793A\u5141\u8BB8\u516C\u5F00\u7684\u6210\u7247\u548C\u516C\u5F00\u9879\u76EE\u753B\u9762\u3002",
+        "detailNote": "\u4EE5 AI \u751F\u6210\u6280\u672F\u53C2\u4E0E\u54C1\u724C\u77ED\u7247\u7684\u89C6\u89C9\u5236\u4F5C\uFF0C\u7F51\u7AD9\u4EC5\u5C55\u793A\u5141\u8BB8\u516C\u5F00\u7684\u6210\u7247\u3002",
         "coverImage": "./media/uploads/hongqi-tianggong-partners/cover-1791867169940-a4f4c453.jpg",
         "coverVideo": null,
         "videoUrl": "",
@@ -19,7 +19,7 @@
         "coverFit": "cover",
         "role": [],
         "responsibilities": [
-          "\u8D1F\u8D23\u7B2C1\u30015\u96C6\u90E8\u5206AI\u5F71\u50CF\u5236\u4F5C\uFF0C\n\u6839\u636E\u53CD\u9988\u8FDB\u884C\u753B\u9762\u8C03\u6574\u4E0E\u7D20\u6750\u8FED\u4EE3\u3002"
+          "\u8D1F\u8D23\u7B2C1\u30015\u96C6\u90E8\u5206AI\u5F71\u50CF\u5236\u4F5C\uFF0C\u6839\u636E\u53CD\u9988\u8FDB\u884C\u753B\u9762\u8C03\u6574\u4E0E\u7D20\u6750\u8FED\u4EE3\u3002"
         ],
         "tools": [
           "Nano Banana",
@@ -40,7 +40,9 @@
         "externalLink": {
           "url": "https://v.douyin.com/6p1dBfUaRes/ LwS:/ Y@z.gb 06/11 :1pm",
           "label": "VIEW EP01 ON DOUYIN / \u7B2C1\u96C6\u89C6\u9891"
-        }
+        },
+        "sourceNote": "\u56FE\u7247\u6765\u6E90\u4E8E\u7EA2\u65D7\u5929\u5DE5\u5B98\u65B9\u516C\u5F00\u53D1\u5E03\u7269\u6599\uFF0C\u4EC5\u7528\u4E8E\u4E2A\u4EBA\u9879\u76EE\u7ECF\u5386\u5C55\u793A\u3002",
+        "order": 2
       },
       "riji": {
         "title": "\u65E5\u5BC2",
@@ -144,7 +146,8 @@
           }
         ],
         "externalLinks": [],
-        "externalLink": null
+        "externalLink": null,
+        "order": 1
       },
       "junkyard-billionaires-wife": {
         "title": "After Switching Husbands, I Become A Junkyard Billionaire's Wife",
@@ -529,9 +532,9 @@
       projectType: null,
       status: "",
       role: [],
-      responsibilities: ["\u8D1F\u8D23\u7B2C1\u30015\u96C6\u90E8\u5206AI\u5F71\u50CF\u5236\u4F5C\uFF0C\n\u6839\u636E\u53CD\u9988\u8FDB\u884C\u753B\u9762\u8C03\u6574\u4E0E\u7D20\u6750\u8FED\u4EE3\u3002"],
+      responsibilities: ["\u8D1F\u8D23\u7B2C1\u30015\u96C6\u90E8\u5206AI\u5F71\u50CF\u5236\u4F5C\uFF0C\u6839\u636E\u53CD\u9988\u8FDB\u884C\u753B\u9762\u8C03\u6574\u4E0E\u7D20\u6750\u8FED\u4EE3\u3002"],
       description: "",
-      detailNote: "\u4EE5 AI \u751F\u6210\u6280\u672F\u53C2\u4E0E\u54C1\u724C\u77ED\u7247\u7684\u89C6\u89C9\u5236\u4F5C\uFF0C\n\u7F51\u7AD9\u4EC5\u5C55\u793A\u5141\u8BB8\u516C\u5F00\u7684\u6210\u7247\u548C\u516C\u5F00\u9879\u76EE\u753B\u9762\u3002",
+      detailNote: "\u4EE5 AI \u751F\u6210\u6280\u672F\u53C2\u4E0E\u54C1\u724C\u77ED\u7247\u7684\u89C6\u89C9\u5236\u4F5C\uFF0C\u7F51\u7AD9\u4EC5\u5C55\u793A\u5141\u8BB8\u516C\u5F00\u7684\u6210\u7247\u3002",
       tools: [],
       coverImage: "./assets/placeholder-project.svg",
       coverAlt: "\u7EA2\u65D7\u5929\u5DE5\u9879\u76EE\u516C\u5F00\u5C01\u9762\u5F85\u8865\u5145",
@@ -540,12 +543,13 @@
       videoUrl: null,
       externalLink: null,
       publicReleaseNote: null,
+      sourceNote: "\u56FE\u7247\u6765\u6E90\u4E8E\u7EA2\u65D7\u5929\u5DE5\u5B98\u65B9\u516C\u5F00\u53D1\u5E03\u7269\u6599\uFF0C\u4EC5\u7528\u4E8E\u4E2A\u4EBA\u9879\u76EE\u7ECF\u5386\u5C55\u793A\u3002",
       stills: [],
       productionFrames: [],
       visualTests: [],
       credits: [],
       featured: true,
-      order: 1,
+      order: 2,
       relatedProjects: [],
       archive: false,
       workInProgress: false,
@@ -620,7 +624,7 @@
       visualTests: [],
       credits: [],
       featured: true,
-      order: 2,
+      order: 1,
       relatedProjects: [],
       archive: false,
       workInProgress: false,
@@ -1010,16 +1014,16 @@
     const roles = visibleItems(project.role).map(formatBilingual);
     const responsibilities = visibleItems(project.responsibilities);
     const tools = visibleItems(project.tools).map(formatBilingual);
+    const projectFact = hasValue(project.projectType) && !isPendingValue(project.projectType) ? `<section class="work-case__project"><p class="work-case__label">\u9879\u76EE</p><p class="work-case__project-type">${escapeHtml(project.projectType)}</p></section>` : "";
     const detailNote = hasValue(project.detailNote) && !isPendingValue(project.detailNote) ? `<section class="work-case__detail-note"><p>${formatMultiline(project.detailNote)}</p></section>` : "";
     const factSections = [
+      projectFact,
       detailNote,
       roles.length ? `<section><p class="work-case__label">\u804C\u8D23</p><ul>${roles.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul></section>` : "",
       responsibilities.length ? `<section class="work-case__contribution"><p class="work-case__label">\u6211\u7684\u5DE5\u4F5C</p><ol>${responsibilities.map((item) => `<li>${formatMultiline(item)}</li>`).join("")}</ol></section>` : "",
       tools.length || resourceLinks ? `<section class="work-case__tools"><p class="work-case__label">\u5DE5\u5177</p>${tools.length ? `<p>${tools.map(escapeHtml).join(" / ")}</p>` : ""}${resourceLinks}</section>` : ""
     ].filter(Boolean);
     const facts = factSections.join("");
-    const headingMeta = [project.year, project.status].filter((item) => hasValue(item) && !isPendingValue(item));
-    const eyebrow = [formatBilingual(project.category), headingMeta.join(" \xB7 ")].filter(hasValue).map((item) => `<span>${escapeHtml(item)}</span>`).join("");
     const summary = hasValue(project.description) ? `<div class="work-case__summary"><p>${formatMultiline(project.description)}</p></div>` : "";
     const frameMarkup = frames.length ? `<aside class="work-case__frames" aria-label="${escapeHtml(project.title)} \u5173\u952E\u5E27">${frames.map((frame, frameIndex) => renderShowcaseFrame(frame, frameIndex)).join("")}</aside>` : "";
     const stage = primaryMedia ? `<div class="work-case__stage${frames.length ? "" : " is-media-only"} reveal">
@@ -1036,7 +1040,6 @@
     <header class="work-case__heading reveal">
       <div class="work-case__index"><span>${number}</span><i>/</i><span>${String(total).padStart(2, "0")}</span></div>
       <div class="work-case__heading-main">
-        ${eyebrow ? `<p class="work-case__eyebrow">${eyebrow}</p>` : ""}
         <h3 id="work-title-${index}" class="${isHongqiCombinedTitle(project) ? "hongqi-title" : ""}">${formatProjectTitle(project)}</h3>
         ${summary}
       </div>
