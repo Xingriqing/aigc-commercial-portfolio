@@ -85,7 +85,7 @@ window.__PORTFOLIO_CONTENT__ = {
       "sourceNote": ""
     },
     "avelor-saltwood": {
-      "title": "香水TVC",
+      "title": "AVELOR SALTWOOD",
       "year": "2026",
       "category": "AI香水广告",
       "client": "",
