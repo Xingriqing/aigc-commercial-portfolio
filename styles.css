@@ -788,7 +788,7 @@ h1, h2, h3, h4 { text-rendering: geometricPrecision; }
   grid-template-columns: 1fr;
   grid-template-rows: none;
   align-content: initial;
-  align-self: end;
+  align-self: center;
   justify-self: start;
   gap: 0;
   width: min(100%, 500px);
