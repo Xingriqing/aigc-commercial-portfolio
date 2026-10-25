@@ -42,7 +42,7 @@ window.__PORTFOLIO_CONTENT__ = {
       },
       "subtitle": "",
       "status": "",
-      "sourceNote": "图片来源于红旗天工官方公开发布物料，仅用于个人项目经历展示。",
+      "sourceNote": "图片来源于抖音账号「红旗天工」公开发布的视频封面，仅用于个人项目经历展示。",
       "order": 2
     },
     "riji": {
