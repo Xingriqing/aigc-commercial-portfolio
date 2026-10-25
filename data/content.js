@@ -8,7 +8,7 @@ window.__PORTFOLIO_CONTENT__ = {
       "platform": "",
       "projectType": "商业品牌项目",
       "description": "",
-      "detailNote": "以 AI 生成技术参与品牌短片的视觉制作，本页仅提供项目官方公开发布的视频链接。",
+      "detailNote": "以 AI 生成技术参与品牌短片的视觉制作，本页仅展示项目官方公开发布的视频封面并提供视频链接。",
       "coverImage": "./media/uploads/hongqi-tianggong-partners/cover-1791867169940-a4f4c453.jpg",
       "coverVideo": null,
       "videoUrl": "",
