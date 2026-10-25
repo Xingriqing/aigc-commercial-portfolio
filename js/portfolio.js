@@ -201,7 +201,7 @@
         "category": "AI Interactive Film",
         "client": "",
         "platform": "Unity \xB7 In Development",
-        "projectType": "AI\u4E92\u52A8\u5F71\u6E38",
+        "projectType": "\u6BD5\u4E1A\u8BBE\u8BA1\nAI\u4E92\u52A8\u5F71\u6E38",
         "detailNote": "",
         "description": "\u300A\u5FAA\u5F71\u300B\u662F\u4E00\u9879\u57FA\u4E8E\u76D1\u63A7\u89C6\u89D2\u5C55\u5F00\u7684AI\u4E92\u52A8\u5F71\u6E38\u3002",
         "coverImage": "./assets/projects/xunying/cover-monitor-room.jpg",
@@ -229,7 +229,9 @@
           "Kling AI",
           "ChatGPT Image 2",
           "Unity",
-          "Adobe Photoshop"
+          "Adobe Photoshop",
+          "CapCut",
+          "DaVinci Resolve"
         ],
         "stills": [
           {
@@ -1024,7 +1026,7 @@
     const roles = visibleItems(project.role).map(formatBilingual);
     const responsibilities = visibleItems(project.responsibilities);
     const tools = visibleItems(project.tools).map(formatBilingual);
-    const projectFact = hasValue(project.projectType) && !isPendingValue(project.projectType) ? `<section class="work-case__project"><p class="work-case__label">\u9879\u76EE</p><p class="work-case__project-type">${escapeHtml(project.projectType)}</p></section>` : "";
+    const projectFact = hasValue(project.projectType) && !isPendingValue(project.projectType) ? `<section class="work-case__project"><p class="work-case__label">\u9879\u76EE</p><p class="work-case__project-type">${formatMultiline(project.projectType)}</p></section>` : "";
     const detailNote = hasValue(project.detailNote) && !isPendingValue(project.detailNote) ? `<section class="work-case__detail-note"><p>${formatMultiline(project.detailNote)}</p></section>` : "";
     const factSections = [
       projectFact,

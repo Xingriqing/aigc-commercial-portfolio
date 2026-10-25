@@ -276,7 +276,7 @@ window.__PORTFOLIO_CONTENT__ = {
       "category": "AI交互影像",
       "client": "",
       "platform": "Unity · 开发中",
-      "projectType": "AI互动影游",
+      "projectType": "毕业设计\nAI互动影游",
       "detailNote": "",
       "description": "《循影》是一项基于监控视角展开的AI互动影游。",
       "coverImage": "./assets/projects/xunying/cover-monitor-room.jpg",
@@ -304,7 +304,9 @@ window.__PORTFOLIO_CONTENT__ = {
         "Kling AI",
         "ChatGPT Image 2",
         "Unity",
-        "Adobe Photoshop"
+        "Adobe Photoshop",
+        "CapCut",
+        "DaVinci Resolve"
       ],
       "stills": [
         {
