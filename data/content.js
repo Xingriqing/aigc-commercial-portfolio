@@ -22,7 +22,7 @@ window.__PORTFOLIO_CONTENT__ = {
       ],
       "tools": [
         "Nano Banana",
-        "自研AI平台",
+        "公司自研AI平台",
         "Adobe Photoshop"
       ],
       "stills": [],
