@@ -30,16 +30,16 @@
         "stills": [],
         "externalLinks": [
           {
-            "url": "https://v.douyin.com/6p1dBfUaRes/ LwS:/ Y@z.gb 06/11 :1pm",
+            "url": "https://v.douyin.com/6p1dBfUaRes/",
             "label": "VIEW EP01 ON DOUYIN / \u7B2C1\u96C6\u89C6\u9891"
           },
           {
-            "url": "https://v.douyin.com/j29NFzJt5GE/ :2pm w@F.HV caa:/ 06/01",
+            "url": "https://v.douyin.com/j29NFzJt5GE/",
             "label": "VIEW EP05 ON DOUYIN / \u7B2C5\u96C6\u89C6\u9891"
           }
         ],
         "externalLink": {
-          "url": "https://v.douyin.com/6p1dBfUaRes/ LwS:/ Y@z.gb 06/11 :1pm",
+          "url": "https://v.douyin.com/6p1dBfUaRes/",
           "label": "VIEW EP01 ON DOUYIN / \u7B2C1\u96C6\u89C6\u9891"
         },
         "sourceNote": "\u56FE\u7247\u6765\u6E90\u4E8E\u7EA2\u65D7\u5929\u5DE5\u5B98\u65B9\u516C\u5F00\u53D1\u5E03\u7269\u6599\uFF0C\u4EC5\u7528\u4E8E\u4E2A\u4EBA\u9879\u76EE\u7ECF\u5386\u5C55\u793A\u3002",
@@ -366,7 +366,7 @@
       "disciplinesCN": "",
       "introEn": "",
       "introZh": "",
-      "email": "2071745698@qq.com",
+      "email": "18221648959@163.com",
       "phone": "18221648959",
       "wechat": "yuuu5114_",
       "portfolioUrl": "",
@@ -657,12 +657,12 @@
       externalLink: null,
       publicReleaseNote: null,
       stills: [
-        { src: "./assets/projects/personal-documentary-photography/01-park-family-bike.jpg", alt: "公园林荫道上的家庭脚踏车与儿童", layout: "wide", aspect: "3:2", label: "林荫道", fit: "cover" },
-        { src: "./assets/projects/personal-documentary-photography/02-family-camping.jpg", alt: "草地露营中的一家人", layout: "wide", aspect: "3:2", label: "草地露营", fit: "cover" },
-        { src: "./assets/projects/personal-documentary-photography/03-balloon-stall-closeup.jpg", alt: "气球摊位上的彩色气球", layout: "wide", aspect: "3:2", label: "气球摊", fit: "cover" },
-        { src: "./assets/projects/personal-documentary-photography/04-balloon-stall-bridge.jpg", alt: "桥栏两侧的儿童与气球摊", layout: "wide", aspect: "3:2", label: "桥上相遇", fit: "cover" },
-        { src: "./assets/projects/personal-documentary-photography/05-children-sketching.jpg", alt: "户外写生中的孩子们", layout: "wide", aspect: "3:2", label: "户外写生", fit: "cover" },
-        { src: "./assets/projects/personal-documentary-photography/06-child-with-balloon.jpg", alt: "骑玩具车、手持气球的孩子", layout: "wide", aspect: "3:2", label: "孩子与气球", fit: "cover" }
+        { src: "./assets/projects/personal-documentary-photography/01-park-family-bike.webp", alt: "公园林荫道上的家庭脚踏车与儿童", layout: "wide", aspect: "3:2", label: "林荫道", fit: "cover" },
+        { src: "./assets/projects/personal-documentary-photography/02-family-camping.webp", alt: "草地露营中的一家人", layout: "wide", aspect: "3:2", label: "草地露营", fit: "cover" },
+        { src: "./assets/projects/personal-documentary-photography/03-balloon-stall-closeup.webp", alt: "气球摊位上的彩色气球", layout: "wide", aspect: "3:2", label: "气球摊", fit: "cover" },
+        { src: "./assets/projects/personal-documentary-photography/04-balloon-stall-bridge.webp", alt: "桥栏两侧的儿童与气球摊", layout: "wide", aspect: "3:2", label: "桥上相遇", fit: "cover" },
+        { src: "./assets/projects/personal-documentary-photography/05-children-sketching.webp", alt: "户外写生中的孩子们", layout: "wide", aspect: "3:2", label: "户外写生", fit: "cover" },
+        { src: "./assets/projects/personal-documentary-photography/06-child-with-balloon.webp", alt: "骑玩具车、手持气球的孩子", layout: "wide", aspect: "3:2", label: "孩子与气球", fit: "cover" }
       ],
       productionFrames: [],
       visualTests: [],
@@ -698,10 +698,10 @@
       externalLink: null,
       publicReleaseNote: null,
       stills: [
-        { src: "./assets/projects/two-selves/01-sea-collage.png", alt: "海面与海浪的黑白拼贴作品", layout: "wide", aspect: "16:9", label: "作品一", fit: "cover" },
-        { src: "./assets/projects/two-selves/02-piano-pair.png", alt: "钢琴外部与内部结构的并置作品", layout: "wide", aspect: "16:9", label: "作品二", fit: "cover" },
-        { src: "./assets/projects/two-selves/03-trees-and-sea.png", alt: "树木与海景的黑白并置作品", layout: "wide", aspect: "16:9", label: "作品三", fit: "cover" },
-        { src: "./assets/projects/two-selves/04-folded-self-portrait.png", alt: "折叠摄影书与人像拼贴成品", layout: "wide", aspect: "16:9", label: "作品四", fit: "cover" }
+        { src: "./assets/projects/two-selves/01-sea-collage.webp", alt: "海面与海浪的黑白拼贴作品", layout: "wide", aspect: "16:9", label: "作品一", fit: "cover" },
+        { src: "./assets/projects/two-selves/02-piano-pair.webp", alt: "钢琴外部与内部结构的并置作品", layout: "wide", aspect: "16:9", label: "作品二", fit: "cover" },
+        { src: "./assets/projects/two-selves/03-trees-and-sea.webp", alt: "树木与海景的黑白并置作品", layout: "wide", aspect: "16:9", label: "作品三", fit: "cover" },
+        { src: "./assets/projects/two-selves/04-folded-self-portrait.webp", alt: "折叠摄影书与人像拼贴成品", layout: "wide", aspect: "16:9", label: "作品四", fit: "cover" }
       ],
       productionFrames: [],
       visualTests: [],

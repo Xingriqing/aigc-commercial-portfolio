@@ -28,16 +28,16 @@ window.__PORTFOLIO_CONTENT__ = {
       "stills": [],
       "externalLinks": [
         {
-          "url": "https://v.douyin.com/6p1dBfUaRes/ LwS:/ Y@z.gb 06/11 :1pm",
+          "url": "https://v.douyin.com/6p1dBfUaRes/",
           "label": "第1集视频"
         },
         {
-          "url": "https://v.douyin.com/j29NFzJt5GE/ :2pm w@F.HV caa:/ 06/01",
+          "url": "https://v.douyin.com/j29NFzJt5GE/",
           "label": "第5集视频"
         }
       ],
       "externalLink": {
-        "url": "https://v.douyin.com/6p1dBfUaRes/ LwS:/ Y@z.gb 06/11 :1pm",
+        "url": "https://v.douyin.com/6p1dBfUaRes/",
         "label": "第1集视频"
       },
       "subtitle": "",
@@ -157,7 +157,7 @@ window.__PORTFOLIO_CONTENT__ = {
       "tools": [],
       "stills": [
         {
-          "src": "./assets/projects/personal-documentary-photography/01-park-family-bike.jpg",
+          "src": "./assets/projects/personal-documentary-photography/01-park-family-bike.webp",
           "alt": "公园林荫道上的家庭脚踏车与儿童",
           "label": "林荫道",
           "layout": "wide",
@@ -165,7 +165,7 @@ window.__PORTFOLIO_CONTENT__ = {
           "fit": "cover"
         },
         {
-          "src": "./assets/projects/personal-documentary-photography/02-family-camping.jpg",
+          "src": "./assets/projects/personal-documentary-photography/02-family-camping.webp",
           "alt": "草地露营中的一家人",
           "label": "草地露营",
           "layout": "wide",
@@ -173,7 +173,7 @@ window.__PORTFOLIO_CONTENT__ = {
           "fit": "cover"
         },
         {
-          "src": "./assets/projects/personal-documentary-photography/03-balloon-stall-closeup.jpg",
+          "src": "./assets/projects/personal-documentary-photography/03-balloon-stall-closeup.webp",
           "alt": "气球摊位上的彩色气球",
           "label": "气球摊",
           "layout": "wide",
@@ -181,7 +181,7 @@ window.__PORTFOLIO_CONTENT__ = {
           "fit": "cover"
         },
         {
-          "src": "./assets/projects/personal-documentary-photography/04-balloon-stall-bridge.jpg",
+          "src": "./assets/projects/personal-documentary-photography/04-balloon-stall-bridge.webp",
           "alt": "桥栏两侧的儿童与气球摊",
           "label": "桥上相遇",
           "layout": "wide",
@@ -189,7 +189,7 @@ window.__PORTFOLIO_CONTENT__ = {
           "fit": "cover"
         },
         {
-          "src": "./assets/projects/personal-documentary-photography/05-children-sketching.jpg",
+          "src": "./assets/projects/personal-documentary-photography/05-children-sketching.webp",
           "alt": "户外写生中的孩子们",
           "label": "户外写生",
           "layout": "wide",
@@ -197,7 +197,7 @@ window.__PORTFOLIO_CONTENT__ = {
           "fit": "cover"
         },
         {
-          "src": "./assets/projects/personal-documentary-photography/06-child-with-balloon.jpg",
+          "src": "./assets/projects/personal-documentary-photography/06-child-with-balloon.webp",
           "alt": "骑玩具车、手持气球的孩子",
           "label": "孩子与气球",
           "layout": "wide",
@@ -231,7 +231,7 @@ window.__PORTFOLIO_CONTENT__ = {
       "tools": [],
       "stills": [
         {
-          "src": "./assets/projects/two-selves/01-sea-collage.png",
+          "src": "./assets/projects/two-selves/01-sea-collage.webp",
           "alt": "海面与海浪的黑白拼贴作品",
           "label": "作品一",
           "layout": "wide",
@@ -239,7 +239,7 @@ window.__PORTFOLIO_CONTENT__ = {
           "fit": "cover"
         },
         {
-          "src": "./assets/projects/two-selves/02-piano-pair.png",
+          "src": "./assets/projects/two-selves/02-piano-pair.webp",
           "alt": "钢琴外部与内部结构的并置作品",
           "label": "作品二",
           "layout": "wide",
@@ -247,7 +247,7 @@ window.__PORTFOLIO_CONTENT__ = {
           "fit": "cover"
         },
         {
-          "src": "./assets/projects/two-selves/03-trees-and-sea.png",
+          "src": "./assets/projects/two-selves/03-trees-and-sea.webp",
           "alt": "树木与海景的黑白并置作品",
           "label": "作品三",
           "layout": "wide",
@@ -255,7 +255,7 @@ window.__PORTFOLIO_CONTENT__ = {
           "fit": "cover"
         },
         {
-          "src": "./assets/projects/two-selves/04-folded-self-portrait.png",
+          "src": "./assets/projects/two-selves/04-folded-self-portrait.webp",
           "alt": "折叠摄影书与人像拼贴成品",
           "label": "作品四",
           "layout": "wide",
@@ -341,7 +341,7 @@ window.__PORTFOLIO_CONTENT__ = {
     "disciplinesCN": "",
     "introEn": "",
     "introZh": "",
-    "email": "2071745698@qq.com",
+    "email": "18221648959@163.com",
     "phone": "18221648959",
     "wechat": "yuuu5114_",
     "portfolioUrl": "",
