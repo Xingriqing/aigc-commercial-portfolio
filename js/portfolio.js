@@ -10,7 +10,7 @@
         "platform": "",
         "projectType": "\u5546\u4E1A\u54C1\u724C\u9879\u76EE",
         "description": "",
-        "detailNote": "\u4EE5 AI \u751F\u6210\u6280\u672F\u53C2\u4E0E\u54C1\u724C\u77ED\u7247\u7684\u89C6\u89C9\u5236\u4F5C\uFF0C\u7F51\u7AD9\u4EC5\u5C55\u793A\u5141\u8BB8\u516C\u5F00\u7684\u6210\u7247\u3002",
+        "detailNote": "\u4EE5 AI \u751F\u6210\u6280\u672F\u53C2\u4E0E\u54C1\u724C\u77ED\u7247\u7684\u89C6\u89C9\u5236\u4F5C\uFF0C\u672C\u9875\u4EC5\u63D0\u4F9B\u9879\u76EE\u5B98\u65B9\u516C\u5F00\u53D1\u5E03\u7684\u89C6\u9891\u94FE\u63A5\u3002",
         "coverImage": "./media/uploads/hongqi-tianggong-partners/cover-1791867169940-a4f4c453.jpg",
         "coverVideo": null,
         "videoUrl": "",
