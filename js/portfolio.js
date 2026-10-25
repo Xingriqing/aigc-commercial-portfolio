@@ -634,7 +634,7 @@
     {
       id: "project-07",
       slug: "personal-documentary-photography",
-      title: "个人纪实摄影",
+      title: "个人纪实摄影《园游会》",
       subtitle: "",
       year: "",
       category: "纪实摄影",
@@ -874,9 +874,18 @@
   function isHongqiCombinedTitle(project) {
     return project.slug === "hongqi-tianggong-partners" && /^红旗天工\s*《大明天工合伙人》$/.test(String(project.title ?? "").trim());
   }
+  function isDocumentaryCombinedTitle(project) {
+    return project.slug === "personal-documentary-photography" && /^个人纪实摄影\s*《园游会》$/.test(String(project.title ?? "").trim());
+  }
+  function isCombinedProjectTitle(project) {
+    return isHongqiCombinedTitle(project) || isDocumentaryCombinedTitle(project);
+  }
   function formatProjectTitle(project) {
     if (isHongqiCombinedTitle(project)) {
       return '<span class="hongqi-title__brand">\u7EA2\u65D7\u5929\u5DE5</span><span class="hongqi-title__film">\u300A\u5927\u660E\u5929\u5DE5\u5408\u4F19\u4EBA\u300B</span>';
+    }
+    if (isDocumentaryCombinedTitle(project)) {
+      return '<span class="hongqi-title__brand">\u4E2A\u4EBA\u7EAA\u5B9E\u6444\u5F71</span><span class="hongqi-title__film">\u300A\u56ED\u6E38\u4F1A\u300B</span>';
     }
     return formatMultiline(project.title);
   }
@@ -1040,7 +1049,7 @@
     <header class="work-case__heading reveal">
       <div class="work-case__index"><span>${number}</span><i>/</i><span>${String(total).padStart(2, "0")}</span></div>
       <div class="work-case__heading-main">
-        <h3 id="work-title-${index}" class="${isHongqiCombinedTitle(project) ? "hongqi-title" : ""}">${formatProjectTitle(project)}</h3>
+        <h3 id="work-title-${index}" class="${isCombinedProjectTitle(project) ? "hongqi-title" : ""}">${formatProjectTitle(project)}</h3>
         ${summary}
       </div>
     </header>

@@ -772,6 +772,7 @@ h1, h2, h3, h4 { text-rendering: geometricPrecision; }
 /* Red Flag: portrait cover left, project information right at matching height. */
 #hongqi-tianggong-partners.work-case { padding-block: clamp(44px, 4.5vw, 70px); }
 #hongqi-tianggong-partners .work-case__heading h3.hongqi-title { font-size: clamp(46px, 5.2vw, 80px); line-height: .96; }
+#personal-documentary-photography .work-case__heading h3.hongqi-title { font-size: clamp(46px, 5.2vw, 80px); line-height: .96; }
 #hongqi-tianggong-partners .work-case__visual-details,
 #hongqi-tianggong-partners .work-case__visual-details:has(.work-case__frames) {
   display: grid;

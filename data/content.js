@@ -138,7 +138,7 @@ window.__PORTFOLIO_CONTENT__ = {
       "order": 1
     },
     "personal-documentary-photography": {
-      "title": "个人纪实摄影",
+      "title": "个人纪实摄影《园游会》",
       "year": "",
       "category": "纪实摄影",
       "client": "",
