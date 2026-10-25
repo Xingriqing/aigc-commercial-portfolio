@@ -6,7 +6,7 @@ window.__PORTFOLIO_CONTENT__ = {
       "category": "AI品牌宣传片",
       "client": "",
       "platform": "",
-      "projectType": "",
+      "projectType": "品牌项目",
       "description": "",
       "detailNote": "以 AI 生成技术参与品牌短片的视觉制作，网站仅展示允许公开的成片。",
       "coverImage": "./media/uploads/hongqi-tianggong-partners/cover-1791867169940-a4f4c453.jpg",
@@ -17,7 +17,8 @@ window.__PORTFOLIO_CONTENT__ = {
       "coverFit": "cover",
       "role": [],
       "responsibilities": [
-        "负责第1、5集部分AI影像制作，根据反馈进行画面调整与素材迭代。"
+        "独立完成第1、5集分配镜头的AI影像素材制作。",
+        "根据反馈进行多次迭代，优化人物一致性、画面构图及视觉风格。"
       ],
       "tools": [
         "Nano Banana",
@@ -60,7 +61,7 @@ window.__PORTFOLIO_CONTENT__ = {
       "coverFit": "cover",
       "role": [
         "科幻视觉开发",
-        "AI图像生成",
+        "AI素材生成",
         "镜头迭代"
       ],
       "responsibilities": [

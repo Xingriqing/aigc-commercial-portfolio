@@ -8,7 +8,7 @@
         "category": "AI\u54C1\u724C\u5BA3\u4F20\u7247",
         "client": "",
         "platform": "",
-        "projectType": "",
+        "projectType": "\u54C1\u724C\u9879\u76EE",
         "description": "",
         "detailNote": "\u4EE5 AI \u751F\u6210\u6280\u672F\u53C2\u4E0E\u54C1\u724C\u77ED\u7247\u7684\u89C6\u89C9\u5236\u4F5C\uFF0C\u7F51\u7AD9\u4EC5\u5C55\u793A\u5141\u8BB8\u516C\u5F00\u7684\u6210\u7247\u3002",
         "coverImage": "./media/uploads/hongqi-tianggong-partners/cover-1791867169940-a4f4c453.jpg",
@@ -19,7 +19,8 @@
         "coverFit": "cover",
         "role": [],
         "responsibilities": [
-          "\u8D1F\u8D23\u7B2C1\u30015\u96C6\u90E8\u5206AI\u5F71\u50CF\u5236\u4F5C\uFF0C\u6839\u636E\u53CD\u9988\u8FDB\u884C\u753B\u9762\u8C03\u6574\u4E0E\u7D20\u6750\u8FED\u4EE3\u3002"
+          "\u72EC\u7ACB\u5B8C\u6210\u7B2C1\u30015\u96C6\u5206\u914D\u955C\u5934\u7684AI\u5F71\u50CF\u7D20\u6750\u5236\u4F5C\u3002",
+          "\u6839\u636E\u53CD\u9988\u8FDB\u884C\u591A\u6B21\u8FED\u4EE3\uFF0C\u4F18\u5316\u4EBA\u7269\u4E00\u81F4\u6027\u3001\u753B\u9762\u6784\u56FE\u53CA\u89C6\u89C9\u98CE\u683C\u3002"
         ],
         "tools": [
           "Nano Banana",
@@ -60,7 +61,7 @@
         "coverFit": "cover",
         "role": [
           "Sci-Fi Visual Development",
-          "AI Image Generation",
+          "AI\u7D20\u6750\u751F\u6210",
           "Shot Iteration"
         ],
         "responsibilities": [
