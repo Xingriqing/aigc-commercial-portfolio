@@ -204,7 +204,7 @@ window.__PORTFOLIO_CONTENT__ = {
   "profile": {
     "name": "费诗雨",
     "englishName": "SHIYU FEI",
-    "title": "AI创意影像制作",
+    "title": "AIGC 视觉设计师 /\nAIGCer（视频方向）",
     "titleCN": "",
     "disciplines": "",
     "disciplinesCN": "",

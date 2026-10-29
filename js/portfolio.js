@@ -361,7 +361,7 @@
     "profile": {
       "name": "\u8D39\u8BD7\u96E8",
       "englishName": "SHIYU FEI",
-      "title": "AI\u521B\u610F\u5F71\u50CF\u5236\u4F5C",
+      "title": "AIGC \u89C6\u89C9\u8BBE\u8BA1\u5E08 /\nAIGCer\uFF08\u89C6\u9891\u65B9\u5411\uFF09",
       "titleCN": "",
       "disciplines": "",
       "disciplinesCN": "",
@@ -471,7 +471,7 @@
   var profile = {
     name: "[\u59D3\u540D\u5F85\u8865\u5145]",
     englishName: "[ENGLISH NAME]",
-    title: "AI\u521B\u610F\u5F71\u50CF\u5236\u4F5C",
+    title: "AIGC \u89C6\u89C9\u8BBE\u8BA1\u5E08 /\nAIGCer\uFF08\u89C6\u9891\u65B9\u5411\uFF09",
     titleCN: "",
     disciplines: "",
     disciplinesCN: "",
