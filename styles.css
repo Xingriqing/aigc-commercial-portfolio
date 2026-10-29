@@ -75,7 +75,7 @@ button { color: inherit; }
 .intro-hero__role { margin-top: clamp(22px, 3vw, 36px); color: var(--sage); font-size: 10px; letter-spacing: .18em; text-transform: uppercase; }
 .intro-hero h1 { max-width: 800px; font-family: var(--display); font-size: clamp(58px, 7.7vw, 118px); line-height: .86; letter-spacing: -.055em; font-weight: 400; }
 .intro-hero h1 span, .intro-hero h1 em { display: block; }
-.intro-hero h1 span { max-width: 9em; white-space: pre-line; }
+.intro-hero h1 span { max-width: none; white-space: nowrap; }
 .intro-hero h1 em { margin-left: .18em; color: var(--sage); font-weight: 450; }
 .intro-hero__statement { max-width: 520px; margin-top: clamp(30px, 4vw, 52px); padding-left: clamp(0px, 3vw, 48px); }
 .intro-hero__statement p:first-child { max-width: 100%; color: var(--white); font-family: var(--display); font-size: clamp(20px, 2.2vw, 34px); line-height: 1.38; letter-spacing: -.025em; font-weight: 400; overflow-wrap: anywhere; }
@@ -766,7 +766,7 @@ h1, h2, h3, h4 { text-rendering: geometricPrecision; }
 .intro-hero__identity { margin-bottom: clamp(16px, 2vh, 24px); color: var(--ink); }
 .intro-hero__identity em { color: rgba(11, 12, 12, .58); }
 .intro-hero__kicker { margin-bottom: clamp(18px, 2.5vh, 30px); color: #873926; }
-.intro-hero h1 { max-width: 1080px; font-size: clamp(56px, 7.2vw, 108px); line-height: .88; color: var(--ink); }
+.intro-hero h1 { max-width: none; font-size: clamp(32px, 4.5vw, 68px); line-height: .98; color: var(--ink); }
 .site-header:not(.is-scrolled) { color: var(--ink); }
 .site-header:not(.is-scrolled) .site-nav a { color: rgba(11, 12, 12, .62); }
 .site-header:not(.is-scrolled) .site-nav a:hover,
@@ -888,7 +888,7 @@ h1, h2, h3, h4 { text-rendering: geometricPrecision; }
   .work-case__facts--1 { grid-template-columns: 1fr; }
   .intro-hero { min-height: 46svh; padding-top: 94px; padding-bottom: 42px; }
   .intro-hero h1 { font-size: clamp(32px, 9vw, 38px); line-height: .96; white-space: normal; overflow-wrap: anywhere; }
-  .intro-hero h1 span { max-width: 100%; }
+  .intro-hero h1 span { max-width: 100%; white-space: pre-line; }
   .site-header:not(.is-scrolled) .nav-toggle { color: var(--ink); }
   .site-header:not(.is-scrolled) .site-nav.is-open a { color: rgba(245, 242, 234, .74); }
   .site-header:not(.is-scrolled) .site-nav.is-open a:hover,
