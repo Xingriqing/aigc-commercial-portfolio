@@ -43,7 +43,7 @@ window.__PORTFOLIO_CONTENT__ = {
       "subtitle": "",
       "status": "",
       "sourceNote": "图片来源于抖音账号「红旗天工」公开发布的视频封面，仅用于个人项目经历展示。",
-      "order": 2
+      "order": 1
     },
     "riji": {
       "title": "日寂（片段节选）",
@@ -80,7 +80,8 @@ window.__PORTFOLIO_CONTENT__ = {
       "externalLink": null,
       "subtitle": "",
       "status": "",
-      "sourceNote": ""
+      "sourceNote": "",
+      "order": 2
     },
     "avelor-saltwood": {
       "title": "AVELOR SALTWOOD",
@@ -136,139 +137,7 @@ window.__PORTFOLIO_CONTENT__ = {
       "externalLink": null,
       "subtitle": "",
       "status": "",
-      "order": 1
-    },
-    "personal-documentary-photography": {
-      "title": "个人纪实摄影《园游会》",
-      "year": "",
-      "category": "纪实摄影",
-      "client": "",
-      "platform": "",
-      "projectType": "",
-      "description": "以日常生活与公共空间为观察对象，记录自然发生的人物瞬间。",
-      "coverImage": "",
-      "coverVideo": null,
-      "videoUrl": "",
-      "coverAlt": "",
-      "coverAspect": "3:2",
-      "coverFit": "cover",
-      "role": [],
-      "responsibilities": [],
-      "tools": [],
-      "stills": [
-        {
-          "src": "./assets/projects/personal-documentary-photography/01-park-family-bike.webp",
-          "alt": "公园林荫道上的家庭脚踏车与儿童",
-          "label": "林荫道",
-          "layout": "wide",
-          "aspect": "3:2",
-          "fit": "cover"
-        },
-        {
-          "src": "./assets/projects/personal-documentary-photography/02-family-camping.webp",
-          "alt": "草地露营中的一家人",
-          "label": "草地露营",
-          "layout": "wide",
-          "aspect": "3:2",
-          "fit": "cover"
-        },
-        {
-          "src": "./assets/projects/personal-documentary-photography/03-balloon-stall-closeup.webp",
-          "alt": "气球摊位上的彩色气球",
-          "label": "气球摊",
-          "layout": "wide",
-          "aspect": "3:2",
-          "fit": "cover"
-        },
-        {
-          "src": "./assets/projects/personal-documentary-photography/04-balloon-stall-bridge.webp",
-          "alt": "桥栏两侧的儿童与气球摊",
-          "label": "桥上相遇",
-          "layout": "wide",
-          "aspect": "3:2",
-          "fit": "cover"
-        },
-        {
-          "src": "./assets/projects/personal-documentary-photography/05-children-sketching.webp",
-          "alt": "户外写生中的孩子们",
-          "label": "户外写生",
-          "layout": "wide",
-          "aspect": "3:2",
-          "fit": "cover"
-        },
-        {
-          "src": "./assets/projects/personal-documentary-photography/06-child-with-balloon.webp",
-          "alt": "骑玩具车、手持气球的孩子",
-          "label": "孩子与气球",
-          "layout": "wide",
-          "aspect": "3:2",
-          "fit": "cover"
-        }
-      ],
-      "externalLinks": [],
-      "externalLink": null,
-      "subtitle": "",
-      "status": "",
-      "featured": true,
       "order": 3
-    },
-    "two-selves": {
-      "title": "实验性视觉设计《Two selves》",
-      "year": "",
-      "category": "实验性视觉设计",
-      "client": "",
-      "platform": "",
-      "projectType": "",
-      "description": "人的内外常是两个世界。外在力求展现平静、精致与秩序；内在却充斥着自然生长的复杂思绪与情感。\n通过人像与风景影像的拼贴与折叠重组，以视觉错位呈现自我的双重性。",
-      "coverImage": "",
-      "coverVideo": null,
-      "videoUrl": "",
-      "coverAlt": "",
-      "coverAspect": "16:9",
-      "coverFit": "cover",
-      "role": [],
-      "responsibilities": [],
-      "tools": [],
-      "stills": [
-        {
-          "src": "./assets/projects/two-selves/01-sea-collage.webp",
-          "alt": "海面与海浪的黑白拼贴作品",
-          "label": "作品一",
-          "layout": "wide",
-          "aspect": "16:9",
-          "fit": "cover"
-        },
-        {
-          "src": "./assets/projects/two-selves/02-piano-pair.webp",
-          "alt": "钢琴外部与内部结构的并置作品",
-          "label": "作品二",
-          "layout": "wide",
-          "aspect": "16:9",
-          "fit": "cover"
-        },
-        {
-          "src": "./assets/projects/two-selves/03-trees-and-sea.webp",
-          "alt": "树木与海景的黑白并置作品",
-          "label": "作品三",
-          "layout": "wide",
-          "aspect": "16:9",
-          "fit": "cover"
-        },
-        {
-          "src": "./assets/projects/two-selves/04-folded-self-portrait.webp",
-          "alt": "折叠摄影书与人像拼贴成品",
-          "label": "作品四",
-          "layout": "wide",
-          "aspect": "16:9",
-          "fit": "cover"
-        }
-      ],
-      "externalLinks": [],
-      "externalLink": null,
-      "subtitle": "",
-      "status": "",
-      "featured": true,
-      "order": 4
     },
     "xunying": {
       "title": "循影",

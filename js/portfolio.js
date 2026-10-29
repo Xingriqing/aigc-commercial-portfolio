@@ -43,7 +43,7 @@
           "label": "VIEW EP01 ON DOUYIN / \u7B2C1\u96C6\u89C6\u9891"
         },
         "sourceNote": "\u56FE\u7247\u6765\u6E90\u4E8E\u6296\u97F3\u8D26\u53F7\u300C\u7EA2\u65D7\u5929\u5DE5\u300D\u516C\u5F00\u53D1\u5E03\u7684\u89C6\u9891\u5C01\u9762\uFF0C\u4EC5\u7528\u4E8E\u4E2A\u4EBA\u9879\u76EE\u7ECF\u5386\u5C55\u793A\u3002",
-        "order": 2
+        "order": 1
       },
       "riji": {
         "title": "\u65E5\u5BC2\uFF08\u7247\u6BB5\u8282\u9009\uFF09",
@@ -94,7 +94,8 @@
           }
         ],
         "externalLinks": [],
-        "externalLink": null
+        "externalLink": null,
+        "order": 2
       },
       "avelor-saltwood": {
         "title": "AVELOR SALTWOOD",
@@ -148,7 +149,7 @@
         ],
         "externalLinks": [],
         "externalLink": null,
-        "order": 1
+        "order": 3
       },
       "junkyard-billionaires-wife": {
         "title": "After Switching Husbands, I Become A Junkyard Billionaire's Wife",
@@ -552,7 +553,7 @@
       visualTests: [],
       credits: [],
       featured: true,
-      order: 2,
+      order: 1,
       relatedProjects: [],
       archive: false,
       workInProgress: false,
@@ -586,7 +587,7 @@
       visualTests: [],
       credits: [],
       featured: true,
-      order: 5,
+      order: 2,
       relatedProjects: [],
       archive: false,
       workInProgress: false,
@@ -627,7 +628,7 @@
       visualTests: [],
       credits: [],
       featured: true,
-      order: 1,
+      order: 3,
       relatedProjects: [],
       archive: false,
       workInProgress: false,
@@ -1331,7 +1332,7 @@
   var activeExperiences = [];
   document.querySelector("[data-header-slot]").innerHTML = renderHeader("", activeProfile);
   document.querySelector("[data-footer-slot]").innerHTML = renderFooter(activeProfile);
-  var removedProjectSlugs = /* @__PURE__ */ new Set(["junkyard-billionaires-wife", "hougongmou", "quzhong-ren-weihuan"]);
+  var removedProjectSlugs = /* @__PURE__ */ new Set(["junkyard-billionaires-wife", "hougongmou", "quzhong-ren-weihuan", "personal-documentary-photography", "two-selves"]);
   var activeProjects = projects.filter((project) => !removedProjectSlugs.has(project.slug)).map((project) => normalizeProject({ ...project, ...projectOverrides[project.slug] ?? {} }));
   var getActiveProjectBySlug = (slug) => activeProjects.find((project) => project.slug === slug);
   var featured = activeProjects.filter((project) => project.featured).sort((a, b) => a.order - b.order);
